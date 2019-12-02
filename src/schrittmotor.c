@@ -2,7 +2,7 @@
 
 //Dommi Kommi
 
-//Kommi Börni
+//Kommi Bï¿½rni
 
 void motorInit(){
     uint8_t d[] = {2,0,0,0,0,0,0,0};
