@@ -98,7 +98,6 @@ void CAN_Init4Models()
         CAN_ITConfig(CAN1,CAN_IT_FMP0,ENABLE);
 
         CAN_FilterInit(&CAN1_Filter);
-        CAN_NMT_Connect();
 
     }
     else
