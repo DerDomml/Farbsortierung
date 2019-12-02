@@ -13,3 +13,6 @@
 
 #define SCHRITTMOTOR_H
 #endif
+
+
+void motorInit();
