@@ -39,9 +39,9 @@ int main(void)
             i++;
         }
 
-        testStartFliessband();
+        //testStartFliessband();
 
-        testStopFliessband();
+        //testStopFliessband();
 
     }
 }

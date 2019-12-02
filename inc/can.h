@@ -29,6 +29,6 @@ uint8_t CAN_TransmitMsg(uint16_t canId, uint8_t *canData, uint8_t canDlc);
 
 uint8_t CAN_NMTConnect();
 
-char Data;
+uint16_t Data;
 
 #endif // !CAN_H__

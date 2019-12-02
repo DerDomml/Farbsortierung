@@ -15,7 +15,7 @@
 ********************************************************************/
 void CAN_Init4Models()
 {
-    Data = 0x00;
+    Data = 0x0000;
     /*******************************************
 
         Port and Clock Initialization
@@ -178,6 +178,7 @@ void CAN1_RX0_IRQHandler(void)
     CAN_ClearFlag(CAN1,CAN_IT_FMP0);
     CAN_Receive(CAN1,CAN_FIFO0, &RxMessage);
     Data = RxMessage.Data[0];
+    Data |= (RxMessage.Data[1] << 8);
 }
 
 void CAN1_TXRQ_IRQHandler(void)
