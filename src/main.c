@@ -12,10 +12,9 @@
 int main(void)
 {
     ProjectInit();
-   // CAN_NMTConnect();
-   motorInit();
+   MotorInit();
 
-    int i = 0;
+    //int i = 0;
 
     while(TRUE)
     {
