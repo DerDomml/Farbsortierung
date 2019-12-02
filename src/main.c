@@ -12,12 +12,14 @@
 int main(void)
 {
     ProjectInit();
-    CAN_NMTConnect();
+   // CAN_NMTConnect();
+   motorInit();
+
     int i = 0;
 
     while(TRUE)
     {
-        if(PL_CheckBlockAtWorkstation()){
+        /*if(PL_CheckBlockAtWorkstation()){
             i++;
         }
         if(PL_CheckBlockAtDump()){
@@ -37,6 +39,10 @@ int main(void)
         }
         if(PL_CheckPistonAtRegister()){
             i++;
-        }
+
+            }*/
+            //GPIO_Write(GPIOD, (uint16_t) Data[0]);
+
+
     }
 }

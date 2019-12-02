@@ -15,7 +15,7 @@
 ********************************************************************/
 void CAN_Init4Models()
 {
-    Data = 0x00;
+    Data[0] = 0x00;
     /*******************************************
 
         Port and Clock Initialization
@@ -149,7 +149,7 @@ uint8_t CAN_TransmitMsg(uint16_t canId, uint8_t *canData, uint8_t canDlc){
 
 uint8_t CAN_NMTConnect(){
     CanTxMsg TxMessage;
-    uint32_t NMT_id = 0x000;
+    uint32_t NMT_id = 0x415;
 
     TxMessage.DLC = CAN_DLC_2;
     TxMessage.IDE = CAN_Id_Standard;
@@ -177,9 +177,12 @@ void CAN1_RX0_IRQHandler(void)
     CanRxMsg RxMessage;
     CAN_ClearFlag(CAN1,CAN_IT_FMP0);
     CAN_Receive(CAN1,CAN_FIFO0, &RxMessage);
-    Data = RxMessage.Data[0];
+    memcpy(Data,RxMessage.Data,8);
+    //Data = RxMessage.Data;
 }
 
+
+//
 void CAN1_TXRQ_IRQHandler(void)
 {
     CAN_ClearITPendingBit(CAN1,CAN_IT_RQCP0);

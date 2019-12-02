@@ -22,6 +22,14 @@ void PortsInit(void)
     output.GPIO_Pin = GPIO_Pin_1;
     GPIO_Init(GPIOC,&output);
 
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
+
+
+    output.GPIO_Speed = GPIO_Speed_50MHz;
+    output.GPIO_Mode = GPIO_Mode_Out_PP;
+    output.GPIO_Pin = GPIO_Pin_All;
+    GPIO_Init(GPIOD,&output);
+
 }
 
 void TimerInit(void)

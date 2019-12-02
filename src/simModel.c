@@ -19,31 +19,31 @@ uint8_t Model_TransmitData[] = {0x00, 0x00, 0x00};
 *********************************************/
 
 bool PL_CheckBlockAtWorkstation(){
-    return (Data & 0x08) ? true : false;
+    return (Data[0] & 0x08) ? true : false;
 }
 
 bool PL_CheckBlockAtDump(){
-    return (Data & 0x10) ? true : false;
+    return (Data[0] & 0x10) ? true : false;
 }
 
 bool PL_CheckBlockAtRegister(){
-    return (Data & 0x04) ? true : false;
+    return (Data[0] & 0x04) ? true : false;
 }
 
 bool PL_CheckPistonAtBack(){
-    return (Data & 0x01) ? true : false;
+    return (Data[0] & 0x01) ? true : false;
 }
 
 bool PL_CheckPistonAtRegister(){
-    return (Data & 0x12) ? true : false;
+    return (Data[0] & 0x12) ? true : false;
 }
 
 bool PL_CheckImpulsAtConveyor(){
-    return (Data & 0x20) ? true : false;
+    return (Data[0] & 0x20) ? true : false;
 }
 
 bool PL_CheckControlKey(){
-    return (Data & 0x40) ? true : false;
+    return (Data[0] & 0x40) ? true : false;
 }
 
 /*********************************************
