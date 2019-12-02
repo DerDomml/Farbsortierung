@@ -23,5 +23,6 @@
 #include "cmsisAddon.h"
 #include "can.h"
 #include "simModel.h"
+#include "schrittmotor.h"
 
 #endif
