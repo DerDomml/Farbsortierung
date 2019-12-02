@@ -22,7 +22,7 @@ void CAN_Init4Models()
 
     ******************************************/
     RCC_APB1PeriphClockCmd(RCC_APB1ENR_CAN1EN, ENABLE);
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD |RCC_APB2ENR_AFIOEN, ENABLE);
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD | RCC_APB2ENR_AFIOEN, ENABLE);
 
     // Init CanRx mapped to GPIOD_0
     GPIO_InitTypeDef input;

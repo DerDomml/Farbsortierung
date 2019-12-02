@@ -38,5 +38,10 @@ int main(void)
         if(PL_CheckPistonAtRegister()){
             i++;
         }
+
+        testStartFliessband();
+
+        testStopFliessband();
+
     }
 }
