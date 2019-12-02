@@ -1,10 +1,5 @@
 #include "global.h"
 
-//Dommi Kommi
-
-//Kommi Börni
-
-void motorInit(){
+void MotorInit(){
     CAN_NMTConnect();
-
 }

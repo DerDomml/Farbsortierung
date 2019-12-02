@@ -66,6 +66,7 @@ void ProjectInit(void)
     TimerInit();
     IntInit();
     CAN_Init4Models();
+    MotorInit();
 }
 
 
