@@ -27,7 +27,7 @@ void PortsInit(void)
 void TimerInit(void)
 {
     //CAN Clock init
-    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2,ENABLE);
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM1,ENABLE);
 
     TIM_TimeBaseInitTypeDef TimInit;
     TIM_TimeBaseStructInit(&TimInit);

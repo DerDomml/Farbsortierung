@@ -34,34 +34,40 @@ void FS_ENTLEER_Tick() {
 
    if(GreifarmSchritt != 0){
         switch(GreifarmSchritt){
-            case 1: CAN_toSend |= FS_ENTLEER_GREIFRARM_RUNTERFAHREN;
+            ///Greifarm wird runtergefahren
+            case 1: CAN_toSend |= FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                     if(isGreifarmUnten()){
                         CAN_toSend &= ~FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                         GreifarmSchritt++;
                     }   break;
+            ///Greifarm ist unten, greift zu und faehrt sofort hoch
             case 2: CAN_toSend |= FS_ENTLEER_GREIFARM_ZU;
                     CAN_toSend |= FS_ENTLEER_GREIFARM_HOCHFAHREN;
                     if(isGreifarmOben()){
                         CAN_toSend &= ~FS_ENTLEER_GREIFARM_HOCHFAHREN;
                         GreifarmSchritt++;
                     }   break;
+            ///Greifarm ist oben und faehrt sofort runter
             case 3: CAN_toSend |= FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                     if(isGreifarmUnten()){
                         CAN_toSend &= ~FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                         GreifarmSchritt++;
                     }   break;
+            ///Greifarm ist unten, laesst los und faehrt hoch
              case 4: CAN_toSend &= ~FS_ENTLEER_GREIFARM_ZU;
                      CAN_toSend |= FS_ENTLEER_GREIFARM_HOCHFAHREN;
                      if(isGreifarmOben()){
                         CAN_toSend &= ~FS_ENTLEER_GREIFARM_HOCHFAHREN;
                         GreifarmSchritt++;
                      }   break;
+            ///Band faehrt den Klotz bis zum naechsten Sensor
             case 5: CAN_toSend |= FS_ENTLEER_BAND_OBEN;
                     if(isBOEndePos()){
                         CAN_toSend &= ~FS_ENTLEER_BAND_OBEN;
                         GreifarmSchritt = 0;
                         GreifarmAktiv = false;
                      }   break;
+            default: break;
 
         }
    }
