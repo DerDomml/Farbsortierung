@@ -21,4 +21,5 @@ int main(void)
         if(FS_ENTLEER_CAN_received) {
             FS_ENTLEER_Tick();
         }
+    }
 }
