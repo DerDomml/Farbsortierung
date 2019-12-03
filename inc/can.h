@@ -31,6 +31,6 @@ uint8_t CAN_NMTConnect();
 
 uint16_t Data;
 
-bool FS_ENTLEER_CAN_received = false;
+bool FS_ENTLEER_CAN_received;
 
 #endif // !CAN_H__
