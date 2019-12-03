@@ -17,11 +17,11 @@ int counted_steps;
 
 void MotorInit(){
 
-    uint8_t d[] = {2,0,0,0,0,0,0,0};
+    uint8_t d[] = {1,0,0,0,0,0,0,0};
 
-    for(int i=0; i < 6; i++)
+    for(int i=0; i<=6; i++)
     {
-    CAN_TransmitMsg(0x215, d, CAN_DLC_1);
+        CAN_TransmitMsg(0x00, d, CAN_DLC_2);
     }
 }
 
