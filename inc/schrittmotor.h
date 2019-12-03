@@ -1,5 +1,5 @@
 /*******************************
-    Includes für Schrittmotor
+    Includes fï¿½r Schrittmotor
 *******************************/
 
 #ifndef SCHRITTMOTOR_H
@@ -44,4 +44,7 @@
 #endif
 
 
-void MotorInit();
+void SMOT_Init();
+void SMOT_Tick();
+
+extern bool SMOT_Can_Received;

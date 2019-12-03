@@ -96,8 +96,8 @@ void CAN_Init4Models()
         CAN1_Filter.CAN_FilterMode = CAN_FilterMode_IdList;
         CAN1_Filter.CAN_FilterScale = CAN_FilterScale_16bit;
         CAN1_Filter.CAN_FilterActivation = ENABLE;
-        CAN1_Filter.CAN_FilterIdHigh = SMOT_DI_ID << 5;
-        CAN1_Filter.CAN_FilterIdLow = SMOT_AI_ID << 5;
+        CAN1_Filter.CAN_FilterIdHigh = SMOT_Broadcast_ID << 5;
+        CAN1_Filter.CAN_FilterIdLow = SMOT_DI_ID << 5;
 
         CAN_ITConfig(CAN1,CAN_IT_FMP0,ENABLE);
 
@@ -181,16 +181,13 @@ void CAN1_RX0_IRQHandler(void)
     CanRxMsg RxMessage;
     CAN_ClearFlag(CAN1,CAN_IT_FMP0);
     CAN_Receive(CAN1,CAN_FIFO0, &RxMessage);
-    memcpy(Data,RxMessage.Data,8);
-    //Data = RxMessage.Data
-    switch(RxMessage.StdId)
-    {
-    case 0x715:
-        {
-            SMOT_Node_Listened(Data[0]);
-        }
 
+    if(!SMOT_Can_Received)
+    {
+        memcpy(Data,RxMessage.Data,8);
+        SMOT_Can_Received = true;
     }
+
 }
 
 

@@ -12,6 +12,7 @@
 int main(void)
 {
     ProjectInit();
+    SMOT_Init();
 
     //int i = 0;
 
@@ -41,6 +42,6 @@ int main(void)
             }*/
             //GPIO_Write(GPIOD, (uint16_t) Data[0]);
 
-
+            SMOT_Tick();
     }
 }
