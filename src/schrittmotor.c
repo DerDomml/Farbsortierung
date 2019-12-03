@@ -18,13 +18,18 @@ int counted_steps;
 void MotorInit(){
 
     uint8_t d[] = {2,0,0,0,0,0,0,0};
+
+    for(int i=0; i < 6; i++)
+    {
     CAN_TransmitMsg(0x215, d, CAN_DLC_1);
+    }
 }
 
+//Initialize the motor's control byte with a given one
 void SMOT_CB_Init(int CB_Byte)
 {
     uint8_t data[] = {CB_Byte};
-    CAN_TransmitMsg(SMOT_AI_BYTES, data, CAN_DLC_3);
+    CAN_TransmitMsg(SMOT_AI_ID, data, CAN_DLC_3);
 }
 
 void SMOT_DI_Changed(uint8_t DI_Byte)
