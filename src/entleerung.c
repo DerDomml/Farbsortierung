@@ -12,6 +12,8 @@ bool isAnTurmUnten(){ return (CAN_received & FS_ENTLEER_ANTURM_UNTEN)       ? tr
 bool isAnTurmOben(){ return (CAN_received & FS_ENTLEER_ANTURM_OBEN)         ? true : false;  }
 bool isAnTurmBelegt(){ return (CAN_received & FS_ENTLEER_ANTURM_SENSOR)     ? true : false;  }
 
+bool AnTurmErlaubnisDown = true;
+
 
 void FS_ENTLEER_Tick() {
 
@@ -19,34 +21,40 @@ void FS_ENTLEER_Tick() {
 
     FS_ENTLEER_CAN_received = false;
 
-    if(!isAnTurmUnten() && !isAnTurmBelegt()){
+    /// Anturm darf runterfahren
+    if(isEntleerPos()) {
+        CAN_toSend &= ~FS_ENTLEER_BAND_OBEN;
+        CAN_toSend &= ~FS_ENTLEER_ANTURM_BAND;
+        AnTurmErlaubnisDown = true;
+   }
+
+    /// Anturm faehrt runter
+    if(!isAnTurmUnten() && !isAnTurmBelegt() && AnTurmErlaubnisDown){
         CAN_toSend |= FS_ENTLEER_ANTURM_RUNTERFAHREN;
     } else {
         CAN_toSend &= ~FS_ENTLEER_ANTURM_RUNTERFAHREN;
+        AnTurmErlaubnisDown = false;
     }
 
+    ///Anturm faehrt hoch
     if(isAnTurmUnten() && isAnTurmBelegt()){
         CAN_toSend |= FS_ENTLEER_ANTURM_HOCHFAHREN;
     }
 
+    ///Anturm bleibt oben und Baender laufen
     if(isAnTurmOben()){
 
         CAN_toSend &= ~FS_ENTLEER_ANTURM_HOCHFAHREN;
+
+        ///Wenn Anturm oben ist UND das Band leer ist
         if(!isEntleerPos() && !isBOEndePos()){
             CAN_toSend |= FS_ENTLEER_ANTURM_BAND;
             CAN_toSend |= FS_ENTLEER_BAND_OBEN;
+
         }
     }
 
 
-
-
-
-
-    if(isEntleerPos()) {
-        CAN_toSend &= ~FS_ENTLEER_BAND_OBEN;
-        CAN_toSend &= ~FS_ENTLEER_ANTURM_BAND;
-   }
 //
 //    if(isBOEndePos()){
 //        CAN_toSend &= ~FS_ENTLEER_BAND_OBEN;
