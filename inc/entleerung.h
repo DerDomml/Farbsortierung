@@ -1,3 +1,4 @@
-void testStartFliessband();
+uint16_t CAN_received;
+uint16_t CAN_toSend;
 
-void testStopFliessband();
+void FS_ENTLEER_Tick();

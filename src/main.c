@@ -13,35 +13,16 @@ int main(void)
 {
     ProjectInit();
     CAN_NMTConnect();
-    int i = 0;
 
     while(TRUE)
     {
-        if(PL_CheckBlockAtWorkstation()){
-            i++;
-        }
-        if(PL_CheckBlockAtDump()){
-            i++;
-        }
-        if(PL_CheckBlockAtRegister()){
-            i++;
-        }
-        if(PL_CheckControlKey()){
-            i++;
-        }
-        if(PL_CheckImpulsAtConveyor()){
-            i++;
-        }
-        if(PL_CheckPistonAtBack()){
-            i++;
-        }
-        if(PL_CheckPistonAtRegister()){
-            i++;
-        }
+        //if(FS_ENTLEER_CAN_received) {
+        //    FS_ENTLEER_Tick();
+        //}
+    uint8_t data[] = {0x10, 0x00};
+    CAN_TransmitMsg(0x213, data, 2);
 
-        //testStartFliessband();
-
-        //testStopFliessband();
-
+    uint8_t data2[] = {0x00, 0x00};
+    CAN_TransmitMsg(0x213, data2, 2);
     }
 }

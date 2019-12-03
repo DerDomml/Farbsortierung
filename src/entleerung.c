@@ -1,11 +1,12 @@
 #include "global.h"
 
-void testStartFliessband() {
-    uint8_t data[] = {0x01, 0x00};
-    CAN_TransmitMsg(0x213, data, 2);
-}
+void FS_ENTLEER_Tick() {
 
-void testStopFliessband() {
-    uint8_t data[] = {0x00, 0x00};
-    CAN_TransmitMsg(0x213, data, 2);
+    uint16_t CAN_received = Data;
+    uint16_t CAN_toSend = 0;
+    FS_ENTLEER_CAN_received = false;
+    if(CAN_received & 0x0800) {
+        CAN_toSend |= 0x8000;
+    }
+
 }
