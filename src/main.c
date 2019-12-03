@@ -12,7 +12,6 @@
 int main(void)
 {
     ProjectInit();
-   MotorInit();
 
     //int i = 0;
 

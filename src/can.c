@@ -182,7 +182,15 @@ void CAN1_RX0_IRQHandler(void)
     CAN_ClearFlag(CAN1,CAN_IT_FMP0);
     CAN_Receive(CAN1,CAN_FIFO0, &RxMessage);
     memcpy(Data,RxMessage.Data,8);
-    //Data = RxMessage.Data;
+    //Data = RxMessage.Data
+    switch(RxMessage.StdId)
+    {
+    case 0x715:
+        {
+            SMOT_Node_Listened(Data[0]);
+        }
+
+    }
 }
 
 
