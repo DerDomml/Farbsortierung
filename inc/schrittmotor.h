@@ -41,10 +41,15 @@
 #define SMOT_AO_K1_LB 0x00FF00          //Output K1 Low Byte
 #define SMOT_AO_K1_HB 0x0000FF          //Output K2 High Byte
 
-#endif
-
+//Step Constants
+#define SMOT_ENDPOS 0x20B7              //Steps where slider reaches end position
+#define SMOT_SPEED_DEFAULT 0x012C               //Process Data for default speed
 
 void SMOT_Init();
-void SMOT_Tick();
+void SMOT_Update();
+void SMOT_Motor_Start();
+uint16_t Bytes_To_Int(uint8_t toSwap[2]);
 
 extern bool SMOT_Can_Received;
+
+#endif

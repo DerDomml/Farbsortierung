@@ -11,8 +11,11 @@
 
 int main(void)
 {
+    uint8_t bytes[] = {0x01, 0x2C};
+
     ProjectInit();
-    SMOT_Init();
+
+    Bytes_To_Int(bytes);
 
     //int i = 0;
 
@@ -42,6 +45,6 @@ int main(void)
             }*/
             //GPIO_Write(GPIOD, (uint16_t) Data[0]);
 
-            SMOT_Tick();
+            SMOT_Update();
     }
 }
