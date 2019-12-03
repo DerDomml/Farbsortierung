@@ -83,8 +83,6 @@ void CAN_Init4Models()
         **************************************/
         CAN_DBGFreeze(CAN1, DISABLE);
 
-        uint16_t id = 0x181;
-
         CAN_FilterInitTypeDef CAN1_Filter;
 
         CAN1_Filter.CAN_FilterNumber = 0;
@@ -92,8 +90,8 @@ void CAN_Init4Models()
         CAN1_Filter.CAN_FilterMode = CAN_FilterMode_IdList;
         CAN1_Filter.CAN_FilterScale = CAN_FilterScale_16bit;
         CAN1_Filter.CAN_FilterActivation = ENABLE;
-        CAN1_Filter.CAN_FilterIdHigh = 0;
-        CAN1_Filter.CAN_FilterIdLow = id << 5;
+        CAN1_Filter.CAN_FilterIdHigh = SMOT_DI_ID << 5;
+        CAN1_Filter.CAN_FilterIdLow = SMOT_AI_ID << 5;
 
         CAN_ITConfig(CAN1,CAN_IT_FMP0,ENABLE);
 
