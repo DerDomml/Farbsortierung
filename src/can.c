@@ -31,14 +31,20 @@ void CAN_Init4Models()
     input.GPIO_Pin = GPIO_Pin_0;
     GPIO_Init(GPIOD,&input);
 
+    GPIO_Write(GPIOD,0x00);
+
     // Init CanTx mapped to GPIOD_1
+
+    GPIO_PinRemapConfig(GPIO_Remap2_CAN1 , ENABLE);
     GPIO_InitTypeDef output;
     output.GPIO_Speed = GPIO_Speed_50MHz;
     output.GPIO_Mode = GPIO_Mode_AF_PP;
     output.GPIO_Pin = GPIO_Pin_1;
     GPIO_Init(GPIOD,&output);
 
-    GPIO_PinRemapConfig(GPIO_Remap2_CAN1 , ENABLE);
+    GPIO_Write(GPIOD,0x02);
+
+
 
     /*******************************************
 
