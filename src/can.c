@@ -23,6 +23,8 @@ void CAN_Init4Models()
     ******************************************/
     RCC_APB1PeriphClockCmd(RCC_APB1ENR_CAN1EN, ENABLE);
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD | RCC_APB2ENR_AFIOEN, ENABLE);
+    GPIO_PinRemapConfig(GPIO_Remap2_CAN1 , ENABLE);
+
 
     // Init CanRx mapped to GPIOD_0
     GPIO_InitTypeDef input;
@@ -31,6 +33,7 @@ void CAN_Init4Models()
     input.GPIO_Pin = GPIO_Pin_0;
     GPIO_Init(GPIOD,&input);
 
+
     // Init CanTx mapped to GPIOD_1
     GPIO_InitTypeDef output;
     output.GPIO_Speed = GPIO_Speed_50MHz;
@@ -38,7 +41,7 @@ void CAN_Init4Models()
     output.GPIO_Pin = GPIO_Pin_1;
     GPIO_Init(GPIOD,&output);
 
-    GPIO_PinRemapConfig(GPIO_Remap2_CAN1 , ENABLE);
+
 
     /*******************************************
 
