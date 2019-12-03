@@ -31,14 +31,20 @@ void CAN_Init4Models()
     input.GPIO_Pin = GPIO_Pin_0;
     GPIO_Init(GPIOD,&input);
 
+    GPIO_Write(GPIOD,0x00);
+
     // Init CanTx mapped to GPIOD_1
+
+    GPIO_PinRemapConfig(GPIO_Remap2_CAN1 , ENABLE);
     GPIO_InitTypeDef output;
     output.GPIO_Speed = GPIO_Speed_50MHz;
     output.GPIO_Mode = GPIO_Mode_AF_PP;
     output.GPIO_Pin = GPIO_Pin_1;
     GPIO_Init(GPIOD,&output);
 
-    GPIO_PinRemapConfig(GPIO_Remap2_CAN1 , ENABLE);
+    GPIO_Write(GPIOD,0x02);
+
+
 
     /*******************************************
 
@@ -83,8 +89,6 @@ void CAN_Init4Models()
         **************************************/
         CAN_DBGFreeze(CAN1, DISABLE);
 
-        uint16_t id = 0x181;
-
         CAN_FilterInitTypeDef CAN1_Filter;
 
         CAN1_Filter.CAN_FilterNumber = 0;
@@ -92,8 +96,8 @@ void CAN_Init4Models()
         CAN1_Filter.CAN_FilterMode = CAN_FilterMode_IdList;
         CAN1_Filter.CAN_FilterScale = CAN_FilterScale_16bit;
         CAN1_Filter.CAN_FilterActivation = ENABLE;
-        CAN1_Filter.CAN_FilterIdHigh = 0;
-        CAN1_Filter.CAN_FilterIdLow = id << 5;
+        CAN1_Filter.CAN_FilterIdHigh = SMOT_AI_ID << 5;
+        CAN1_Filter.CAN_FilterIdLow = SMOT_DI_ID << 5;
 
         CAN_ITConfig(CAN1,CAN_IT_FMP0,ENABLE);
 
@@ -177,8 +181,12 @@ void CAN1_RX0_IRQHandler(void)
     CanRxMsg RxMessage;
     CAN_ClearFlag(CAN1,CAN_IT_FMP0);
     CAN_Receive(CAN1,CAN_FIFO0, &RxMessage);
+
     memcpy(Data,RxMessage.Data,8);
-    //Data = RxMessage.Data;
+    Msg_ID = RxMessage.StdId;
+
+    SMOT_Update();
+
 }
 
 

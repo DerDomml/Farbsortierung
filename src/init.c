@@ -22,13 +22,16 @@ void PortsInit(void)
     output.GPIO_Pin = GPIO_Pin_1;
     GPIO_Init(GPIOC,&output);
 
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
+    GPIO_Write(GPIOB,0x02);
+
+/*    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
 
 
     output.GPIO_Speed = GPIO_Speed_50MHz;
     output.GPIO_Mode = GPIO_Mode_Out_PP;
     output.GPIO_Pin = GPIO_Pin_All;
     GPIO_Init(GPIOD,&output);
+    GPIO_Write(GPIOD,0xFF);*/
 
 }
 
@@ -74,8 +77,8 @@ void ProjectInit(void)
     TimerInit();
     IntInit();
     CAN_Init4Models();
-    CAN_NMTConnect();
-    MotorInit();
+    //CAN_NMTConnect();
+    SMOT_Init();
 }
 
 

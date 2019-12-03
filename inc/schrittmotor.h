@@ -1,15 +1,16 @@
 /*******************************
-    Includes für Schrittmotor
+    Includes fï¿½r Schrittmotor
 *******************************/
 
 #ifndef SCHRITTMOTOR_H
 #define SCHRITTMOTOR_H
 
 #define SMOT_NODE_ID 0x15               //Node-ID
-#define SMOT_DI_BYTE 0x195              //Digital Input Byte
-#define SMOT_AI_BYTES 0x395             //Analog Input Byte, 0 Status Byte, 1 K1_LB, 2K1_HB
-#define SMOT_DO_BYTE 0x215              //Digital Output Byte
-#define SMOT_AO_BYTES 0x415             //Analog Output Byte 0 Control Byte, 1 K1_LB, 2 K1_HB
+#define SMOT_DI_ID 0x195                //Digital Input Byte
+#define SMOT_AI_ID 0x395                //Analog Input Byte, 0 Status Byte, 1 K1_LB, 2K1_HB
+#define SMOT_DO_ID 0x215                //Digital Output Byte
+#define SMOT_AO_ID 0x415                //Analog Output Byte 0 Control Byte, 1 K1_LB, 2 K1_HB
+#define SMOT_STATUS_ID 0x715
 
 
 //Digital Inputs
@@ -40,7 +41,15 @@
 #define SMOT_AO_K1_LB 0x00FF00          //Output K1 Low Byte
 #define SMOT_AO_K1_HB 0x0000FF          //Output K2 High Byte
 
+//Step Constants
+#define SMOT_ENDPOS 0x20B7              //Steps where slider reaches end position
+#define SMOT_SPEED_DEFAULT 0x012C               //Process Data for default speed
+
+void SMOT_Init();
+void SMOT_Update();
+void SMOT_Motor_Start();
+uint16_t Bytes_To_Int(uint8_t toSwap[2]);
+
+extern bool SMOT_Can_Received;
+
 #endif
-
-
-void MotorInit();
