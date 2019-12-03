@@ -1,0 +1,2 @@
+Methoden aus entleerung.c in entleerung.h 
+fileglobale variablen aus entleerung.c in entleerung.h

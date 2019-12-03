@@ -11,13 +11,14 @@ bool isBOEndePos(){ return (CAN_received & FS_ENTLEER_BO_ENDE_SENSOR)       ? tr
 bool isAnTurmUnten(){ return (CAN_received & FS_ENTLEER_ANTURM_UNTEN)       ? true : false;  }
 bool isAnTurmOben(){ return (CAN_received & FS_ENTLEER_ANTURM_OBEN)         ? true : false;  }
 bool isAnTurmBelegt(){ return (CAN_received & FS_ENTLEER_ANTURM_SENSOR)     ? true : false;  }
-bool isGreifarmOben(){ return (CAN_received & FS_ENTLEER_GREIFRARM_OBEN)     ? true : false;  }
+bool isGreifarmOben(){ return (CAN_received & FS_ENTLEER_GREIFRARM_OBEN)    ? true : false;  }
 bool isGreifarmUnten(){ return (CAN_received & FS_ENTLEER_GREIFRARM_UNTEN)  ? true : false;  }
 
 bool AnTurmErlaubnisDown = true;
 bool GreifarmAktiv = false;
 
 void FS_ENTLEER_Tick() {
+    FS_ENTLEER_TIMER_TICK = false;
 
     CAN_received = Data;
 

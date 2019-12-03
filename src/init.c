@@ -27,16 +27,16 @@ void PortsInit(void)
 void TimerInit(void)
 {
     //CAN Clock init
-    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM1,ENABLE);
+    RCC_APB1PeriphClockCmd(RCC_APB2Periph_TIM1,ENABLE);
 
     TIM_TimeBaseInitTypeDef TimInit;
     TIM_TimeBaseStructInit(&TimInit);
-    TimInit.TIM_Period = 5000 - 1;
-    TimInit.TIM_Prescaler = 7200-1;
-    TIM_TimeBaseInit(TIM2,&TimInit);
-    TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
-    TIM_ITConfig(TIM2,TIM_IT_Update,ENABLE);
-    TIM_Cmd(TIM2,DISABLE);
+    TimInit.TIM_Period = 60000 - 1;
+    TimInit.TIM_Prescaler = 1200-1;
+    TIM_TimeBaseInit(TIM1,&TimInit);
+    TIM_ClearITPendingBit(TIM1,TIM_IT_Update);
+    TIM_ITConfig(TIM1,TIM_IT_Update,ENABLE);
+    TIM_Cmd(TIM1,ENABLE);
 
 }
 
@@ -51,12 +51,12 @@ void IntInit()
     */
 
     NVIC_InitTypeDef Interrupt;
-    Interrupt.NVIC_IRQChannel = TIM2_IRQn;
+    Interrupt.NVIC_IRQChannel = TIM1_IRQn;
     Interrupt.NVIC_IRQChannelCmd = ENABLE;
     Interrupt.NVIC_IRQChannelPreemptionPriority = 5;
     Interrupt.NVIC_IRQChannelSubPriority = 0;
     NVIC_Init(&Interrupt);
-    TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
+    TIM_ClearITPendingBit(TIM1,TIM_IT_Update);
 
 }
 

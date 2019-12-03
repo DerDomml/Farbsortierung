@@ -20,11 +20,12 @@ int main(void)
 
     while(TRUE)
     {
-       if(FS_ENTLEER_CAN_received ||
+       if(FS_ENTLEER_CAN_received || (
           (GreifarmSchritt == 2 && isGreifarmUnten()) ||
           (GreifarmSchritt == 3 && isGreifarmOben()) ||
-          (GreifarmSchritt == 4 && isEntleerPos())||
-          (GreifarmSchritt == 5 && isGreifarmOben())) {
+          (GreifarmSchritt == 4 && isEntleerPos()) ||
+          (GreifarmSchritt == 5 && isGreifarmOben()))
+          && FS_ENTLEER_TIMER_TICK) {
             FS_ENTLEER_Tick();
        }
 
