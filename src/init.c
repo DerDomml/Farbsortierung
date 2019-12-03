@@ -78,7 +78,7 @@ void ProjectInit(void)
     IntInit();
     CAN_Init4Models();
     //CAN_NMTConnect();
-   MotorInit();
+  SMOT_Init();
 }
 
 

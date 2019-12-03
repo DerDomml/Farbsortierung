@@ -10,6 +10,7 @@
 #define SMOT_AI_ID 0x395             //Analog Input Byte, 0 Status Byte, 1 K1_LB, 2K1_HB
 #define SMOT_DO_ID 0x215              //Digital Output Byte
 #define SMOT_AO_ID 0x415             //Analog Output Byte 0 Control Byte, 1 K1_LB, 2 K1_HB
+#define SMOT_Broadcast_ID 0x715
 
 
 //Digital Inputs
@@ -43,4 +44,7 @@
 #endif
 
 
-void MotorInit();
+void SMOT_Init();
+void SMOT_Tick();
+
+extern bool SMOT_Can_Received;
