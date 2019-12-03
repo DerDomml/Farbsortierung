@@ -16,9 +16,11 @@ int main(void)
 
     FS_ENTLEER_CAN_received = false;
 
+    GreifarmSchritt = 0;
+
     while(TRUE)
     {
-       if(FS_ENTLEER_CAN_received) {
+       if(FS_ENTLEER_CAN_received || GreifarmSchritt == 2 && isEntleerPos() || GreifarmSchritt == 3 && isGreifarmOben() || GreifarmSchritt == 4 && isEntleerPos()) {
             FS_ENTLEER_Tick();
        }
 
