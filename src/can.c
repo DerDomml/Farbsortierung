@@ -83,7 +83,7 @@ void CAN_Init4Models()
         **************************************/
         CAN_DBGFreeze(CAN1, DISABLE);
 
-        uint16_t id = 0x181;
+        uint16_t id = 0x193;
 
         CAN_FilterInitTypeDef CAN1_Filter;
 
@@ -177,8 +177,8 @@ void CAN1_RX0_IRQHandler(void)
     CanRxMsg RxMessage;
     CAN_ClearFlag(CAN1,CAN_IT_FMP0);
     CAN_Receive(CAN1,CAN_FIFO0, &RxMessage);
-    Data = RxMessage.Data[0];
-    Data |= (RxMessage.Data[1] << 8);
+    Data = RxMessage.Data[1];
+    Data |= (RxMessage.Data[0] << 8);
 }
 
 void CAN1_TXRQ_IRQHandler(void)
