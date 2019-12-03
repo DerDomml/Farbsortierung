@@ -18,6 +18,9 @@
 #define CAN_DLC_7       7
 #define CAN_DLC_8       8
 
+#define FS_ENTLEER_CAN_SEND_ID      0x213
+#define FS_ENTLEER_CAN_RECEIVE_ID   0x193
+
 /*********************************************************************************
 
 
