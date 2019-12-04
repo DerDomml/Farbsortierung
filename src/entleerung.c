@@ -18,7 +18,7 @@ bool AnTurmErlaubnisDown = true;
 bool GreifarmAktiv = false;
 
 void FS_ENTLEER_Tick() {
-    FS_ENTLEER_TIMER_TICK = false;
+    FS_ENTLEER_GREIFARM_TICK = false;
 
     CAN_received = Data;
 
@@ -40,6 +40,7 @@ void FS_ENTLEER_Tick() {
                     if(isGreifarmUnten()){
                         CAN_toSend &= ~FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                         GreifarmSchritt++;
+                        FS_ENTLEER_GREIFARM_TICK = true;
                     }   break;
             ///Greifarm ist unten, greift zu und faehrt sofort hoch
             case 2: CAN_toSend |= FS_ENTLEER_GREIFARM_ZU;
@@ -47,12 +48,14 @@ void FS_ENTLEER_Tick() {
                     if(isGreifarmOben()){
                         CAN_toSend &= ~FS_ENTLEER_GREIFARM_HOCHFAHREN;
                         GreifarmSchritt++;
+                        FS_ENTLEER_GREIFARM_TICK = true;
                     }   break;
             ///Greifarm ist oben und faehrt sofort runter
             case 3: CAN_toSend |= FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                     if(isGreifarmUnten()){
                         CAN_toSend &= ~FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                         GreifarmSchritt++;
+                        FS_ENTLEER_GREIFARM_TICK = true;
                     }   break;
             ///Greifarm ist unten, laesst los und faehrt hoch
              case 4: CAN_toSend &= ~FS_ENTLEER_GREIFARM_ZU;
@@ -60,6 +63,7 @@ void FS_ENTLEER_Tick() {
                      if(isGreifarmOben()){
                         CAN_toSend &= ~FS_ENTLEER_GREIFARM_HOCHFAHREN;
                         GreifarmSchritt++;
+                        FS_ENTLEER_GREIFARM_TICK = true;
                      }   break;
             ///Band faehrt den Klotz bis zum naechsten Sensor
             case 5: CAN_toSend |= FS_ENTLEER_BAND_OBEN;
@@ -67,6 +71,7 @@ void FS_ENTLEER_Tick() {
                         CAN_toSend &= ~FS_ENTLEER_BAND_OBEN;
                         GreifarmSchritt = 0;
                         GreifarmAktiv = false;
+                        FS_ENTLEER_GREIFARM_TICK = true;
                      }   break;
             default: break;
 
@@ -99,8 +104,6 @@ void FS_ENTLEER_Tick() {
         }
     }
 
-
-//
 //    if(isBOEndePos()){
 //        CAN_toSend &= ~FS_ENTLEER_BAND_OBEN;
 //    }

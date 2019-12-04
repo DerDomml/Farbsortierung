@@ -34,6 +34,6 @@ void EXTI15_10_IRQHandler()
 
 void TIM6_IRQHandler() {
     TIM_ClearITPendingBit(TIM6,TIM_IT_Update);
-    FS_ENTLEER_TIMER_TICK = true;
+   // FS_ENTLEER_TIMER_TICK = true;
 }
 

@@ -33,7 +33,8 @@ uint16_t CAN_received;
 uint16_t CAN_toSend;
 
 uint8_t GreifarmSchritt;
-bool FS_ENTLEER_TIMER_TICK;
+//bool FS_ENTLEER_TIMER_TICK;
+bool FS_ENTLEER_GREIFARM_TICK;
 
 bool isEntleerPos();
 bool isBOEndePos();

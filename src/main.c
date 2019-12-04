@@ -15,19 +15,22 @@ int main(void)
     CAN_NMTConnect();
 
     FS_ENTLEER_CAN_received = false;
-
+    FS_ENTLEER_GREIFARM_TICK = false;
     GreifarmSchritt = 0;
 
     while(TRUE)
     {
-       if(FS_ENTLEER_CAN_received || ((
-          (GreifarmSchritt == 2 && isGreifarmUnten()) ||
-          (GreifarmSchritt == 3 && isGreifarmOben()) ||
-          (GreifarmSchritt == 4 && isEntleerPos()) ||
-          (GreifarmSchritt == 5 && isGreifarmOben()))
-          && FS_ENTLEER_TIMER_TICK)) {
+       if(FS_ENTLEER_CAN_received || FS_ENTLEER_GREIFARM_TICK)
+
+//          ((
+//          (GreifarmSchritt == 2 && isGreifarmUnten()) ||
+//          (GreifarmSchritt == 3 && isGreifarmOben()) ||
+//          (GreifarmSchritt == 4 && isEntleerPos()) ||
+//          (GreifarmSchritt == 5 && isGreifarmOben()))
+//          && FS_ENTLEER_TIMER_TICK))
+        {
             FS_ENTLEER_Tick();
-       }
+        }
 
 
 
