@@ -1,6 +1,6 @@
 #include "global.h"
 
-
+//Testcomment
 /***************************************
     Definition of Global Variables
 ***************************************/
