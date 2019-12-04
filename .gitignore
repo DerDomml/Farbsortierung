@@ -1,5 +1,5 @@
 /bin
 /obj
 cantft.elay
-.ebTemp
-.elay
+*.ebTemp
+*.elay
