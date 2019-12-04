@@ -29,18 +29,18 @@
 #define FS_ENTLEER_ABTURM_BAND          	0x0010
 #define FS_ENTLEER_ZYLINDER_ROTIEREN        0x0080
 
-uint16_t CAN_received;
-uint16_t CAN_toSend;
+uint16_t FS_ENTLEER_CAN_Received;
+uint16_t FS_ENTLEER_CAN_ToSend;
 
-uint8_t GreifarmSchritt;
+uint8_t FS_ENTLEER_GreifarmSchritt;
 //bool FS_ENTLEER_TIMER_TICK;
-bool FS_ENTLEER_GREIFARM_TICK;
+bool FS_ENTLEER_GREIFARM_Tick;
 
-bool isEntleerPos();
-bool isBOEndePos();
+bool FS_ENTLEER_IsEntleerPos();
+bool FS_ENTLEER_IsBOEndePos();
 void FS_ENTLEER_Tick();
-bool isAnTurmUnten();
-bool isAnTurmOben();
-bool isAnTurmBelegt();
-bool isGreifarmOben();
-bool isGreifarmUnten();
+bool FS_ENTLEER_IsAnTurmUnten();
+bool FS_ENTLEER_IsAnTurmOben();
+bool FS_ENTLEER_IsAnTurmBelegt();
+bool FS_ENTLEER_IsGreifarmOben();
+bool FS_ENTLEER_IsGreifarmUnten();

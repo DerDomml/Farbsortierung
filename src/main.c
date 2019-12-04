@@ -15,12 +15,12 @@ int main(void)
     CAN_NMTConnect();
 
     FS_ENTLEER_CAN_received = false;
-    FS_ENTLEER_GREIFARM_TICK = false;
-    GreifarmSchritt = 0;
+    FS_ENTLEER_GREIFARM_Tick = false;
+    FS_ENTLEER_GreifarmSchritt = 0;
 
     while(TRUE)
     {
-       if(FS_ENTLEER_CAN_received || FS_ENTLEER_GREIFARM_TICK)
+       if(FS_ENTLEER_CAN_received || FS_ENTLEER_GREIFARM_Tick)
 
 //          ((
 //          (GreifarmSchritt == 2 && isGreifarmUnten()) ||
