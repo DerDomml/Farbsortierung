@@ -15,7 +15,7 @@ int main(void)
 
     ProjectInit();
 
-    Bytes_To_Int(bytes);
+    int testus = Bytes_To_Int(bytes[0], bytes[1]);
 
     //int i = 0;
 

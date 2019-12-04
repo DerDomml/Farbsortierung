@@ -43,13 +43,21 @@
 
 //Step Constants
 #define SMOT_ENDPOS 0x20B7              //Steps where slider reaches end position
-#define SMOT_SPEED_DEFAULT 0x012C               //Process Data for default speed
+#define SMOT_SPEED_DEFAULT 0x012C       //Process Data for default speed
 
+typedef enum direction
+{
+    X_POSITIVE,
+    X_NEGATIVE
+}
+direction_t;
+
+//SMOT Methods Declaration
 void SMOT_Init();
 void SMOT_Update();
+void SMOT_Node_Listened(uint8_t node_state);
 void SMOT_Motor_Start();
-uint16_t Bytes_To_Int(uint8_t toSwap[2]);
 
-extern bool SMOT_Can_Received;
+uint16_t Bytes_To_Int(uint8_t toSwap1, uint8_t toSwap2);
 
 #endif
