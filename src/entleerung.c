@@ -47,10 +47,13 @@ void FS_ENTLEER_Tick() {
     static bool AnturmAbgabeBereit = false;
     static bool BandObenFreigabeAnturmAnnahmeBereit = false;
     static bool BandObenFreigabeAnturmLeer = false;
+    static bool BandObenFreigabeAbturmAbgabeBereit = false;
+    static bool AbturmAnnahmeBereit = false;
 
     /// Anforderung eines sofortigen weiteren Ticks an die main-Funktion (wird bei aktiver Greifarmschrittkette benoetigt)
     FS_ENTLEER_GREIFARM_Tick = false;
     FS_ENTLEER_ANTURM_Tick = false;
+    FS_ENTLEER_ABTURM_Tick = false;
 
     /// Empfangene Daten aus CANBUS
     FS_ENTLEER_CAN_Received = Data;
@@ -62,7 +65,7 @@ void FS_ENTLEER_Tick() {
     switch(AnturmSchritt){
         case 0:
             FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_RUNTERFAHREN;
-            if(FS_ENTLEER_ANTURM_UNTEN){
+            if(FS_ENTLEER_IsAnTurmUnten()){
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_RUNTERFAHREN;
                 AnturmSchritt++;
 
@@ -75,13 +78,13 @@ void FS_ENTLEER_Tick() {
 
             } break;
         case 2:
-            if(FS_ENTLEER_ANTURM_SENSOR){
+            if(FS_ENTLEER_IsAnTurmBelegt()){
                 AnturmSchritt++;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_BAND;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_HOCHFAHREN;
             } break;
         case 3:
-            if(FS_ENTLEER_ANTURM_OBEN){
+            if(FS_ENTLEER_IsAnTurmOben()){
                 AnturmSchritt++;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_HOCHFAHREN;
                 AnturmAbgabeBereit = true;
@@ -99,6 +102,44 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_ANTURM_Tick = true;
             } break;
 
+    }
+
+    switch(AbturmSchritt){
+        case 0:
+            FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_HOCHFAHREN;
+            if(FS_ENTLEER_IsAbTurmOben()){
+                AbturmSchritt++;
+                FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_HOCHFAHREN;
+                AbturmAnnahmeBereit = true;
+                ///TODO BandOben Tick aktivieren
+            } break;
+        case 1:
+            if(BandObenFreigabeAbturmAbgabeBereit){
+                AbturmSchritt++;
+                FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_BAND;
+            } break;
+        case 2:
+            if(FS_ENTLEER_IsAbTurmBelegt()){
+                AbturmSchritt++;
+                FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_BAND;
+                FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_RUNTERFAHREN;
+            } break;
+        case 3:
+            if(FS_ENTLEER_IsAbTurmUnten()){
+                AbturmSchritt++;
+                FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_RUNTERFAHREN;
+                ///TODO Sende Abgabebereitschaft an Wakko
+            } break;
+        case 4:
+            if(true){///TODO Empfange Annahmebereitschaft von Wakko
+                ///FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_BAND;
+                AbturmSchritt++;
+            } break;
+        case 5:
+            if(!FS_ENTLEER_IsAbTurmBelegt()){///TODO Empfang von Wakko bestaetigt
+                FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_BAND;
+                AbturmSchritt = 0;
+            } break;
     }
 //    /// Anturm darf runterfahren, GreifarmSCHRITT 1 wird aktiviert
 //    if(FS_ENTLEER_IsEntleerPos() && FS_ENTLEER_GreifarmSchritt == 0) {
