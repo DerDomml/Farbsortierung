@@ -14,12 +14,12 @@ int main(void)
     ProjectInit();
     CAN_NMTConnect();
 
-    FS_ENTLEER_CAN_received = false;
+    FS_ENTLEER_CAN_NewTelegramReceived = false;
     FS_ENTLEER_GREIFARM_Tick = false;
 
     while(TRUE)
     {
-       if(FS_ENTLEER_CAN_received || FS_ENTLEER_GREIFARM_Tick)
+       if(FS_ENTLEER_CAN_NewTelegramReceived || FS_ENTLEER_GREIFARM_Tick)
 
 //          ((
 //          (GreifarmSchritt == 2 && isGreifarmUnten()) ||

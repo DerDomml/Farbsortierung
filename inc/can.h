@@ -34,6 +34,6 @@ uint8_t CAN_NMTConnect();
 
 uint16_t Data;
 
-bool FS_ENTLEER_CAN_received;
+bool FS_ENTLEER_CAN_NewTelegramReceived;
 
 #endif // !CAN_H__

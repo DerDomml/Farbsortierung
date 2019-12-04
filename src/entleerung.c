@@ -1,8 +1,11 @@
 #include "global.h"
 
+/**
+ *  Funktionen zum Abfragen der Sensoren
+**/
+
 bool FS_ENTLEER_IsEntleerPos(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ENTLEERPOS_SENSOR)   ? true : false;  }
 bool FS_ENTLEER_IsBOEndePos(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_BO_ENDE_SENSOR)       ? true : false;  }
-
 bool FS_ENTLEER_IsAnTurmUnten(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ANTURM_UNTEN)       ? true : false;  }
 bool FS_ENTLEER_IsAnTurmOben(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ANTURM_OBEN)         ? true : false;  }
 bool FS_ENTLEER_IsAnTurmBelegt(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ANTURM_SENSOR)     ? true : false;  }
@@ -12,24 +15,38 @@ bool FS_ENTLEER_IsAbTurmUnten(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_AB
 bool FS_ENTLEER_IsAbTurmOben(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ABTURM_OBEN)         ? true : false;  }
 bool FS_ENTLEER_IsAbTurmBelegt(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ABTURM_SENSOR)     ? true : false;  }
 
-bool FS_ENTLEER_BAND_OBEN_ANNAHME = false;
-bool FS_ENTLEER_BAND_OBEN_ABGABE = false;
-
+/**
+ *  Hauptfunktion; Abfragen aller Sensoren und Ansteuern der Aktoren - "Tick"
+**/
 
 void FS_ENTLEER_Tick() {
+    /// Zu sendende CAN-Daten als Byte-Array
     static uint8_t FS_ENTLEER_CAN_ToSend_Array[2] = {0, 0};
+
+    /// Zu sendende CAN-Daten als uint 16 fuer leichteren Zugriff
     static uint16_t FS_ENTLEER_CAN_ToSend = 0;
+
+    /// Aktueller Schritt der Greifarmschrittkette
     static uint8_t FS_ENTLEER_GreifarmSchritt = 0;
+
+    /// Freigabe fuer den Annahmeturm
     static bool FS_ENTLEER_ANTURM_Freigabe = true;
+
+    /// Greifarmschrittkette aktiv?
     static bool FS_ENTLEER_GreifarmAktiv = false;
+
+    /// Ansteuerung des oberen Bandes fuer Zu- oder Abtransport (AnTurm zu Hauptband oder Hauptband zu Abturm)
     static bool FS_ENTLEER_BAND_OBEN_ANNAHME = false;
     static bool FS_ENTLEER_BAND_OBEN_ABGABE = false;
 
+    /// Anforderung eines sofortigen weiteren Ticks an die main-Funktion (wird bei aktiver Greifarmschrittkette benoetigt)
     FS_ENTLEER_GREIFARM_Tick = false;
 
+    /// Empfangene Daten aus CANBUS
     FS_ENTLEER_CAN_Received = Data;
 
-    FS_ENTLEER_CAN_received = false;
+    /// Neues CAN Telegramm empfangen?
+    FS_ENTLEER_CAN_NewTelegramReceived = false;
 
     /// Anturm darf runterfahren, GreifarmSCHRITT 1 wird aktiviert
     if(FS_ENTLEER_IsEntleerPos() && FS_ENTLEER_GreifarmSchritt == 0) {

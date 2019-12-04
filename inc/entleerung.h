@@ -29,14 +29,20 @@
 #define FS_ENTLEER_ABTURM_BAND          	0x0010
 #define FS_ENTLEER_ZYLINDER_ROTIEREN        0x0080
 
-uint16_t FS_ENTLEER_CAN_Received;
 
-//bool FS_ENTLEER_TIMER_TICK;
+/**
+ *  Globale Variablen
+**/
+
+uint16_t FS_ENTLEER_CAN_Received;
 bool FS_ENTLEER_GREIFARM_Tick;
+
+/**
+ *  Funktionen zum Abfragen der Sensoren
+**/
 
 bool FS_ENTLEER_IsEntleerPos();
 bool FS_ENTLEER_IsBOEndePos();
-void FS_ENTLEER_Tick();
 bool FS_ENTLEER_IsAnTurmUnten();
 bool FS_ENTLEER_IsAnTurmOben();
 bool FS_ENTLEER_IsAnTurmBelegt();
@@ -45,3 +51,9 @@ bool FS_ENTLEER_IsGreifarmUnten();
 bool FS_ENTLEER_IsAbTurmUnten();
 bool FS_ENTLEER_IsAbTurmOben();
 bool FS_ENTLEER_IsAbTurmBelegt();
+
+/**
+ *  Hauptfunktion; Abfragen aller Sensoren und Ansteuern der Aktoren - "Tick"
+**/
+
+void FS_ENTLEER_Tick();

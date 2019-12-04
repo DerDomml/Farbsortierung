@@ -182,7 +182,7 @@ void CAN1_RX0_IRQHandler(void)
     CAN_Receive(CAN1,CAN_FIFO0, &RxMessage);
     Data = RxMessage.Data[1];
     Data |= (RxMessage.Data[0] << 8);
-    FS_ENTLEER_CAN_received = true;
+    FS_ENTLEER_CAN_NewTelegramReceived = true;
 }
 
 void CAN1_TXRQ_IRQHandler(void)
