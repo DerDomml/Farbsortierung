@@ -8,12 +8,9 @@ bool FS_ENTLEER_IsAnTurmOben(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ANT
 bool FS_ENTLEER_IsAnTurmBelegt(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ANTURM_SENSOR)     ? true : false;  }
 bool FS_ENTLEER_IsGreifarmOben(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_GREIFRARM_OBEN)    ? true : false;  }
 bool FS_ENTLEER_IsGreifarmUnten(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_GREIFRARM_UNTEN)  ? true : false;  }
-bool isAbTurmUnten(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ABTURM_UNTEN)       ? true : false;  }
-bool isAbTurmOben(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ABTURM_OBEN)         ? true : false;  }
-bool isAbTurmBelegt(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ABTURM_SENSOR)     ? true : false;  }
-
-bool AnTurmErlaubnisDown = true;
-bool GreifarmAktiv = false;
+bool FS_ENTLEER_IsAbTurmUnten(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ABTURM_UNTEN)       ? true : false;  }
+bool FS_ENTLEER_IsAbTurmOben(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ABTURM_OBEN)         ? true : false;  }
+bool FS_ENTLEER_IsAbTurmBelegt(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ABTURM_SENSOR)     ? true : false;  }
 
 bool FS_ENTLEER_BAND_OBEN_ANNAHME = false;
 bool FS_ENTLEER_BAND_OBEN_ABGABE = false;
@@ -23,6 +20,10 @@ void FS_ENTLEER_Tick() {
     static uint8_t FS_ENTLEER_CAN_ToSend_Array[2] = {0, 0};
     static uint16_t FS_ENTLEER_CAN_ToSend = 0;
     static uint8_t FS_ENTLEER_GreifarmSchritt = 0;
+    static bool FS_ENTLEER_ANTURM_Freigabe = true;
+    static bool FS_ENTLEER_GreifarmAktiv = false;
+    static bool FS_ENTLEER_BAND_OBEN_ANNAHME = false;
+    static bool FS_ENTLEER_BAND_OBEN_ABGABE = false;
 
     FS_ENTLEER_GREIFARM_Tick = false;
 
@@ -36,8 +37,8 @@ void FS_ENTLEER_Tick() {
         FS_ENTLEER_BAND_OBEN_ANNAHME = false;
         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_BAND_OBEN;
         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_BAND;
-        AnTurmErlaubnisDown = true;
-        GreifarmAktiv = true;
+        FS_ENTLEER_ANTURM_Freigabe = true;
+        FS_ENTLEER_GreifarmAktiv = true;
         FS_ENTLEER_GreifarmSchritt = 1;
    }
 
@@ -79,7 +80,7 @@ void FS_ENTLEER_Tick() {
                     if(FS_ENTLEER_IsBOEndePos()){
                         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_BAND_OBEN;
                         FS_ENTLEER_GreifarmSchritt = 0;
-                        GreifarmAktiv = false;
+                        FS_ENTLEER_GreifarmAktiv = false;
                         FS_ENTLEER_GREIFARM_Tick = true;
                      }   break;
             default: break;
@@ -88,11 +89,11 @@ void FS_ENTLEER_Tick() {
    }
 
     /// Anturm faehrt runter
-    if(!FS_ENTLEER_IsAnTurmUnten() && !FS_ENTLEER_IsAnTurmBelegt() && AnTurmErlaubnisDown){
+    if(!FS_ENTLEER_IsAnTurmUnten() && !FS_ENTLEER_IsAnTurmBelegt() && FS_ENTLEER_ANTURM_Freigabe){
         FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_RUNTERFAHREN;
     } else {
         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_RUNTERFAHREN;
-        AnTurmErlaubnisDown = false;
+        FS_ENTLEER_ANTURM_Freigabe = false;
     }
 
     ///Anturm faehrt hoch
@@ -114,20 +115,20 @@ void FS_ENTLEER_Tick() {
     }
 
     ///Wenn Abturm leer ist, dann Abturm hochfahren
-    if(!isAbTurmOben() && !isAbTurmBelegt()){
+    if(!FS_ENTLEER_IsAbTurmOben() && !FS_ENTLEER_IsAbTurmBelegt()){
         FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_HOCHFAHREN;
     } else {
         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_HOCHFAHREN;
     }
 
     ///Wenn BOEnde belegt ist, AbTurm oben ist, beide Baender aktivieren
-    if(FS_ENTLEER_IsBOEndePos() && isAbTurmOben() && !isAbTurmBelegt()){
+    if(FS_ENTLEER_IsBOEndePos() && FS_ENTLEER_IsAbTurmOben() && !FS_ENTLEER_IsAbTurmBelegt()){
         FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_BAND;
         FS_ENTLEER_BAND_OBEN_ABGABE = true;
     }
 
     ///Wenn Abturm belegt ist, Baender ausschalten und runterfahren
-    if(isAbTurmBelegt() && !isAbTurmUnten()){
+    if(FS_ENTLEER_IsAbTurmBelegt() && !FS_ENTLEER_IsAbTurmUnten()){
         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_BAND;
         FS_ENTLEER_BAND_OBEN_ABGABE = false;
         FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_RUNTERFAHREN;
@@ -135,7 +136,7 @@ void FS_ENTLEER_Tick() {
         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_RUNTERFAHREN;
     }
 
-    if(!GreifarmAktiv){
+    if(!FS_ENTLEER_GreifarmAktiv){
         if(!FS_ENTLEER_IsGreifarmOben()){
             FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_HOCHFAHREN;
         }else{

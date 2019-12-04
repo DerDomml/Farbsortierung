@@ -42,3 +42,6 @@ bool FS_ENTLEER_IsAnTurmOben();
 bool FS_ENTLEER_IsAnTurmBelegt();
 bool FS_ENTLEER_IsGreifarmOben();
 bool FS_ENTLEER_IsGreifarmUnten();
+bool FS_ENTLEER_IsAbTurmUnten();
+bool FS_ENTLEER_IsAbTurmOben();
+bool FS_ENTLEER_IsAbTurmBelegt();
