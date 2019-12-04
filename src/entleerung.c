@@ -13,9 +13,16 @@ bool isAnTurmOben(){ return (CAN_received & FS_ENTLEER_ANTURM_OBEN)         ? tr
 bool isAnTurmBelegt(){ return (CAN_received & FS_ENTLEER_ANTURM_SENSOR)     ? true : false;  }
 bool isGreifarmOben(){ return (CAN_received & FS_ENTLEER_GREIFRARM_OBEN)    ? true : false;  }
 bool isGreifarmUnten(){ return (CAN_received & FS_ENTLEER_GREIFRARM_UNTEN)  ? true : false;  }
+bool isAbTurmUnten(){ return (CAN_received & FS_ENTLEER_ABTURM_UNTEN)       ? true : false;  }
+bool isAbTurmOben(){ return (CAN_received & FS_ENTLEER_ABTURM_OBEN)         ? true : false;  }
+bool isAbTurmBelegt(){ return (CAN_received & FS_ENTLEER_ABTURM_SENSOR)     ? true : false;  }
 
 bool AnTurmErlaubnisDown = true;
 bool GreifarmAktiv = false;
+
+bool FS_ENTLEER_BAND_OBEN_ANNAHME = false;
+bool FS_ENTLEER_BAND_OBEN_ABGABE = false;
+
 
 void FS_ENTLEER_Tick() {
     FS_ENTLEER_GREIFARM_TICK = false;
@@ -26,12 +33,15 @@ void FS_ENTLEER_Tick() {
 
     /// Anturm darf runterfahren, GreifarmSCHRITT 1 wird aktiviert
     if(isEntleerPos() && GreifarmSchritt == 0) {
+
+        FS_ENTLEER_BAND_OBEN_ANNAHME = false;
         CAN_toSend &= ~FS_ENTLEER_BAND_OBEN;
         CAN_toSend &= ~FS_ENTLEER_ANTURM_BAND;
         AnTurmErlaubnisDown = true;
         GreifarmAktiv = true;
         GreifarmSchritt = 1;
    }
+
 
    if(GreifarmSchritt != 0){
         switch(GreifarmSchritt){
@@ -99,10 +109,48 @@ void FS_ENTLEER_Tick() {
         ///Wenn Anturm oben ist UND das Band leer ist
         if(!isEntleerPos() && !isBOEndePos() && GreifarmSchritt == 0){
             CAN_toSend |= FS_ENTLEER_ANTURM_BAND;
-            CAN_toSend |= FS_ENTLEER_BAND_OBEN;
+            FS_ENTLEER_BAND_OBEN_ANNAHME = true;
 
         }
     }
+
+    ///Wenn Abturm leer ist, dann Abturm hochfahren
+    if(!isAbTurmOben() && !isAbTurmBelegt()){
+        CAN_toSend |= FS_ENTLEER_ABTURM_HOCHFAHREN;
+    } else {
+        CAN_toSend &= ~FS_ENTLEER_ABTURM_HOCHFAHREN;
+    }
+
+    ///Wenn BOEnde belegt ist, AbTurm oben ist, beide Baender aktivieren
+    if(isBOEndePos() && isAbTurmOben() && !isAbTurmBelegt()){
+        CAN_toSend |= FS_ENTLEER_ABTURM_BAND;
+        FS_ENTLEER_BAND_OBEN_ABGABE = true;
+    }
+
+    ///Wenn Abturm belegt ist, Baender ausschalten und runterfahren
+    if(isAbTurmBelegt() && !isAbTurmUnten()){
+        CAN_toSend &= ~FS_ENTLEER_ABTURM_BAND;
+        FS_ENTLEER_BAND_OBEN_ABGABE = false;
+        CAN_toSend |= FS_ENTLEER_ABTURM_RUNTERFAHREN;
+    } else {
+        CAN_toSend &= ~FS_ENTLEER_ABTURM_RUNTERFAHREN;
+    }
+
+    if(!GreifarmAktiv){
+        if(!isGreifarmOben()){
+            CAN_toSend |= FS_ENTLEER_GREIFARM_HOCHFAHREN;
+        }else{
+            CAN_toSend &= ~FS_ENTLEER_GREIFARM_HOCHFAHREN;
+        }
+
+        if(FS_ENTLEER_BAND_OBEN_ABGABE || FS_ENTLEER_BAND_OBEN_ANNAHME){
+            CAN_toSend |= FS_ENTLEER_BAND_OBEN;
+        } else {
+            CAN_toSend &= ~FS_ENTLEER_BAND_OBEN;
+        }
+    }
+
+
 
 //    if(isBOEndePos()){
 //        CAN_toSend &= ~FS_ENTLEER_BAND_OBEN;
