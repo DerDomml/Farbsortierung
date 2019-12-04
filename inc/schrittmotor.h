@@ -47,8 +47,8 @@
 
 typedef enum direction
 {
-    X_POSITIVE,
-    X_NEGATIVE
+    X_NEGATIVE = 0,
+    X_POSITIVE
 }
 direction_t;
 
@@ -60,7 +60,7 @@ void SMOT_Motor_Start();
 uint16_t uint8s_To_uint16(uint8_t msb,uint8_t lsb);
 bool SMOT_ReachedEndPos();
 void SMOT_Stop();
-void SMOT_Goto(uint16_t pos, uint16_t speed, int direction);
+void SMOT_Goto(uint16_t pos, uint16_t speed, direction_t dir);
 
 uint16_t Bytes_To_Int(uint8_t toSwap1, uint8_t toSwap2);
 

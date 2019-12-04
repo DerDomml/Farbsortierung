@@ -131,13 +131,11 @@ void SMOT_ResetCounter(){
     CAN_TransmitMsg(SMOT_AO_ID, resetCounterPacket, CAN_DLC_1 );
 }
 
-//void SMOT_Goto(uint16_t pos, uint16_t speed, int direction)
-
-void SMOT_Goto(uint16_t pos, uint16_t speed, int direction)
+void SMOT_Goto(uint16_t pos, uint16_t speed, direction_t dir)
 {
     //SMOT_ResetCounter();
 
-    uint8_t directionSetPacket[1] = {(direction << 4)};
+    uint8_t directionSetPacket[1] = {(dir << 4)};
     CAN_TransmitMsg(SMOT_DO_ID, directionSetPacket, CAN_DLC_1);
 
     uint8_t bytesToSend[3] = {0x20, (speed & 0x00FF), ((speed >> 8) & 0xFF)};
