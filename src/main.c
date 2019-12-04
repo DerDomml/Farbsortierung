@@ -43,7 +43,16 @@ int main(void)
 
             }*/
             //GPIO_Write(GPIOD, (uint16_t) Data[0]);
+        if(GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_0) && !GPIOD_0_prev)
+        {
+            ENT_Ready_To_Give = true;
+            GPIOD_0_prev = true;
+        }
+        else if(!GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_0) && GPIOD_0_prev)
+        {
+            GPIOD_0_prev = false;
+        }
 
-            SMOT_Tick();
+        SMOT_Tick();
     }
 }

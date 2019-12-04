@@ -8,6 +8,7 @@ bool ref_slider;
 bool bero_delivery;
 bool bero_parked;
 bool node_listened = 0;
+bool ENT_Ready_To_Give = false;
 
 uint8_t do_prev = 0x00;
 bool motorMsgRecieved = false;

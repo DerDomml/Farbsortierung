@@ -53,6 +53,8 @@ typedef enum direction
 }
 direction_t;
 
+extern bool ENT_Ready_To_Give;
+
 //SMOT Methods Declaration
 void SMOT_Init();
 void SMOT_Update();
