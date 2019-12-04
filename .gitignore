@@ -1,5 +1,4 @@
 /bin
 /obj
 .ebTemp
-.elay
-cantft.elay
+*.elay
