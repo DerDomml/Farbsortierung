@@ -1,10 +1,5 @@
 #include "global.h"
 
-
-uint8_t CAN_toSend_Array[2] = {0, 0};
-uint16_t FS_ENTLEER_CAN_ToSend = 0;
-
-
 bool FS_ENTLEER_IsEntleerPos(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_ENTLEERPOS_SENSOR)   ? true : false;  }
 bool FS_ENTLEER_IsBOEndePos(){ return (FS_ENTLEER_CAN_Received & FS_ENTLEER_BO_ENDE_SENSOR)       ? true : false;  }
 
@@ -25,6 +20,10 @@ bool FS_ENTLEER_BAND_OBEN_ABGABE = false;
 
 
 void FS_ENTLEER_Tick() {
+    static uint8_t FS_ENTLEER_CAN_ToSend_Array[2] = {0, 0};
+    static uint16_t FS_ENTLEER_CAN_ToSend = 0;
+    static uint8_t FS_ENTLEER_GreifarmSchritt = 0;
+
     FS_ENTLEER_GREIFARM_Tick = false;
 
     FS_ENTLEER_CAN_Received = Data;
@@ -157,7 +156,7 @@ void FS_ENTLEER_Tick() {
 //    }
 
 
-    CAN_toSend_Array[1] = FS_ENTLEER_CAN_ToSend;
-    CAN_toSend_Array[0] = FS_ENTLEER_CAN_ToSend >> 8;
-    CAN_TransmitMsg(FS_ENTLEER_CAN_SEND_ID, CAN_toSend_Array, CAN_DLC_2);
+    FS_ENTLEER_CAN_ToSend_Array[1] = FS_ENTLEER_CAN_ToSend;
+    FS_ENTLEER_CAN_ToSend_Array[0] = FS_ENTLEER_CAN_ToSend >> 8;
+    CAN_TransmitMsg(FS_ENTLEER_CAN_SEND_ID, FS_ENTLEER_CAN_ToSend_Array, CAN_DLC_2);
 }

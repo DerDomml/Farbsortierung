@@ -30,9 +30,7 @@
 #define FS_ENTLEER_ZYLINDER_ROTIEREN        0x0080
 
 uint16_t FS_ENTLEER_CAN_Received;
-uint16_t FS_ENTLEER_CAN_ToSend;
 
-uint8_t FS_ENTLEER_GreifarmSchritt;
 //bool FS_ENTLEER_TIMER_TICK;
 bool FS_ENTLEER_GREIFARM_Tick;
 

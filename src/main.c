@@ -16,7 +16,6 @@ int main(void)
 
     FS_ENTLEER_CAN_received = false;
     FS_ENTLEER_GREIFARM_Tick = false;
-    FS_ENTLEER_GreifarmSchritt = 0;
 
     while(TRUE)
     {
