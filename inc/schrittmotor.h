@@ -22,6 +22,7 @@
 #define SMOT_SB 0xFF0000                //Control Byte
 #define SMOT_AI_K1_LB 0x00FF00          //Input K1 Low Byte
 #define SMOT_AI_K1_HB 0x0000FF          //Input K1 High Byte
+#define SMOT_AI_STOPPING 0x02
 
 //Digital Outputs
 #define SMOT_UNLOCK_SLIDER 0x20
@@ -42,7 +43,7 @@
 #define SMOT_AO_K1_HB 0x0000FF          //Output K2 High Byte
 
 //Step Constants
-#define SMOT_ENDPOS 0x20B7              //Steps where slider reaches end position
+#define SMOT_ENDPOS 0x20CB              //Steps where slider reaches end position
 #define SMOT_SPEED_DEFAULT 0x012C       //Process Data for default speed
 
 typedef enum direction
@@ -59,8 +60,8 @@ void SMOT_Tick();
 void SMOT_Motor_Start();
 uint16_t uint8s_To_uint16(uint8_t msb,uint8_t lsb);
 bool SMOT_ReachedEndPos();
-void SMOT_Stop();
-void SMOT_Goto(uint16_t pos, uint16_t speed, direction_t dir);
+bool SMOT_Stop();
+bool SMOT_Goto(uint16_t pos, uint16_t speed, direction_t dir);
 
 uint16_t Bytes_To_Int(uint8_t toSwap1, uint8_t toSwap2);
 

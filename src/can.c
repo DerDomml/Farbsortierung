@@ -153,7 +153,7 @@ uint8_t CAN_TransmitMsg(uint16_t canId, uint8_t *canData, uint8_t canDlc){
 
 uint8_t CAN_NMTConnect(){
     CanTxMsg TxMessage;
-    uint32_t NMT_id = 0x415;
+    uint32_t NMT_id = 0x00;
 
     TxMessage.DLC = CAN_DLC_2;
     TxMessage.IDE = CAN_Id_Standard;

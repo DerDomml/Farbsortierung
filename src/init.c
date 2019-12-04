@@ -77,8 +77,8 @@ void ProjectInit(void)
     TimerInit();
     IntInit();
     CAN_Init4Models();
-    //CAN_NMTConnect();
-    SMOT_Init();
+    CAN_NMTConnect();
+    //SMOT_Init();
 }
 
 

@@ -16,7 +16,7 @@ int main(void)
 
     //int i = 0;
 
-    SMOT_Goto(SMOT_ENDPOS, SMOT_SPEED_DEFAULT, 1);
+    //SMOT_Goto(SMOT_ENDPOS, SMOT_SPEED_DEFAULT, 1);
 
     while(TRUE)
     {
