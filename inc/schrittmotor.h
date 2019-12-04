@@ -47,8 +47,12 @@
 
 void SMOT_Init();
 void SMOT_Update();
+void SMOT_Tick();
 void SMOT_Motor_Start();
-uint16_t Bytes_To_Int(uint8_t toSwap[2]);
+uint16_t uint8s_To_uint16(uint8_t msb,uint8_t lsb);
+bool SMOT_ReachedEndPos();
+void SMOT_Stop();
+void SMOT_Goto(uint16_t pos, uint16_t speed, int direction);
 
 extern bool SMOT_Can_Received;
 
