@@ -16,21 +16,11 @@ void PortsInit(void)
     //CAN Ports init
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
 
-    GPIO_InitTypeDef gpio_init;
-    gpio_init.GPIO_Speed = GPIO_Speed_50MHz;
-    gpio_init.GPIO_Mode = GPIO_Mode_Out_PP;
-    gpio_init.GPIO_Pin = GPIO_Pin_1;
-    GPIO_Init(GPIOB,&gpio_init);
-
-    GPIO_Write(GPIOB,0x02);
-
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
-
-
-    gpio_init.GPIO_Speed = GPIO_Speed_50MHz;
-    gpio_init.GPIO_Mode = GPIO_Mode_IN_FLOATING;
-    gpio_init.GPIO_Pin = GPIO_Pin_All;
-    GPIO_Init(GPIOD,&gpio_init);
+    GPIO_InitTypeDef output;
+    output.GPIO_Speed = GPIO_Speed_50MHz;
+    output.GPIO_Mode = GPIO_Mode_Out_PP;
+    output.GPIO_Pin = GPIO_Pin_1;
+    GPIO_Init(GPIOC,&output);
 
 }
 
@@ -77,7 +67,4 @@ void ProjectInit(void)
     IntInit();
     CAN_Init4Models();
     CAN_NMTConnect();
-    //SMOT_Init();
 }
-
-
