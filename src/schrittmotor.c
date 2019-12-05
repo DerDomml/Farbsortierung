@@ -30,11 +30,6 @@ bool isSMOTStopping() { return (Data[0] & SMOT_AI_STOPPING); }
 
 void SMOT_Init()
 {
-    while (node_listened == false)
-    {
-        CAN_NMTConnect();
-    }
-
     CAN_NMTConnect();
 }
 
@@ -49,6 +44,7 @@ void SMOT_Update()
         break;
 
     case SMOT_AI_ID:
+        node_listened = true;
         if (SMOT_Motor_stopping && Data[0] == 0x00)
         {
             SMOT_Motor_running = false;
@@ -57,9 +53,6 @@ void SMOT_Update()
         current_position = uint8s_To_uint16(Data[2], Data[1]);
         SMOT_Motor_stopping = isSMOTStopping();
         break;
-
-    case SMOT_STATUS_ID:
-        node_listened = true;
     }
 
     SMOT_Tick();
@@ -80,36 +73,10 @@ void SMOT_Tick()
 
     switch (currentStep)
     {
-    case 0:
-    {
-        if (substep == 0)
+        if(SMOT_Goto(0xFF00, SMOT_SPEED_DEFAULT, X_POSITIVE))
         {
-            if (SMOT_Goto(0xffff, SMOT_SPEED_DEFAULT, X_NEGATIVE))
-            {
-                substep = 1;
-            }
-        }
-        if (ref_slider == true && substep == 1)
-        {
-            SMOT_Stop();
-            if (SMOT_Goto(SMOT_ENDPOS, SMOT_SPEED_DEFAULT, X_POSITIVE))
-            {
-                substep = 2;
-            }
-        }
-        if (substep == 2 && !SMOT_Motor_running)
-        {
-            currentStep = 1;
-            substep = 0;
-        }
-        break;
-    }
 
-    case 1:
-    {
-
-        break;
-    }
+        }
     }
 }
 

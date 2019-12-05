@@ -1,5 +1,5 @@
-cscope 15 D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr"               0000847144
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\misc.h
+cscope 15 D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung"               0000863944
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\misc.h
 
 24 #i‚de‡
 __MISC_H
@@ -305,7 +305,7 @@ SysTick_CLKSour˚
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_adc.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_adc.h
 
 24 #i‚de‡
 __STM32F10x_ADC_H
@@ -2091,7 +2091,7 @@ ADC_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_bkp.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_bkp.h
 
 24 #i‚de‡
 __STM32F10x_BKP_H
@@ -2777,7 +2777,7 @@ BKP_CÀ¨ITPídögBô
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_can.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_can.h
 
 24 #i‚de‡
 __STM32F10x_CAN_H
@@ -4707,7 +4707,7 @@ CAN_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_cec.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_cec.h
 
 24 #i‚de‡
 __STM32F10x_CEC_H
@@ -5167,7 +5167,7 @@ CEC_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_crc.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_crc.h
 
 24 #i‚de‡
 __STM32F10x_CRC_H
@@ -5233,7 +5233,7 @@ CRC_GëIDRegi°î
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_dac.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_dac.h
 
 24 #i‚de‡
 __STM32F10x_DAC_H
@@ -6221,7 +6221,7 @@ DAC_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_dbgmcu.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_dbgmcu.h
 
 24 #i‚de‡
 __STM32F10x_DBGMCU_H
@@ -6485,7 +6485,7 @@ NewSèã
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_dma.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_dma.h
 
 24 #i‚de‡
 __STM32F10x_DMA_H
@@ -8289,7 +8289,7 @@ DMAy_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_exti.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_exti.h
 
 24 #i‚de‡
 __STM32F10x_EXTI_H
@@ -8723,7 +8723,7 @@ EXTI_Löe
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_flash.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_flash.h
 
 24 #i‚de‡
 __STM32F10x_FLASH_H
@@ -10233,7 +10233,7 @@ FLASH_BOOT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_fsmc.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_fsmc.h
 
 24 #i‚de‡
 __STM32F10x_FSMC_H
@@ -11677,7 +11677,7 @@ FSMC_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_gpio.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_gpio.h
 
 24 #i‚de‡
 __STM32F10x_GPIO_H
@@ -13265,7 +13265,7 @@ GPIO_ETH_MedüI¡îÁ˚
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_i2c.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_i2c.h
 
 24 #i‚de‡
 __STM32F10x_I2C_H
@@ -14909,7 +14909,7 @@ I2C_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_iwdg.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_iwdg.h
 
 24 #i‚de‡
 __STM32F10x_IWDG_H
@@ -15145,7 +15145,7 @@ IWDG_FLAG
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_pwr.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_pwr.h
 
 24 #i‚de‡
 __STM32F10x_PWR_H
@@ -15453,7 +15453,7 @@ PWR_FLAG
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_rcc.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_rcc.h
 
 24 #i‚de‡
 __STM32F10x_RCC_H
@@ -18543,7 +18543,7 @@ RCC_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_rtc.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_rtc.h
 
 24 #i‚de‡
 __STM32F10x_RTC_H
@@ -18803,7 +18803,7 @@ RTC_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_sdio.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_sdio.h
 
 24 #i‚de‡
 __STM32F10x_SDIO_H
@@ -20605,7 +20605,7 @@ SDIO_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_spi.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_spi.h
 
 24 #i‚de‡
 __STM32F10x_SPI_H
@@ -22115,7 +22115,7 @@ SPI_I2S_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_tim.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_tim.h
 
 24 #i‚de‡
 __STM32F10x_TIM_H
@@ -26863,7 +26863,7 @@ TIM_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_usart.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_usart.h
 
 24 #i‚de‡
 __STM32F10x_USART_H
@@ -28229,7 +28229,7 @@ USART_IT
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_wwdg.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_wwdg.h
 
 24 #i‚de‡
 __STM32F10x_WWDG_H
@@ -28379,7 +28379,7 @@ WWDG_CÀ¨Fœg
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\misc.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\misc.c
 
 24 
 	~"misc.h
@@ -28723,7 +28723,7 @@ SysTick_CLKSour˚_HCLK_Div8
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_adc.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_adc.c
 
 23 
 	~"°m32f10x_adc.h
@@ -31715,7 +31715,7 @@ uöt32_t
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_bkp.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_bkp.c
 
 23 
 	~"°m32f10x_bkp.h
@@ -32253,7 +32253,7 @@ BKP_CSR_CTI
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_can.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_can.c
 
 23 
 	~"°m32f10x_ˇn.h
@@ -36029,7 +36029,7 @@ RESET
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_cec.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_cec.c
 
 23 
 	~"°m32f10x_˚c.h
@@ -36741,7 +36741,7 @@ tmp
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_crc.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_crc.c
 
 23 
 	~"°m32f10x_¸c.h
@@ -36887,7 +36887,7 @@ IDR
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_dac.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_dac.c
 
 23 
 	~"°m32f10x_dac.h
@@ -38045,7 +38045,7 @@ DAC_Ch™√l
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_dbgmcu.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_dbgmcu.c
 
 23 
 	~"°m32f10x_dbgmcu.h
@@ -38147,7 +38147,7 @@ DBGMCU_Pîùh
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_dma.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_dma.c
 
 23 
 	~"°m32f10x_dma.h
@@ -39339,7 +39339,7 @@ DMAy_IT
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_exti.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_exti.c
 
 23 
 	~"°m32f10x_exti.h
@@ -39863,7 +39863,7 @@ EXTI_Löe
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_flash.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_flash.c
 
 23 
 	~"°m32f10x_Êash.h
@@ -43321,7 +43321,7 @@ FLASH_TIMEOUT
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_fsmc.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_fsmc.c
 
 23 
 	~"°m32f10x_fsmc.h
@@ -46095,7 +46095,7 @@ FSMC_IT
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_gpio.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_gpio.c
 
 23 
 	~"°m32f10x_gpio.h
@@ -47629,7 +47629,7 @@ GPIO_ETH_MedüI¡îÁ˚
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_i2c.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_i2c.c
 
 23 
 	~"°m32f10x_i2c.h
@@ -50145,7 +50145,7 @@ uöt16_t
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_iwdg.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_iwdg.c
 
 23 
 	~"°m32f10x_iwdg.h
@@ -50341,7 +50341,7 @@ bô°©us
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_pwr.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_pwr.c
 
 23 
 	~"°m32f10x_pwr.h
@@ -50845,7 +50845,7 @@ PWR_FLAG
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_rcc.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_rcc.c
 
 23 
 	~"°m32f10x_rcc.h
@@ -53873,7 +53873,7 @@ RCC_IT
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_rtc.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_rtc.c
 
 23 
 	~"°m32f10x_πc.h
@@ -54421,7 +54421,7 @@ RTC_IT
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_sdio.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_sdio.c
 
 23 
 	~"°m32f10x_sdio.h
@@ -55979,7 +55979,7 @@ SDIO_IT
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_spi.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_spi.c
 
 23 
 	~"°m32f10x_•i.h
@@ -57949,7 +57949,7 @@ uöt16_t
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_tim.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_tim.c
 
 23 
 	~"°m32f10x_tim.h
@@ -65787,7 +65787,7 @@ tmpc˚r
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_usart.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_usart.c
 
 23 
 	~"°m32f10x_ußπ.h
@@ -68201,7 +68201,7 @@ uöt16_t
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_wwdg.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_wwdg.c
 
 23 
 	~"°m32f10x_wwdg.h
@@ -68523,7 +68523,7 @@ RESET
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\cmsis\core_cm3.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\cmsis\core_cm3.h
 
 23 #i‡
 deföed
@@ -73563,7 +73563,7 @@ ITM_RXBUFFER_EMPTY
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\cmsis\core_cmFunc.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\cmsis\core_cmFunc.h
 
 24 #i‚de‡
 __CORE_CMFUNC_H
@@ -74671,7 +74671,7 @@ deföed
 __TASKING__
  )
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\cmsis\core_cmInstr.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\cmsis\core_cmInstr.h
 
 24 #i‚de‡
 __CORE_CMINSTR_H
@@ -75665,145 +75665,511 @@ deföed
 __TASKING__
  )
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\ILI9341.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\FS_Kommissionierung.h
 
-1 #i‚de‡
-ILI9342_H__
+4 #i‚de‡
+FS_KOMMISSIONIERUNG_H
 
 
-2 
-	#ILI9341_H__
+5 
+	#FS_KOMMISSIONIERUNG_H
 
 
 	)
 
-51 
-	~<°dboﬁ.h
+7 
+	#FS_KOM_INFILTER
+ 0x00
+
+	)
+
+8 
+	#FS_KOM_OUTFILTER
+ 0x00
+
+	)
+
+9 
+	#FS_KOM_NODE_ID
+ 0x11
+
+10 
+	#FS_KOM_11Bô_ID
+
+
+11 
+
+	)
+
+12 
+	#FS_KOM_DI_LT1
+ 0x40
+
+13 
+	#FS_KOM_DI_LT2
+ 0x80
+
+14 
+	#FS_KOM_DI_LT3
+ 0x01
+
+15 
+
+	)
+
+16 
+	#FS_KOM_DI_BERO1
+ 0x08
+
+17 
+	#FS_KOM_DI_BERO2
+ 0x10
+
+18 
+	#FS_KOM_DI_BERO3
+ 0x20
+
+19 
+	#FS_KOM_DI_BERO0
+ 0x01
+
+20 
+
+	)
+
+21 
+	#FS_KOM_DI_REED1
+ 0x02
+
+22 
+	#FS_KOM_DI_REED2
+ 0x04
+
+23 
+
+	)
+
+24 
+	#FS_KOM_DO_
+
+
+	)
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\Font.h
+
+1 #i‚de‡
+__FONT_H__
+
+
+2 
+	#__FONT_H__
+
+
+	)
+
+4 
+	~<°döt.h
 >
 
-53 #ifde‡
+5 
+	~<öây≥s.h
+>
+
+7 #ifde‡
 __˝lu•lus
 
 
+14 
+	sFONT_DEFINITION
+ {
+
+15 
+uöt8_t
+ 
+F⁄tWidth
+;
+
+16 
+uöt8_t
+ 
+F⁄tHeight
+;
+
+17 c⁄° 
+uöt16_t
+ *
+d©a
+;
+
+18 } 
+	tF⁄tDef
+;
+
+23 
+	sFONT_CONTENT_DEFINITION
+ {
+
+24 
+uöt16_t
+ 
+Lígth
+;
+
+25 
+uöt16_t
+ 
+Height
+;
+
+26 } 
+	tF⁄tSåögSize
+;
+
+28 
+F⁄tDef
+ 
+F⁄t_11x18
+;
+
+29 
+F⁄tDef
+ 
+F⁄t_16x26
+;
+
+30 
+F⁄tDef
+ 
+F⁄t_7x10
+ ;
+
+32 
+TFT_F⁄tInô
+();
+
+42 
+TFT_TextPutc
+(
+c
+, 
+F⁄tDef
+* 
+f⁄t
+, 
+uöt32_t
+ 
+f‹eground
+, uöt32_à
+background
+) ;
+
+52 
+TFT_TextPuts
+(* 
+°r
+, 
+F⁄tDef
+ *
+f⁄t
+, 
+uöt32_t
+ 
+f‹eground
+, uöt32_à
+background
+) ;
+
+62 
+TFT_TextGëSåögSize
+(* 
+°r
+, 
+F⁄tDef
+* 
+f⁄t
+, 
+uöt16_t
+* 
+width
+, uöt16_t* 
+height
+) ;
+
+66 
+uöt16_t
+ 
+TFT_TextGëCurs‹X
+() ;
+
+67 
+uöt16_t
+ 
+TFT_TextGëCurs‹Y
+() ;
+
+69 #ifde‡
+__˝lu•lus
+
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\ILI9341_BusCycles.h
+
+1 #i‚de‡
+ILI9342_BusCy˛es_H__
+
+
+2 
+	#ILI9341_BusCy˛es_H__
+
+
+	)
+
+34 #ifde‡
+__˝lu•lus
+
+
+51 
+TFT_InôILI9341
+();
+
 70 
-TFT_Inô_ILI9341
-();
-
-75 
-TFT_Sèπup_ILI9341
-();
-
-94 
-wrôe_8bô_to_P‹t
+TFT_Wrôe8bôToP‹t
 (
 uöt8_t
  
 P0_7
 );
 
-107 
+83 
 uöt8_t
  
-ªad_8bô_‰om_P‹t
+TFT_Ród8bôFromP‹t
 ();
 
-115 
-°¨t_cy˛e
+91 
+TFT_SèπCy˛e
 ();
 
-122 
-íd_cy˛e
+98 
+TFT_EndCy˛e
 ();
 
-128 
-SëOuçut
+104 
+TFT_SëOuçut
 ();
 
-129 
-SëI≈ut
+105 
+TFT_SëI≈ut
 ();
 
-130 
+106 
 boﬁ
  
-IsOuçut
+TFT_IsOuçut
 ();
 
-138 
-wrôe_cmd
+114 
+TFT_WrôeCmd
 (
 uöt8_t
  
 CMD
 );
 
-146 
-wrôe_d©a
+122 
+TFT_WrôeD©a
 (
 uöt8_t
  
 DATA
 );
 
-155 
+131 
 uöt32_t
  
 TFT_RódFú°InvÆidD©a
 ();
 
-156 
+132 
 uöt32_t
  
 TFT_RódD©a
 ();
 
-157 
+133 
 uöt32_t
  
 TFT_RódLa°D©a
 ();
 
-175 
+137 #ifde‡
+__˝lu•lus
+
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\ILI9341_CmdDriver.h
+
+1 #i‚de‡
+ILI9341_CmdDrivî_H__
+
+
+2 
+	#ILI9341_CmdDrivî_H__
+
+
+	)
+
+30 
+	~<°dboﬁ.h
+>
+
+32 #ifde‡
+__˝lu•lus
+
+
+36 
+	ecﬁour
+
+
+37 { 
+ªd
+ = 0xff0000,
+
+38 
+gªí
+ = 0x00ff00,
+
+39 
+blue
+ = 0x0000ff,
+
+40 
+cy™
+ = 0x00ffff,
+
+41 
+m¨gíè
+ = 0xff00ff,
+
+42 
+yñlow
+ = 0xffff00,
+
+43 
+‹™ge
+ = 0xff1000,
+
+44 
+whôe
+ = 0xffffff,
+
+45 
+bœck
+ = 0x000000,
+
+46 
+noSñe˘i⁄
+ = 0x000000,
+
+47 } 
+	tcﬁour
+;
+
+49 
+	#MADCTLH‹iz⁄èlRGB
+ 0x28
+
+	)
+
+60 
+uöt16_t
+ 
+TFT_HEIGHT
+();
+
+65 
+uöt16_t
+ 
+TFT_WIDTH
+();
+
+71 
+uöt32_t
+ 
+TFT_MaxPixñCou¡
+();
+
+83 
+TFT_SèπupILI9341
+();
+
+106 
 TFT_NOP
 ();
 
-196 
+127 
 TFT_So·w¨eRe£t
 ();
 
-209 
+140 
 TFT_Di•œyOn
 ();
 
-222 
+153 
 TFT_Di•œyOff
 ();
 
-240 
+171 
 TFT_E¡îSÀïMode
 ();
 
-264 
+195 
 TFT_SÀïOut
 ();
 
-279 
+210 
 TFT_Di•œyInvîsi⁄ON
 ();
 
-291 
+222 
 TFT_Di•œyInvîsi⁄OFF
 ();
 
-304 
+235 
 TFT_IdÀModeON
 ();
 
-315 
+246 
 TFT_IdÀModeOFF
 ();
 
-347 
+258 
+TFT_InvîtOrõ¡
+();
+
+272 
+TFT_Mem‹yAc˚ssC⁄åﬁ
+(
+uöt8_t
+ 
+wrôeMADCTL
+);
+
+279 
+TFT_PixñF‹m©
+(
+uöt8_t
+ 
+pixñF‹m©
+);
+
+286 
+TFT_RGBI¡îÁ˚Sig«lC⁄åﬁ
+(
+uöt8_t
+ 
+¸éRGB
+);
+
+321 
 TFT_CﬁumnAddªssSë
 (
 uöt16_t
@@ -75813,7 +76179,7 @@ SC
 EC
 );
 
-376 
+350 
 TFT_PageAddªssSë
 (
 uöt16_t
@@ -75823,301 +76189,385 @@ SP
 EP
 );
 
-397 
+357 
+TFT_Re‰ameAddrSë
+(
+uöt16_t
+ 
+À·Pos
+, uöt16_à
+rightPos
+, uöt16_à
+t›Pos
+, uöt16_à
+bŸtomPos
+);
+
+363 
+TFT_Di•œyCÀ¨WôhCﬁour
+(
+uöt32_t
+ 
+£lCﬁour
+);
+
+387 
 TFT_Mem‹yWrôe
 (
 uöt32_t
  
 d©a
 , uöt32_à
-Àngth
+nmbOfPixñ
 );
 
-442 
+432 
 TFT_Mem‹yWrôeC⁄töue
 (
 uöt32_t
  
 d©a
 , uöt32_à
-amou¡
+nmbOfPixñ
 );
 
-449 
-TFT_PixñF‹m©
-(
-uöt8_t
- 
-f‹m©
-);
-
-456 
-TFT_RGBI¡îÁ˚Sig«lC⁄åﬁ
-(
-uöt8_t
- 
-¸é
-);
-
-468 
-TFT_InvîtOrõ¡
-();
-
-479 
-TFT_Mem‹yAc˚ssC⁄åﬁ
-(
-uöt8_t
- 
-wrôeMADCTL
-);
-
-494 
+449 
 uöt32_t
  
 TFT_RódDi•œyIdítInfo
 ();
 
-502 
+457 
 uöt32_t
  
 TFT_RódDi•œySètus
 ();
 
-510 
+465 
+uöt32_t
+ 
+TFT_RódDi•œyPowîMode
+();
+
+473 
 uöt32_t
  
 TFT_RódDi•œyMADCTL
 ();
 
-572 
-	eILI9341_API_FUNCTION_ID
- {
+481 
+uöt32_t
+ 
+TFT_RódDi•œyPixñF‹m©
+();
 
-573 
-‚_INIT_ILI9341
-,
+489 
+uöt32_t
+ 
+TFT_RódDi•œyImageF‹m©
+();
 
-574 
-‚_SETOUTPUT
-,
+497 
+uöt32_t
+ 
+TFT_RódDi•œySig«lMode
+();
 
-575 
-‚_SETINPUT
-,
+505 
+uöt32_t
+ 
+TFT_RódDi•œySñfDügno°icResu…
+();
 
-576 
-‚_ISOUTPUT
-,
-
-577 
-‚_WRITE_8BIT_TO_PORT
-,
-
-578 
-‚_READ_8BIT_FROM_PORT
-,
-
-579 
-‚_START_CYCLE
-,
-
-580 
-‚_END_CYCLE
-,
-
-581 
-‚_WRITE_CMD
-,
-
-582 
-‚_WRITE_DATA
-,
-
-583 
-‚_TFT_READ_DATA
-,
-
-584 
-‚_TFT_NOP
-,
-
-585 
-‚_TFT_SOFTWARERESET
-,
-
-586 
-‚_TFT_DISPLAYON
-,
-
-587 
-‚_TFT_DISPLAYOFF
-,
-
-588 
-‚_TFT_ENTERSLEEPMODE
-,
-
-589 
-‚_TFT_SLEEPOUT
-,
-
-590 
-‚_TFT_DISPLAYINVERSIONON
-,
-
-591 
-‚_TFT_DISPLAYINVERSIONOFF
-,
-
-592 
-‚_TFT_IDLEMODEON
-,
-
-593 
-‚_TFT_IDLEMODEOFF
-,
-
-594 
-‚_TFT_COLUMNADDRESSSET
-,
-
-595 
-‚_TFT_PAGEADDRESSSET
-,
-
-596 
-‚_TFT_MEMORYWRITE
-,
-
-597 
-‚_TFT_MEMORYWRITECONTINUE
-,
-
-598 
-‚_TFT_PIXELFORMAT
-,
-
-599 
-‚_TFT_RGBINTERFACESIGNALCONTROL
-,
-
-600 
-‚_TFT_INVERTORIENT
-,
-
-601 
-‚_MAX
-
-
-603 * 
-TFT_Di•©chTabÀ
-[
-‚_MAX
-];
-
-605 
+602 
 	eILI9341_API_CMD_ID
  {
 
+604 
+cmd_TFT_STARTUPILI9341
+,
+
+605 
+cmd_TFT_NOP
+,
+
 606 
-	gcmd_INIT_ILI9341
+cmd_TFT_SOFTWARERESET
 ,
 
 607 
-	gcmd_TFT_NOP
+cmd_TFT_DISPLAYON
 ,
 
 608 
-	gcmd_TFT_SOFTWARERESET
+cmd_TFT_DISPLAYOFF
 ,
 
 609 
-	gcmd_TFT_DISPLAYON
+cmd_TFT_ENTERSLEEPMODE
 ,
 
 610 
-	gcmd_TFT_DISPLAYOFF
+cmd_TFT_SLEEPOUT
 ,
 
 611 
-	gcmd_TFT_ENTERSLEEPMODE
+cmd_TFT_DISPLAYINVERSIONON
 ,
 
 612 
-	gcmd_TFT_SLEEPOUT
+cmd_TFT_DISPLAYINVERSIONOFF
 ,
 
 613 
-	gcmd_TFT_DISPLAYINVERSIONON
+cmd_TFT_IDLEMODEON
 ,
 
 614 
-	gcmd_TFT_DISPLAYINVERSIONOFF
+cmd_TFT_IDLEMODEOFF
 ,
 
 615 
-	gcmd_TFT_IDLEMODEON
-,
-
-616 
-	gcmd_TFT_IDLEMODEOFF
-,
-
-617 
-	gcmd_TFT_COLUMNADDRESSSET
+cmd_TFT_INVERTORIENT
 ,
 
 618 
-	gcmd_TFT_PAGEADDRESSSET
+cmd_TFT_MEMORYACCESSCONTROL
 ,
 
 619 
-	gcmd_TFT_MEMORYWRITE
+cmd_TFT_PIXELFORMAT
 ,
 
 620 
-	gcmd_TFT_MEMORYWRITECONTINUE
-,
-
-621 
-	gcmd_TFT_PIXELFORMAT
-,
-
-622 
-	gcmd_TFT_RGBINTERFACESIGNALCONTROL
+cmd_TFT_RGBINTERFACESIGNALCONTROL
 ,
 
 623 
-	gcmd_TFT_INVERTORIENT
+cmd_TFT_COLUMNADDRESSSET
 ,
 
 624 
-	gcmd_MAX
+cmd_TFT_PAGEADDRESSSET
+,
+
+627 
+cmd_TFT_DISPLAYCLEAR_WITHCOLOUR
+,
+
+630 
+cmd_TFT_MEMORYWRITE
+,
+
+631 
+cmd_TFT_MEMORYWRITECONTINUE
+,
+
+634 
+cmd_TFT_READDISPLAY_IDENTINFO
+,
+
+635 
+cmd_TFT_READDISPLAY_STATUS
+,
+
+636 
+cmd_TFT_READDISPLAY_POWERMODE
+,
+
+637 
+cmd_TFT_READDISPLAY_MACCTL
+,
+
+638 
+cmd_TFT_READDISPLAY_PIXELFORMAT
+,
+
+639 
+cmd_TFT_READDISPLAY_IMAGEFORMAT
+,
+
+640 
+cmd_TFT_READDISPLAY_SIGNALMODE
+,
+
+641 
+cmd_TFT_READDISPLAY_SELFDIAGNOSTICRESULT
+,
+
+644 
+cmd_TFT_REFRAMEADDRSET
+,
+
+645 
+cmd_MAX
 
 
-626 * 
+647 * 
 TFT_CmdTabÀ
 [
 cmd_MAX
 ];
 
-628 
+650 
 	tTFT_Cmd2P¨am
  (
 	tuöt32_t
 , uint32_t);
 
-633 
+652 
+	tTFT_CmdVoid
+();
+
+654 
+	tTFT_Cmd4P¨am
+ (
+	tuöt16_t
+, uint16_t, uint16_t, uint16_t);
+
+659 
 	#noTFTCmd
  -1
 
 	)
 
-635 #ifde‡
+661 #ifde‡
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\cmsisAddon.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\can.h
+
+1 #i‚de‡
+CAN_H__
+
+
+2 
+	#CAN_H__
+
+
+	)
+
+4 
+	#CAN_NMTID
+ 0x00
+
+	)
+
+5 
+	#CAN_A˘‹ID
+ 0x201
+
+	)
+
+6 
+	#CAN_Sís‹ID
+ 0x181
+
+	)
+
+8 
+	#CAN_NMTSèπ
+ 0x01
+
+	)
+
+9 
+	#CAN_NMTAŒNodes
+ 0x00
+
+	)
+
+11 
+	#CAN_DLC_0
+ 0
+
+	)
+
+12 
+	#CAN_DLC_1
+ 1
+
+	)
+
+13 
+	#CAN_DLC_2
+ 2
+
+	)
+
+14 
+	#CAN_DLC_3
+ 3
+
+	)
+
+15 
+	#CAN_DLC_4
+ 4
+
+	)
+
+16 
+	#CAN_DLC_5
+ 5
+
+	)
+
+17 
+	#CAN_DLC_6
+ 6
+
+	)
+
+18 
+	#CAN_DLC_7
+ 7
+
+	)
+
+19 
+	#CAN_DLC_8
+ 8
+
+	)
+
+26 
+CAN_Inô4Modñs
+();
+
+28 
+uöt8_t
+ 
+CAN_TønsmôMsg
+(
+uöt16_t
+ 
+ˇnId
+, uöt8_à*
+ˇnD©a
+, uöt8_à
+ˇnDlc
+);
+
+30 
+uöt8_t
+ 
+CAN_NMTC⁄√˘
+();
+
+32 
+uöt32_t
+ 
+	gMsg_ID
+;
+
+34 
+uöt8_t
+ 
+	gD©a
+[3];
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\cmsisAddon.h
 
 4 #i‚de‡
 CMSISADDON_H
@@ -76145,7 +76595,7 @@ uöt16_t
 
 	)
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\global.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\global.h
 
 4 #i‚de‡
 GLOBAL_H
@@ -76161,39 +76611,63 @@ GLOBAL_H
 	~"°m32f10x_c⁄f.h
 "
 
-8 
+9 
 	~"¥oje˘.h
 "
 
-10 
+11 
 	~<°dlib.h
 >
 
-11 
+12 
 	~<°rög.h
 >
 
-12 
+13 
 	~<°döt.h
 >
 
-13 
+14 
 	~<öây≥s.h
 >
 
-14 
+15 
 	~<°dboﬁ.h
 >
 
 16 
-	~"ILI9341.h
+	~<°dio.h
+>
+
+20 
+	~"ILI9341_BusCy˛es.h
 "
 
-17 
+21 
+	~"ILI9341_CmdDrivî.h
+"
+
+22 
+	~"F⁄t.h
+"
+
+23 
 	~"cmsisAdd⁄.h
 "
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\project.h
+24 
+	~"ˇn.h
+"
+
+25 
+	~"simModñ.h
+"
+
+26 
+	~"schrôtmŸ‹.h
+"
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\project.h
 
 4 #i‚de‡
 PROJECT_H
@@ -76205,161 +76679,483 @@ PROJECT_H
 
 	)
 
-12 
-	#åue
- 1
-
-	)
-
-13 
-	#Ál£
- 0
-
-	)
+7 
+	~"ILI9341_CmdDrivî.h
+"
 
 14 
-	#°¨t
+	#TRUE
  1
 
 	)
 
 15 
-	#°›
+	#FALSE
  0
 
 	)
 
 16 
-	#high
+	#START
  1
 
 	)
 
 17 
-	#low
+	#STOP
  0
 
 	)
 
 18 
-	#⁄
+	#HIGH
  1
 
 	)
 
 19 
-	#off
+	#LOW
  0
 
 	)
 
 20 
-	#ía
+	#ON
  1
 
 	)
 
 21 
-	#dißbÀ
+	#OFF
  0
 
 	)
 
 22 
-	#a˘ive
+	#ENA
  1
 
 	)
 
 23 
-	#öa˘ive
+	#DISABLE
  0
 
 	)
 
 24 
-	#f‹w¨ds
- 0x01
+	#ACTIVE
+ 1
 
 	)
 
 25 
-	#numOfRows
+	#INACTIVE
+ 0
+
+	)
+
+26 
+	#FORWARDS
+ 0x01
+
+	)
+
+27 
+	#NUMOFROWS
  240
 
 	)
 
-27 
-	ecﬁour
-
-
-28 { 
-	mªd
- = 0xff0000,
-
-29 
-	mgªí
- = 0x00ff00,
-
-30 
-	mblue
- = 0x0000ff,
-
-31 
-	mn⁄e
- = 0x000000,
-
-32 } 
-	tcﬁour
-;
-
-34 
+30 
 	ecmd
 
 
-36 
+32 
 	mrdMADCTLToggÀRGB
 ,
 
-37 
+33 
 	mrdDi•œySevîÆD©a
 ,
 
-38 
+34 
 	mwrDi•œyInvîsi⁄
 ,
 
+35 
+	mrdCh™geDi•D©aDú
+,
+
+36 
+	mwrCﬁourRowsAndText2TFT
+,
+
+37 
+	mwrText2TFT
+,
+
+38 
+	mwrSåög1ToTFT
+,
+
 39 
+	mwrSåög2ToTFT
+,
+
+40 
 	mnoCmd
 ,
 
-40 } 
+41 } 
 	tcmd
 ;
 
-45 
-cﬁour
- 
-£lCﬁour
-;
-
-46 
-cmd
- 
-£lCmd
-;
-
-47 
-uöt32_t
- 
-addrT·Cmd
-;
-
-51 
+49 
 Proje˘Inô
 ( );
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\stm32f10x.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\schrittmotor.h
+
+5 #i‚de‡
+SCHRITTMOTOR_H
+
+
+6 
+	#SCHRITTMOTOR_H
+
+
+	)
+
+8 
+	#SMOT_NODE_ID
+ 0x15
+
+9 
+	#SMOT_DI_ID
+ 0x195
+
+10 
+	#SMOT_AI_ID
+ 0x395
+
+11 
+	#SMOT_DO_ID
+ 0x215
+
+12 
+	#SMOT_AO_ID
+ 0x415
+
+13 
+	#SMOT_STATUS_ID
+ 0x715
+
+	)
+
+17 
+	#SMOT_BERO_PARKED
+ 0x01
+
+	)
+
+18 
+	#SMOT_BERO_DELIVERY
+ 0x02
+
+	)
+
+19 
+	#SMOT_REF_DELIVER_SLIDER
+ 0x04
+
+	)
+
+22 
+	#SMOT_SB
+ 0xFF0000
+
+23 
+	#SMOT_AI_K1_LB
+ 0x00FF00
+
+24 
+	#SMOT_AI_K1_HB
+ 0x0000FF
+
+25 
+	#SMOT_AI_STOPPING
+ 0x02
+
+	)
+
+28 
+	#SMOT_UNLOCK_SLIDER
+ 0x20
+
+	)
+
+29 
+	#SMOT_INVERT_MOTOR
+ 0x10
+
+	)
+
+30 
+	#SMOT_DEL_BELT_NEG
+ 0x08
+
+	)
+
+31 
+	#SMOT_DEL_BELT_POS
+ 0x04
+
+	)
+
+32 
+	#SMOT_PAR_BELT_NEG
+ 0x02
+
+	)
+
+33 
+	#SMOT_PAR_BELT_POS
+ 0x01
+
+	)
+
+36 
+	#SMOT_CB
+ 0xFF0000
+
+37 
+	#SMOT_CB_FREQ
+ 0x01
+
+38 
+	#SMOT_CB_RAMP_OFF
+ 0x02
+
+	)
+
+39 
+	#SMOT_CB_DRIVE_TO_VALUE
+ 0x04
+
+	)
+
+40 
+	#SMOT_CB_CLEAR_COUNTER
+ 0x20
+
+	)
+
+41 
+	#SMOT_CB_TRANSMIT_DATA
+ 0x80
+
+	)
+
+42 
+	#SMOT_AO_K1_LB
+ 0x00FF00
+
+43 
+	#SMOT_AO_K1_HB
+ 0x0000FF
+
+44 
+
+	)
+
+46 
+	#SMOT_ENDPOS
+ 0x20CB
+
+47 
+	#SMOT_SPEED_DEFAULT
+ 0x012C
+
+48 
+
+	)
+
+49 
+	edúe˘i⁄
+
+
+51 
+	mX_NEGATIVE
+ = 0,
+
+52 
+	mX_POSITIVE
+
+
+54 
+	tdúe˘i⁄_t
+;
+
+56 
+boﬁ
+ 
+ENT_Ródy_To_Give
+;
+
+59 
+SMOT_Inô
+();
+
+60 
+SMOT_Upd©e
+();
+
+61 
+SMOT_Tick
+();
+
+62 
+SMOT_MŸ‹_Sèπ
+();
+
+63 
+uöt16_t
+ 
+uöt8s_To_uöt16
+(
+uöt8_t
+ 
+msb
+,uöt8_à
+lsb
+);
+
+64 
+boﬁ
+ 
+SMOT_RóchedEndPos
+();
+
+65 
+boﬁ
+ 
+SMOT_St›
+();
+
+66 
+boﬁ
+ 
+SMOT_GŸo
+(
+uöt16_t
+ 
+pos
+, uöt16_à
+•ìd
+, 
+dúe˘i⁄_t
+ 
+dú
+);
+
+68 
+uöt16_t
+ 
+Byãs_To_I¡
+(
+uöt8_t
+ 
+toSw≠1
+, uöt8_à
+toSw≠2
+);
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\simModel.h
+
+8 #i‚de‡
+SIMMODEL_H__
+
+
+9 
+	#SIMMODEL_H__
+
+
+	)
+
+12 
+	#CAN_NMTID
+ 0x00
+
+	)
+
+13 
+	#SIM_MODEL_ACTOR_DO
+ 0x201
+
+	)
+
+14 
+	#SIM_MODEL_SENSOR_DI
+ 0x181
+
+	)
+
+16 
+	#TFTRe‰ameOn
+ 1
+
+	)
+
+17 
+	#TFTRe‰ameOff
+ 0
+
+	)
+
+19 
+	#MODEL_DLC
+ 
+CAN_DLC_1
+
+
+	)
+
+28 
+boﬁ
+ 
+	gÊagOnhﬁdTønsmô
+;
+
+29 
+boﬁ
+ 
+	gÊagReque°TønsmôNMT
+;
+
+30 
+boﬁ
+ 
+	gÊagReque°TønsmôPL
+;
+
+38 
+SIM_Inô
+();
+
+39 
+SIM_Modñ_Re˚iveMsg
+(
+C™RxMsg
+* 
+RxMesßge
+);
+
+40 
+SIM_Modñ_TønsmôNewD©a
+();
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\stm32f10x.h
 
 56 #i‚de‡
 __STM32F10x_H
@@ -123373,7 +124169,7 @@ SETMASK
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\stm32f10x_conf.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\stm32f10x_conf.h
 
 23 #i‚de‡
 __STM32F10x_CONF_H
@@ -123517,7 +124313,7 @@ ex¥
 
 	)
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\system_stm32f10x.h
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\system_stm32f10x.h
 
 33 #i‚de‡
 __SYSTEM_STM32F10X_H
@@ -123551,7 +124347,7 @@ Sy°emC‹eClockUpd©e
 __˝lu•lus
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\readme.txt
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\readme.txt
 
 1 
 You
@@ -123627,39 +124423,1003 @@ ORIGIN
 	gLENGTH
  = 0x01000
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\ILI9341.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\FS_Kommissionierung.c
 
-13 
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\Font.c
+
+18 
 	~"globÆ.h
 "
 
-20 
+20 
+F⁄tDef
+ 
+	gF⁄t_7x10
+;
+
+21 
+F⁄tDef
+ 
+	gF⁄t_11x18
+;
+
+22 
+F⁄tDef
+ 
+	gF⁄t_16x26
+;
+
+24 
+uöt16_t
+ 
+	gF⁄t7x10
+[] = {
+
+122 
+uöt16_t
+ 
+	gF⁄t11x18
+[] = {
+
+220 
+uöt16_t
+ 
+	gF⁄t16x26
+[] = {
+
+319 
+	$TFT_F⁄tInô
+()
+
+321 
+F⁄t_7x10
+.
+d©a
+ = 
+F⁄t7x10
+;
+
+322 
+F⁄t_7x10
+.
+F⁄tHeight
+ = 10;
+
+323 
+F⁄t_7x10
+.
+F⁄tWidth
+ = 7;
+
+325 
+F⁄t_11x18
+.
+d©a
+ = 
+F⁄t11x18
+;
+
+326 
+F⁄t_11x18
+.
+F⁄tHeight
+ = 18;
+
+327 
+F⁄t_11x18
+.
+F⁄tWidth
+ = 11;
+
+329 
+F⁄t_16x26
+.
+d©a
+ = 
+F⁄t16x26
+;
+
+330 
+F⁄t_16x26
+.
+F⁄tHeight
+ = 26;
+
+331 
+F⁄t_16x26
+.
+F⁄tWidth
+ = 16;
+
+332 
+	}
+}
+
+337 
+uöt16_t
+ 
+	gmX
+ = 0;
+
+338 
+uöt16_t
+ 
+	gmY
+ = 0;
+
+343 
+uöt16_t
+ 
+	$TFT_TextGëCurs‹X
+() {
+
+344  
+mX
+;
+
+345 
+	}
+}
+
+347 
+uöt16_t
+ 
+	$TFT_TextGëCurs‹Y
+() {
+
+348  
+mY
+;
+
+349 
+	}
+}
+
+352 
+	$TFT_TextSëCurs‹Posôi⁄
+(
+size_t
+ 
+x1
+, size_à
+y1
+, size_à
+x2
+, size_à
+y2
+) {
+
+354 
+	`TFT_CﬁumnAddªssSë
+(
+x1
+, 
+x2
+);
+
+355 
+	`TFT_PageAddªssSë
+(
+y1
+, 
+y2
+);
+
+357 
+	}
+}
+
+359 
+	$TFT_TextGëCurs‹Posôi⁄
+(
+size_t
+* 
+x1
+, size_t* 
+y1
+, size_t* 
+x2
+, size_t* 
+y2
+) {
+
+365 
+	}
+}
+
+367 
+	$TFT_TextDøwPixñ
+(
+uöt16_t
+ 
+x
+, uöt16_à
+y
+, 
+uöt32_t
+ 
+cﬁ‹
+) {
+
+368 
+	`TFT_TextSëCurs‹Posôi⁄
+(
+x
+, 
+y
+, x, y);
+
+370 
+	`TFT_Mem‹yWrôe
+(
+cﬁ‹
+, 1);
+
+371 
+	}
+}
+
+373 
+	$TFT_TextPutc
+(
+c
+, 
+F⁄tDef
+ *
+f⁄t
+, 
+uöt32_t
+ 
+f‹eground
+, uöt32_à
+background
+) {
+
+376 i‡(
+f⁄t
+ =
+NULL
+)
+
+377 
+f⁄t
+ = &
+F⁄t_11x18
+;
+
+379 i‡((
+mX
+ + 
+f⁄t
+->
+F⁄tWidth
+Ë> 
+	`TFT_HEIGHT
+()) {
+
+381 
+mY
+ +
+f⁄t
+->
+F⁄tHeight
+;
+
+382 
+mX
+ = 0;
+
+392 
+uöt32_t
+ 
+i
+ = 0; i < 
+f⁄t
+->
+F⁄tHeight
+; i++) {
+
+394 
+uöt32_t
+ 
+b
+ = 
+f⁄t
+->
+d©a
+[(
+c
+ - 32Ë* f⁄t->
+F⁄tHeight
+ + 
+i
+];
+
+396 
+uöt32_t
+ 
+j
+ = 0; j < 
+f⁄t
+->
+F⁄tWidth
+; j++) {
+
+398 i‡((
+b
+ << 
+j
+) & 0x8000) {
+
+399 
+	`TFT_TextDøwPixñ
+(
+mX
+ + 
+j
+, 
+mY
+ + 
+i
+, 
+f‹eground
+);
+
+402 
+	`TFT_TextDøwPixñ
+(
+mX
+ + 
+j
+, 
+mY
+ + 
+i
+, 
+background
+);
+
+407 
+mX
+ +
+f⁄t
+->
+F⁄tWidth
+;
+
+408 
+	}
+}
+
+411 
+	$TFT_TextPuts
+(*
+°r
+, 
+F⁄tDef
+ *
+f⁄t
+, 
+uöt32_t
+ 
+f‹eground
+, uöt32_à
+background
+) {
+
+412 i‡(
+f⁄t
+ =
+NULL
+)
+
+413 
+f⁄t
+ = &
+F⁄t_11x18
+;
+
+416 *
+°r
+) {
+
+419 i‡(*
+°r
+ == '\n') {
+
+420 
+mY
+ +
+f⁄t
+->
+F⁄tHeight
+;
+
+423 i‡(*(
+°r
+ + 1) == '\r') {
+
+424 
+mX
+ = 0;
+
+425 
+°r
+++;
+
+428 
+mX
+ = 0;
+
+430 
+°r
+++;
+
+433 i‡(*
+°r
+ == '\r') {
+
+434 
+°r
+++;
+
+438 
+	`TFT_TextPutc
+(*
+°r
+++, 
+f⁄t
+, 
+f‹eground
+, 
+background
+);
+
+440 
+	}
+}
+
+442 
+	$TFT_TextGëSåögSize
+(*
+°r
+, 
+F⁄tDef
+ *
+f⁄t
+, 
+uöt16_t
+ *
+width
+, uöt16_à*
+height
+) {
+
+443 i‡(
+f⁄t
+ =
+NULL
+)
+
+444 
+f⁄t
+ = &
+F⁄t_11x18
+;
+
+445 
+uöt16_t
+ 
+w
+ = 0;
+
+446 *
+height
+ = 
+f⁄t
+->
+F⁄tHeight
+;
+
+447 *
+°r
+++) {
+
+448 
+w
+ +
+f⁄t
+->
+F⁄tWidth
+;
+
+450 *
+width
+ = 
+w
+;
+
+451 
+	}
+}
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\ILI9341_BusCycles.c
+
+34 
+	~"globÆ.h
+"
+
+36 
 	eTFT_Pö
 
 
-22 
+38 
 	mD
  = 0x00FF,
 
-23 
+39 
 	mRDX
  = 0x0400,
 
-24 
+40 
 	mWRX
  = 0x0800,
 
-25 
+41 
 	mDCX
  = 0x1000,
 
-28 
+44 
 	mCSX
  = 0x8000,
 
-29 
+45 
 	mRESX
  = 0x0100
+
+53 
+	$TFT_InôILI9341
+() {
+
+54 
+RCC
+->
+APB2ENR
+ |
+RCC_APB2Pîùh_GPIOE
+;
+
+56 
+GPIO_InôTy≥Def
+ 
+GPIOE_InôSåu˘uª
+;
+
+57 
+GPIOE_InôSåu˘uª
+.
+GPIO_Pö
+ = 
+GPIO_Pö_AŒ
+;
+
+58 
+GPIOE_InôSåu˘uª
+.
+GPIO_Mode
+ = 
+GPIO_Mode_Out_PP
+;
+
+59 
+GPIOE_InôSåu˘uª
+.
+GPIO_S≥ed
+ = 
+GPIO_S≥ed_50MHz
+;
+
+60 
+	`GPIO_Inô
+(
+GPIOE
+, &
+GPIOE_InôSåu˘uª
+);
+
+62 
+GPIOE
+->
+BSRR
+ = 
+GPIO_Pö_AŒ
+;
+
+63 
+	}
+}
+
+70 
+	$TFT_Wrôe8bôToP‹t
+(
+uöt8_t
+ 
+P0_7
+)
+
+73 i‡(
+	`TFT_IsOuçut
+())
+
+75 
+GPIOE
+->
+ODR
+ &= 0xFF00;
+
+76 
+GPIOE
+->
+ODR
+ |
+P0_7
+;
+
+78 
+	}
+}
+
+79 
+uöt8_t
+ 
+	$TFT_Ród8bôFromP‹t
+()
+
+82 i‡(!
+	`TFT_IsOuçut
+())
+
+84  (
+uöt8_t
+Ë
+GPIOE
+->
+IDR
+;
+
+87 
+	}
+}
+
+88 
+	$TFT_SèπCy˛e
+()
+
+90 
+GPIOE
+->
+ODR
+ = 0x7F00;
+
+91 
+	}
+}
+
+92 
+	$TFT_EndCy˛e
+()
+
+94 
+GPIOE
+->
+ODR
+ = 0xFF00;
+
+95 
+	}
+}
+
+97 
+	$TFT_SëOuçut
+(Ë{ 
+GPIOE
+->
+CRL
+ = 0x33333333; 
+	}
+}
+
+98 
+	$TFT_SëI≈ut
+(Ë{ 
+GPIOE
+->
+CRL
+ = 0x44444444; 
+	}
+}
+
+99 
+boﬁ
+ 
+	$TFT_IsOuçut
+(Ë{  (
+GPIOE
+->
+CRL
+ =0x33333333Ë? 
+åue
+ : 
+Ál£
+; 
+	}
+}
+
+101 
+	$TFT_WrôeCmd
+(
+uöt8_t
+ 
+CMD
+)
+
+103 
+	`TFT_SëOuçut
+();
+
+104 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+DCX
+, 
+Bô_RESET
+);
+
+105 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+WRX
+, 
+Bô_RESET
+);
+
+106 
+	`TFT_Wrôe8bôToP‹t
+(
+CMD
+);
+
+107 
+	`__NOP
+();
+
+108 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+WRX
+, 
+Bô_SET
+);
+
+109 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+DCX
+, 
+Bô_SET
+);
+
+110 
+	}
+}
+
+111 
+	$TFT_WrôeD©a
+(
+uöt8_t
+ 
+DATA
+)
+
+113 
+	`TFT_SëOuçut
+();
+
+114 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+WRX
+, 
+Bô_RESET
+);
+
+115 
+	`TFT_Wrôe8bôToP‹t
+(
+DATA
+);
+
+116 
+	`__NOP
+();
+
+117 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+WRX
+, 
+Bô_SET
+);
+
+119 
+	`TFT_SëOuçut
+();
+
+120 
+	}
+}
+
+121 
+uöt32_t
+ 
+	$TFT_RódFú°InvÆidD©a
+()
+
+123  
+	`TFT_RódD©a
+();
+
+124 
+	}
+}
+
+125 
+uöt32_t
+ 
+	$TFT_RódD©a
+()
+
+127 
+	`TFT_SëI≈ut
+();
+
+128 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+WRX
+, 
+Bô_SET
+);
+
+129 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+RDX
+, 
+Bô_RESET
+);
+
+132 
+i
+ = 0; i < 5; i++Ë
+	`__NOP
+();
+
+133 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+RDX
+, 
+Bô_SET
+);
+
+135  
+	`TFT_Ród8bôFromP‹t
+();
+
+136 
+	}
+}
+
+138 
+uöt32_t
+ 
+	$TFT_RódLa°D©a
+()
+
+140 
+uöt8_t
+ 
+tmpRódVÆidD©a
+ = 0;
+
+141 
+	`TFT_SëI≈ut
+();
+
+142 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+WRX
+, 
+Bô_SET
+);
+
+143 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+RDX
+, 
+Bô_RESET
+);
+
+146 
+i
+ = 0; i < 5; i++Ë
+	`__NOP
+();
+
+149 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+CSX
+, 
+Bô_SET
+);
+
+150 
+tmpRódVÆidD©a
+ = 
+	`TFT_Ród8bôFromP‹t
+();
+
+151 
+	`GPIO_WrôeBô
+(
+GPIOE
+, 
+RDX
+, 
+Bô_SET
+);
+
+153  
+tmpRódVÆidD©a
+;
+
+154 
+	}
+}
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\ILI9341_CmdDriver.c
+
+31 
+	~"globÆ.h
+"
 
 36 
 	eTFT_Comm™d
@@ -123682,776 +125442,556 @@ ORIGIN
  = 0x09,
 
 42 
-	mRDDMADCTL
- = 0x0b,
+	mRDDPM
+,
 
 43 
-	mDISPLAYON
- = 0x29,
+	mRDDMADCTL
+,
 
 44 
-	mDISPLAYOFF
- = 0x28,
+	mRDDCOLMOD
+,
 
 45 
-	mENTERSLEEPMODE
- = 0x10,
+	mRDDIM
+,
 
 46 
-	mLEAVESLEEPMODE
+	mRDDSM
 ,
 
 47 
+	mRDDSDR
+,
+
+48 
+	mENTERSLEEPMODE
+ = 0x10,
+
+49 
+	mLEAVESLEEPMODE
+,
+
+50 
 	mDISPLAYINVERSION_OFF
  = 0x20,
 
-48 
+51 
 	mDISPLAYINVERSION_ON
 ,
 
-49 
-	mIDLEMODE_OFF
- = 0x38,
-
-50 
-	mIDLEMODE_ON
-,
-
-51 
-	mCOLUMNADDRESS_SET
- = 0x2a,
-
 52 
-	mPAGEADDRESS_SET
-,
+	mDISPLAYOFF
+ = 0x28,
 
 53 
-	mMEMORYWRITE
+	mDISPLAYON
 ,
 
 54 
+	mCOLUMNADDRESS_SET
+ = 0x2a,
+
+55 
+	mPAGEADDRESS_SET
+,
+
+56 
+	mMEMORYWRITE
+,
+
+57 
 	mMEMORYACCESS_CONTROL
  = 0x36,
 
-55 
-	mMEMORYWRITE_CONTINUE
- = 0x3c,
+58 
+	mIDLEMODE_OFF
+ = 0x38,
 
-56 
+59 
+	mIDLEMODE_ON
+,
+
+60 
 	mPIXELFORMAT
  = 0x3a,
 
-57 
+61 
+	mMEMORYWRITE_CONTINUE
+ = 0x3c,
+
+62 
 	mRGB_INTERFACE_SIGNAL_CONTROL
  = 0xb0,
 
-67 
-	$TFT_Inô_ILI9341
+65 c⁄° 
+uöt16_t
+ 
+	gILI9341_WIDTH
+ = 240-1;
+
+66 c⁄° 
+uöt16_t
+ 
+	gILI9341_HEIGHT
+ = 320-1;
+
+67 c⁄° 
+uöt32_t
+ 
+	gILI9341_PIXEL
+ = 76800;
+
+69 
+uöt16_t
+ 
+	$TFT_HEIGHT
 () {
 
-68 
-RCC
-->
-APB2ENR
- |
-RCC_APB2Pîùh_GPIOE
+70  
+ILI9341_HEIGHT
 ;
 
 71 
-GPIO_InôTy≥Def
- 
-GPIOE_InôSåu˘uª
-;
+	}
+}
 
 73 
-GPIOE_InôSåu˘uª
-.
-GPIO_Pö
- = 
-GPIO_Pö_AŒ
-;
+uöt16_t
+ 
+	$TFT_WIDTH
+() {
 
-74 
-GPIOE_InôSåu˘uª
-.
-GPIO_Mode
- = 
-GPIO_Mode_Out_PP
+74  
+ILI9341_WIDTH
 ;
 
 75 
-GPIOE_InôSåu˘uª
-.
-GPIO_S≥ed
- = 
-GPIO_S≥ed_50MHz
-;
+	}
+}
 
-76 
-	`GPIO_Inô
-(
-GPIOE
-, &
-GPIOE_InôSåu˘uª
-);
+77 
+uöt32_t
+ 
+	$TFT_MaxPixñCou¡
+() {
 
-78 
-GPIOE
-->
-BSRR
- = 
-GPIO_Pö_AŒ
+78  
+ILI9341_PIXEL
 ;
 
 79 
 	}
 }
 
-80 
-	$TFT_Sèπup_ILI9341
+87 
+	$TFT_SèπupILI9341
 () {
 
-81 
-	`TFT_Inô_ILI9341
+88 
+	`TFT_InôILI9341
 ();
 
-82 
+89 
 	`TFT_So·w¨eRe£t
 ();
 
-83 
+90 
 	`TFT_Di•œyOn
 ();
 
-84 
+91 
 	`TFT_SÀïOut
 ();
 
-85 
-	`TFT_Di•œyInvîsi⁄ON
+92 
+	`TFT_Di•œyInvîsi⁄OFF
 ();
 
-86 
+93 
+	`TFT_Mem‹yAc˚ssC⁄åﬁ
+(
+MADCTLH‹iz⁄èlRGB
+);
+
+94 
+	`TFT_Re‰ameAddrSë
+(0, 
+	`TFT_HEIGHT
+(), 0, 
+	`TFT_WIDTH
+());
+
+95 
 	}
 }
 
-94 
-	$wrôe_8bô_to_P‹t
-(
-uöt8_t
- 
-P0_7
-)
-
-97 i‡(
-	`IsOuçut
-())
-
-99 
-GPIOE
-->
-ODR
- &= 0xFF00;
-
-100 
-GPIOE
-->
-ODR
- |
-P0_7
-;
-
-102 
-	}
-}
-
-103 
-uöt8_t
- 
-	$ªad_8bô_‰om_P‹t
-()
-
-106 i‡(!
-	`IsOuçut
-())
-
-108  (
-uöt8_t
-Ë
-GPIOE
-->
-IDR
-;
-
-110 
-	}
-}
-
-111 
-	$°¨t_cy˛e
-()
-
-113 
-GPIOE
-->
-ODR
- = 0x7F00;
-
-114 
-	}
-}
-
-115 
-	$íd_cy˛e
-()
-
-117 
-GPIOE
-->
-ODR
- = 0xFF00;
-
-118 
-	}
-}
-
-120 
-	$SëOuçut
-(Ë{ 
-GPIOE
-->
-CRL
- = 0x33333333; 
-	}
-}
-
-121 
-	$SëI≈ut
-(Ë{ 
-GPIOE
-->
-CRL
- = 0x44444444; 
-	}
-}
-
-122 
-boﬁ
- 
-	$IsOuçut
-(Ë{ 
-GPIOE
-->
-CRL
- =0x33333333 ? 
-åue
- : 
-Ál£
-; 
-	}
-};
-
-124 
-	$wrôe_cmd
-(
-uöt8_t
- 
-CMD
-)
-
-126 
-	`SëOuçut
-();
-
-127 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-DCX
-, 
-Bô_RESET
-);
-
-128 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-WRX
-, 
-Bô_RESET
-);
-
-129 
-	`wrôe_8bô_to_P‹t
-(
-CMD
-);
-
-130 
-	`__NOP
-();
-
-131 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-WRX
-, 
-Bô_SET
-);
-
-132 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-DCX
-, 
-Bô_SET
-);
-
-133 
-	}
-}
-
-134 
-	$wrôe_d©a
-(
-uöt8_t
- 
-DATA
-)
-
-136 
-	`SëOuçut
-();
-
-137 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-WRX
-, 
-Bô_RESET
-);
-
-138 
-	`wrôe_8bô_to_P‹t
-(
-DATA
-);
-
-139 
-	`__NOP
-();
-
-140 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-WRX
-, 
-Bô_SET
-);
-
-142 
-	`SëOuçut
-();
-
-143 
-	}
-}
-
-144 
-uöt32_t
- 
-	$TFT_RódFú°InvÆidD©a
-()
-
-146  
-	`TFT_RódD©a
-();
-
-147 
-	}
-}
-
-148 
-uöt32_t
- 
-	$TFT_RódD©a
-()
-
-150 
-	`SëI≈ut
-();
-
-151 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-WRX
-, 
-Bô_SET
-);
-
-152 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-RDX
-, 
-Bô_RESET
-);
-
-155 
-i
- = 0; i < 5; i++Ë
-	`__NOP
-();
-
-156 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-RDX
-, 
-Bô_SET
-);
-
-158  
-	`ªad_8bô_‰om_P‹t
-();
-
-159 
-	}
-}
-
-161 
-uöt32_t
- 
-	$TFT_RódLa°D©a
-()
-
-163 
-uöt8_t
- 
-tmpRódVÆidD©a
- = 0;
-
-164 
-	`SëI≈ut
-();
-
-165 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-WRX
-, 
-Bô_SET
-);
-
-166 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-RDX
-, 
-Bô_RESET
-);
-
-169 
-i
- = 0; i < 5; i++Ë
-	`__NOP
-();
-
-172 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-CSX
-, 
-Bô_SET
-);
-
-173 
-tmpRódVÆidD©a
- = 
-	`ªad_8bô_‰om_P‹t
-();
-
-174 
-	`GPIO_WrôeBô
-(
-GPIOE
-, 
-RDX
-, 
-Bô_SET
-);
-
-176  
-tmpRódVÆidD©a
-;
-
-177 
-	}
-}
-
-190 
+110 
 	$TFT_NOP
 ()
 
-192 
-	`°¨t_cy˛e
+112 
+	`TFT_SèπCy˛e
 ();
 
-193 
-	`wrôe_cmd
+113 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 NOP
 ));
 
-194 
-	`íd_cy˛e
+114 
+	`TFT_EndCy˛e
 ();
 
-195 
+115 
 	}
 }
 
-196 
+116 
 	$TFT_So·w¨eRe£t
 ()
 
-198 
-	`°¨t_cy˛e
+118 
+	`TFT_SèπCy˛e
 ();
 
-199 
-	`wrôe_cmd
+119 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 SWRESET
 ));
 
-200 
-	`íd_cy˛e
+120 
+	`TFT_EndCy˛e
 ();
 
-201 
+121 
 	}
 }
 
-202 
+122 
 	$TFT_Di•œyOn
 ()
 
-204 
-	`°¨t_cy˛e
+124 
+	`TFT_SèπCy˛e
 ();
 
-205 
-	`wrôe_cmd
+125 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 DISPLAYON
 ));
 
-206 
-	`íd_cy˛e
+126 
+	`TFT_EndCy˛e
 ();
 
-207 
+127 
 	}
 }
 
-208 
+128 
 	$TFT_Di•œyOff
 ()
 
-210 
-	`°¨t_cy˛e
+130 
+	`TFT_SèπCy˛e
 ();
 
-211 
-	`wrôe_cmd
+131 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 DISPLAYOFF
 ));
 
-212 
-	`íd_cy˛e
+132 
+	`TFT_EndCy˛e
 ();
 
-213 
+133 
 	}
 }
 
-214 
+134 
 	$TFT_E¡îSÀïMode
 ()
 
-216 
-	`°¨t_cy˛e
+136 
+	`TFT_SèπCy˛e
 ();
 
-217 
-	`wrôe_cmd
+137 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 ENTERSLEEPMODE
 ));
 
-218 
-	`íd_cy˛e
+138 
+	`TFT_EndCy˛e
 ();
 
-219 
+139 
 	}
 }
 
-220 
+140 
 	$TFT_SÀïOut
 ()
 
-222 
-	`°¨t_cy˛e
+142 
+	`TFT_SèπCy˛e
 ();
 
-223 
-	`wrôe_cmd
+143 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 LEAVESLEEPMODE
 ));
 
-224 
-	`íd_cy˛e
+144 
+	`TFT_EndCy˛e
 ();
 
-225 
+145 
 	}
 }
 
-226 
+146 
 	$TFT_Di•œyInvîsi⁄ON
 ()
 
-228 
-	`°¨t_cy˛e
+148 
+	`TFT_SèπCy˛e
 ();
 
-229 
-	`wrôe_cmd
+149 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 DISPLAYINVERSION_ON
 ));
 
-230 
-	`íd_cy˛e
+150 
+	`TFT_EndCy˛e
 ();
 
-231 
+151 
 	}
 }
 
-232 
+152 
 	$TFT_Di•œyInvîsi⁄OFF
 ()
 
-234 
-	`°¨t_cy˛e
+154 
+	`TFT_SèπCy˛e
 ();
 
-235 
-	`wrôe_cmd
+155 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 DISPLAYINVERSION_OFF
 ));
 
-236 
-	`íd_cy˛e
+156 
+	`TFT_EndCy˛e
 ();
 
-237 
+157 
 	}
 }
 
-238 
+158 
 	$TFT_IdÀModeON
 ()
 
-240 
-	`°¨t_cy˛e
+160 
+	`TFT_SèπCy˛e
 ();
 
-241 
-	`wrôe_cmd
+161 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 IDLEMODE_ON
 ));
 
-242 
-	`íd_cy˛e
+162 
+	`TFT_EndCy˛e
 ();
 
-243 
+163 
 	}
 }
 
-244 
+164 
 	$TFT_IdÀModeOFF
 ()
 
-246 
-	`°¨t_cy˛e
+166 
+	`TFT_SèπCy˛e
 ();
 
-247 
-	`wrôe_cmd
+167 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 IDLEMODE_OFF
 ));
 
-248 
-	`íd_cy˛e
+168 
+	`TFT_EndCy˛e
 ();
 
-249 
+169 
 	}
 }
 
-250 
+170 
+	$TFT_InvîtOrõ¡
+()
+
+172 
+	`TFT_SèπCy˛e
+();
+
+173 
+	`TFT_WrôeCmd
+(
+MEMORYACCESS_CONTROL
+);
+
+174 
+	`TFT_WrôeD©a
+(0b10100000);
+
+175 
+	`TFT_EndCy˛e
+();
+
+176 
+	}
+}
+
+180 
+	$TFT_Mem‹yAc˚ssC⁄åﬁ
+(
+uöt8_t
+ 
+wrôeMADCTL
+)
+
+182 
+	`TFT_SèπCy˛e
+();
+
+183 
+	`TFT_WrôeCmd
+(
+MEMORYACCESS_CONTROL
+);
+
+184 
+	`TFT_WrôeD©a
+(
+wrôeMADCTL
+);
+
+185 
+	`TFT_EndCy˛e
+();
+
+186 
+	}
+}
+
+187 
+	$TFT_PixñF‹m©
+(
+uöt8_t
+ 
+pixñF‹m©
+)
+
+189 
+	`TFT_SèπCy˛e
+();
+
+190 
+	`TFT_WrôeCmd
+((
+uöt8_t
+Ë
+PIXELFORMAT
+);
+
+191 
+	`TFT_WrôeD©a
+(
+pixñF‹m©
+);
+
+192 
+	`TFT_EndCy˛e
+();
+
+193 
+	}
+}
+
+194 
+	$TFT_RGBI¡îÁ˚Sig«lC⁄åﬁ
+(
+uöt8_t
+ 
+¸éRGB
+)
+
+196 
+	`TFT_SèπCy˛e
+();
+
+197 
+	`TFT_WrôeCmd
+(
+RGB_INTERFACE_SIGNAL_CONTROL
+);
+
+198 
+	`TFT_WrôeD©a
+(
+¸éRGB
+);
+
+199 
+	`TFT_EndCy˛e
+();
+
+200 
+	}
+}
+
+204 
 	$TFT_CﬁumnAddªssSë
 (
 uöt16_t
@@ -124461,59 +126001,59 @@ SC
 EC
 )
 
-252 
-	`°¨t_cy˛e
+206 
+	`TFT_SèπCy˛e
 ();
 
-253 
-	`wrôe_cmd
+207 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 COLUMNADDRESS_SET
 ));
 
-254 
-	`wrôe_d©a
+208 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )(
 SC
  >> 8));
 
-255 
-	`wrôe_d©a
+209 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )(
 SC
 ));
 
-256 
-	`wrôe_d©a
+210 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )(
 EC
  >> 8));
 
-257 
-	`wrôe_d©a
+211 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )(
 EC
 ));
 
-258 
-	`íd_cy˛e
+212 
+	`TFT_EndCy˛e
 ();
 
-259 
+213 
 	}
 }
 
-260 
+214 
 	$TFT_PageAddªssSë
 (
 uöt16_t
@@ -124523,400 +126063,592 @@ SP
 EP
 )
 
-262 
-	`°¨t_cy˛e
+216 
+	`TFT_SèπCy˛e
 ();
 
-263 
-	`wrôe_cmd
+217 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 PAGEADDRESS_SET
 ));
 
-264 
-	`wrôe_d©a
+218 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )(
 SP
  >> 8));
 
-265 
-	`wrôe_d©a
+219 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )(
 SP
 ));
 
-266 
-	`wrôe_d©a
+220 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )(
 EP
  >> 8));
 
-267 
-	`wrôe_d©a
+221 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )(
 EP
 ));
 
-268 
-	`íd_cy˛e
+222 
+	`TFT_EndCy˛e
 ();
 
-270 
+224 
 	}
 }
 
-275 
+225 
+	$TFT_Re‰ameAddrSë
+(
+uöt16_t
+ 
+À·Pos
+, uöt16_à
+rightPos
+, uöt16_à
+t›Pos
+, uöt16_à
+bŸtomPos
+)
+
+228 i‡(
+	`TFT_RódDi•œyMADCTL
+() & 0x20)
+
+230 
+	`TFT_CﬁumnAddªssSë
+(
+À·Pos
+, 
+rightPos
+);
+
+231 
+	`TFT_PageAddªssSë
+(
+t›Pos
+, 
+bŸtomPos
+);
+
+236 
+	`TFT_CﬁumnAddªssSë
+(
+t›Pos
+, 
+bŸtomPos
+);
+
+237 
+	`TFT_PageAddªssSë
+(
+À·Pos
+, 
+rightPos
+);
+
+239 
+	}
+}
+
+245 
 	$TFT_Mem‹yWrôe
 (
 uöt32_t
  
 d©a
 , uöt32_à
-amou¡
+nmbOfPixñ
 )
 
-277 
-	`°¨t_cy˛e
+247 
+	`TFT_SèπCy˛e
 ();
 
-278 
-	`wrôe_cmd
+248 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 MEMORYWRITE
 ));
 
-279 
+249 
 i
  = 0; i < 
-amou¡
+nmbOfPixñ
 ; i++)
 
-282 
-	`wrôe_d©a
+252 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )((
 d©a
  >> 14)));
 
-283 
-	`wrôe_d©a
+253 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )((
 d©a
  >> 6)));
 
-284 
-	`wrôe_d©a
+254 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )(
 d©a
  << 2));
 
-286 
-	`íd_cy˛e
+256 
+	`TFT_EndCy˛e
 ();
 
-287 
+257 
 	}
 }
 
-288 
+258 
 	$TFT_Mem‹yWrôeC⁄töue
 (
 uöt32_t
  
 d©a
 , uöt32_à
-amou¡
+nmbOfPixñ
 )
 
-290 
-	`°¨t_cy˛e
+260 
+	`TFT_SèπCy˛e
 ();
 
-291 
-	`wrôe_cmd
+261 
+	`TFT_WrôeCmd
 ((
 uöt8_t
 )–
 MEMORYWRITE_CONTINUE
 ));
 
-292 
+262 
 i
  = 0; i < 
-amou¡
+nmbOfPixñ
 ; i++)
 
-295 
-	`wrôe_d©a
+265 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )((
 d©a
  >> 14)));
 
-296 
-	`wrôe_d©a
+266 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )((
 d©a
  >> 6)));
 
-297 
-	`wrôe_d©a
+267 
+	`TFT_WrôeD©a
 ((
 uöt8_t
 )(
 d©a
  << 2));
 
-300 
-	`íd_cy˛e
+270 
+	`TFT_EndCy˛e
 ();
 
-301 
+271 
 	}
 }
 
-302 
-	$TFT_PixñF‹m©
+272 
+	$TFT_Di•œyCÀ¨WôhCﬁour
 (
-uöt8_t
+uöt32_t
  
-f‹m©
+£lCﬁour
 )
 
-304 
-	`°¨t_cy˛e
-();
+274 
+	`TFT_Re‰ameAddrSë
+(0, 
+	`TFT_HEIGHT
+(), 0, 
+	`TFT_WIDTH
+());
 
-305 
-	`wrôe_cmd
-((
-uöt8_t
-Ë
-PIXELFORMAT
-);
-
-306 
-	`wrôe_d©a
+275 
+	`TFT_Mem‹yWrôe
 (
-f‹m©
-);
+£lCﬁour
+, (320*240));
 
-307 
-	`íd_cy˛e
-();
+276 
+	`TFT_Re‰ameAddrSë
+(0, 
+	`TFT_HEIGHT
+(), 0, 
+	`TFT_WIDTH
+());
 
-308 
+277 
 	}
 }
 
-309 
-	$TFT_RGBI¡îÁ˚Sig«lC⁄åﬁ
-(
-uöt8_t
- 
-¸é
-)
-
-311 
-	`°¨t_cy˛e
-();
-
-312 
-	`wrôe_cmd
-(
-RGB_INTERFACE_SIGNAL_CONTROL
-);
-
-313 
-	`wrôe_d©a
-(
-¸é
-);
-
-314 
-	`íd_cy˛e
-();
-
-315 
-	}
-}
-
-316 
-	$TFT_InvîtOrõ¡
-()
-
-318 
-	`°¨t_cy˛e
-();
-
-319 
-	`wrôe_cmd
-(
-MEMORYACCESS_CONTROL
-);
-
-320 
-	`wrôe_d©a
-(0b10100000);
-
-321 
-	`íd_cy˛e
-();
-
-322 
-	}
-}
-
-323 
-	$TFT_Mem‹yAc˚ssC⁄åﬁ
-(
-uöt8_t
- 
-wrôeMADCTL
-)
-
-325 
-	`°¨t_cy˛e
-();
-
-326 
-	`wrôe_cmd
-(
-MEMORYACCESS_CONTROL
-);
-
-327 
-	`wrôe_d©a
-(
-wrôeMADCTL
-);
-
-328 
-	`íd_cy˛e
-();
-
-329 
-	}
-}
-
-335 
+286 
 uöt32_t
  
 	$TFT_RódDi•œyIdítInfo
 ()
 
-337 
+288 
 uöt32_t
  
 tmpRódD©a
  = 0x12345678;
 
-338 
-	`°¨t_cy˛e
+289 
+	`TFT_SèπCy˛e
 ();
 
-339 
-	`wrôe_cmd
+290 
+	`TFT_WrôeCmd
 (
 RDDIDIF
 );
 
-340 
+291 
 	`TFT_RódFú°InvÆidD©a
 ();
 
-341 
+292 
 tmpRódD©a
  = ((
 	`TFT_RódD©a
 () & 0x000000ff) << 16);
 
-342 
+293 
 tmpRódD©a
  =ÅmpRódD©®+ ((
 	`TFT_RódD©a
 () & 0x000000ff) << 8);
 
-343 
+294 
 tmpRódD©a
  =ÅmpRódD©®+ (
 	`TFT_RódLa°D©a
 () & 0x000000ff);
 
-344 
-	`íd_cy˛e
+295 
+	`TFT_EndCy˛e
 ();
 
-345  
+296  
 tmpRódD©a
 ;
 
-346 
+297 
 	}
 }
 
-348 
+298 
 uöt32_t
  
 	$TFT_RódDi•œySètus
 ()
 
-350 
+300 
 uöt32_t
  
 tmpRódD©a
  = 0xabcdef01;
 
-351 
-	`°¨t_cy˛e
+301 
+	`TFT_SèπCy˛e
 ();
 
-352 
-	`wrôe_cmd
+302 
+	`TFT_WrôeCmd
 (
 RDDST
 );
 
-353 
+303 
 	`TFT_RódFú°InvÆidD©a
 ();
 
-354 
+304 
 tmpRódD©a
  = ((
 	`TFT_RódD©a
 () & 0x000000ff) << 24);
 
-355 
+305 
 tmpRódD©a
  =ÅmpRódD©®+ ((
 	`TFT_RódD©a
 () & 0x000000ff) << 16);
 
-356 
+306 
 tmpRódD©a
  =ÅmpRódD©®+ ((
 	`TFT_RódD©a
+() & 0x000000ff) << 8);
+
+307 
+tmpRódD©a
+ =ÅmpRódD©®+ (
+	`TFT_RódLa°D©a
+() & 0x000000ff);
+
+308 
+	`TFT_EndCy˛e
+();
+
+309  
+tmpRódD©a
+;
+
+310 
+	}
+}
+
+311 
+uöt32_t
+ 
+	$TFT_RódDi•œyPowîMode
+()
+
+313 
+uöt32_t
+ 
+tmpRódD©a
+ = 0x87654321;
+
+314 
+	`TFT_SèπCy˛e
+();
+
+315 
+	`TFT_WrôeCmd
+(
+RDDPM
+);
+
+316 
+	`TFT_RódFú°InvÆidD©a
+();
+
+317 
+tmpRódD©a
+ = (
+	`TFT_RódLa°D©a
+() & 0x000000ff);
+
+318 
+	`TFT_EndCy˛e
+();
+
+319  
+tmpRódD©a
+;
+
+320 
+	}
+}
+
+321 
+uöt32_t
+ 
+	$TFT_RódDi•œyMADCTL
+()
+
+323 
+uöt32_t
+ 
+tmpRódD©a
+ = 0x12345678;
+
+324 
+	`TFT_SèπCy˛e
+();
+
+325 
+	`TFT_WrôeCmd
+(
+RDDMADCTL
+);
+
+326 
+tmpRódD©a
+ = ((
+	`TFT_RódFú°InvÆidD©a
+() & 0x000000ff) << 8);
+
+327 
+tmpRódD©a
+ =ÅmpRódD©®+ (
+	`TFT_RódLa°D©a
+() & 0x000000ff);
+
+328 
+	`TFT_EndCy˛e
+();
+
+329  
+tmpRódD©a
+;
+
+330 
+	}
+}
+
+331 
+uöt32_t
+ 
+	$TFT_RódDi•œyPixñF‹m©
+()
+
+333 
+uöt32_t
+ 
+tmpRódD©a
+ = 0x12345678;
+
+334 
+	`TFT_SèπCy˛e
+();
+
+335 
+	`TFT_WrôeCmd
+(
+RDDCOLMOD
+);
+
+336 
+tmpRódD©a
+ = ((
+	`TFT_RódFú°InvÆidD©a
+() & 0x000000ff) << 8);
+
+337 
+tmpRódD©a
+ =ÅmpRódD©®+ (
+	`TFT_RódLa°D©a
+() & 0x000000ff);
+
+338 
+	`TFT_EndCy˛e
+();
+
+339  
+tmpRódD©a
+;
+
+340 
+	}
+}
+
+341 
+uöt32_t
+ 
+	$TFT_RódDi•œyImageF‹m©
+()
+
+343 
+uöt32_t
+ 
+tmpRódD©a
+ = 0x12345678;
+
+344 
+	`TFT_SèπCy˛e
+();
+
+345 
+	`TFT_WrôeCmd
+(
+RDDIM
+);
+
+346 
+tmpRódD©a
+ = ((
+	`TFT_RódFú°InvÆidD©a
+() & 0x000000ff) << 8);
+
+347 
+tmpRódD©a
+ =ÅmpRódD©®+ (
+	`TFT_RódLa°D©a
+() & 0x000000ff);
+
+348 
+	`TFT_EndCy˛e
+();
+
+349  
+tmpRódD©a
+;
+
+350 
+	}
+}
+
+351 
+uöt32_t
+ 
+	$TFT_RódDi•œySig«lMode
+()
+
+353 
+uöt32_t
+ 
+tmpRódD©a
+ = 0x12345678;
+
+354 
+	`TFT_SèπCy˛e
+();
+
+355 
+	`TFT_WrôeCmd
+(
+RDDSM
+);
+
+356 
+tmpRódD©a
+ = ((
+	`TFT_RódFú°InvÆidD©a
 () & 0x000000ff) << 8);
 
 357 
@@ -124926,7 +126658,7 @@ tmpRódD©a
 () & 0x000000ff);
 
 358 
-	`íd_cy˛e
+	`TFT_EndCy˛e
 ();
 
 359  
@@ -124937,214 +126669,114 @@ tmpRódD©a
 	}
 }
 
-362 
+361 
 uöt32_t
  
-	$TFT_RódDi•œyMADCTL
+	$TFT_RódDi•œySñfDügno°icResu…
 ()
 
-364 
+363 
 uöt32_t
  
 tmpRódD©a
  = 0x12345678;
 
-365 
-	`°¨t_cy˛e
+364 
+	`TFT_SèπCy˛e
 ();
 
-366 
-	`wrôe_cmd
+365 
+	`TFT_WrôeCmd
 (
-RDDMADCTL
+RDDSDR
 );
 
-367 
+366 
 tmpRódD©a
  = ((
 	`TFT_RódFú°InvÆidD©a
 () & 0x000000ff) << 8);
 
-368 
+367 
 tmpRódD©a
  =ÅmpRódD©®+ (
 	`TFT_RódLa°D©a
 () & 0x000000ff);
 
-369 
-	`íd_cy˛e
+368 
+	`TFT_EndCy˛e
 ();
 
-370  
+369  
 tmpRódD©a
 ;
 
-371 
+370 
 	}
 }
 
-379 * 
-	gTFT_Di•©chTabÀ
-[] = {
-
-380 (*)
-TFT_Inô_ILI9341
-,
-
-381 (*)
-SëOuçut
-,
-
-382 (*)
-SëI≈ut
-,
-
-383 (*)
-IsOuçut
-,
-
-384 (*)
-wrôe_8bô_to_P‹t
-,
-
-385 (*)
-ªad_8bô_‰om_P‹t
-,
-
-386 (*)
-°¨t_cy˛e
-,
-
-387 (*)
-íd_cy˛e
-,
-
-388 (*)
-wrôe_cmd
-,
-
-389 (*)
-wrôe_d©a
-,
-
-390 (*)
-TFT_RódD©a
-,
-
-391 (*)
-TFT_NOP
-,
-
-392 (*)
-TFT_So·w¨eRe£t
-,
-
-393 (*)
-TFT_Di•œyOn
-,
-
-394 (*)
-TFT_Di•œyOff
-,
-
-395 (*)
-TFT_E¡îSÀïMode
-,
-
-396 (*)
-TFT_SÀïOut
-,
-
-397 (*)
-TFT_Di•œyInvîsi⁄ON
-,
-
-398 (*)
-TFT_Di•œyInvîsi⁄OFF
-,
-
-399 (*)
-TFT_IdÀModeON
-,
-
-400 (*)
-TFT_IdÀModeOFF
-,
-
-401 (*)
-TFT_CﬁumnAddªssSë
-,
-
-402 (*)
-TFT_PageAddªssSë
-,
-
-403 (*)
-TFT_Mem‹yWrôe
-,
-
-404 (*)
-TFT_Mem‹yWrôeC⁄töue
-,
-
-405 (*)
-TFT_PixñF‹m©
-,
-
-406 (*)
-TFT_RGBI¡îÁ˚Sig«lC⁄åﬁ
-,
-
-407 (*)
-TFT_InvîtOrõ¡
-
-
-410 * 
+401 * 
 	gTFT_CmdTabÀ
 [] = {
 
-411 (*)
-TFT_Inô_ILI9341
+403 (*)
+TFT_SèπupILI9341
 ,
 
-412 (*)
+404 (*)
 TFT_NOP
 ,
 
-413 (*)
+405 (*)
 TFT_So·w¨eRe£t
 ,
 
-414 (*)
+406 (*)
 TFT_Di•œyOn
 ,
 
-415 (*)
+407 (*)
 TFT_Di•œyOff
 ,
 
-416 (*)
+408 (*)
 TFT_E¡îSÀïMode
 ,
 
-417 (*)
+409 (*)
 TFT_SÀïOut
 ,
 
-418 (*)
+410 (*)
 TFT_Di•œyInvîsi⁄ON
 ,
 
-419 (*)
+411 (*)
 TFT_Di•œyInvîsi⁄OFF
 ,
 
-420 (*)
+412 (*)
 TFT_IdÀModeON
 ,
 
-421 (*)
+413 (*)
 TFT_IdÀModeOFF
+,
+
+414 (*)
+TFT_InvîtOrõ¡
+,
+
+417 (*)
+TFT_Mem‹yAc˚ssC⁄åﬁ
+,
+
+418 (*)
+TFT_PixñF‹m©
+,
+
+419 (*)
+TFT_RGBI¡îÁ˚Sig«lC⁄åﬁ
 ,
 
 422 (*)
@@ -125155,27 +126787,683 @@ TFT_CﬁumnAddªssSë
 TFT_PageAddªssSë
 ,
 
-424 (*)
+426 (*Ë
+TFT_Di•œyCÀ¨WôhCﬁour
+,
+
+429 (*)
 TFT_Mem‹yWrôe
 ,
 
-425 (*)
+430 (*)
 TFT_Mem‹yWrôeC⁄töue
 ,
 
-426 (*)
-TFT_PixñF‹m©
+433 (*)
+TFT_RódDi•œyIdítInfo
 ,
 
-427 (*)
-TFT_RGBI¡îÁ˚Sig«lC⁄åﬁ
+434 (*)
+TFT_RódDi•œySètus
 ,
 
-428 (*)
-TFT_InvîtOrõ¡
+435 (*)
+TFT_RódDi•œyPowîMode
+,
 
+436 (*)
+TFT_RódDi•œyMADCTL
+,
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\init.c
+437 (*)
+TFT_RódDi•œyPixñF‹m©
+,
+
+438 (*)
+TFT_RódDi•œyImageF‹m©
+,
+
+439 (*)
+TFT_RódDi•œySig«lMode
+,
+
+440 (*)
+TFT_RódDi•œySñfDügno°icResu…
+,
+
+443 (*)
+TFT_Re‰ameAddrSë
+,
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\can.c
+
+8 
+	~"globÆ.h
+"
+
+16 
+	$CAN_Inô4Modñs
+()
+
+18 
+D©a
+[0] = 0x00;
+
+24 
+	`RCC_APB1PîùhClockCmd
+(
+RCC_APB1ENR_CAN1EN
+, 
+ENABLE
+);
+
+25 
+	`RCC_APB2PîùhClockCmd
+(
+RCC_APB2Pîùh_GPIOD
+ |
+RCC_APB2ENR_AFIOEN
+, 
+ENABLE
+);
+
+28 
+GPIO_InôTy≥Def
+ 
+öput
+;
+
+29 
+öput
+.
+GPIO_S≥ed
+ = 
+GPIO_S≥ed_50MHz
+;
+
+30 
+öput
+.
+GPIO_Mode
+ = 
+GPIO_Mode_IPU
+;
+
+31 
+öput
+.
+GPIO_Pö
+ = 
+GPIO_Pö_0
+;
+
+32 
+	`GPIO_Inô
+(
+GPIOD
+,&
+öput
+);
+
+34 
+	`GPIO_Wrôe
+(
+GPIOD
+,0x00);
+
+38 
+	`GPIO_PöRem≠C⁄fig
+(
+GPIO_Rem≠2_CAN1
+ , 
+ENABLE
+);
+
+39 
+GPIO_InôTy≥Def
+ 
+ouçut
+;
+
+40 
+ouçut
+.
+GPIO_S≥ed
+ = 
+GPIO_S≥ed_50MHz
+;
+
+41 
+ouçut
+.
+GPIO_Mode
+ = 
+GPIO_Mode_AF_PP
+;
+
+42 
+ouçut
+.
+GPIO_Pö
+ = 
+GPIO_Pö_1
+;
+
+43 
+	`GPIO_Inô
+(
+GPIOD
+,&
+ouçut
+);
+
+45 
+	`GPIO_Wrôe
+(
+GPIOD
+,0x02);
+
+55 
+CAN_InôTy≥Def
+ 
+CAN1_InôSåu˘uª
+;
+
+57 
+	`CAN_DeInô
+(
+CAN1
+);
+
+58 
+	`CAN_Såu˘Inô
+(&
+CAN1_InôSåu˘uª
+);
+
+67 
+CAN1_InôSåu˘uª
+.
+CAN_PªsˇÀr
+ = 2;
+
+68 
+CAN1_InôSåu˘uª
+.
+CAN_BS1
+ = 
+CAN_BS1_12tq
+;
+
+69 
+CAN1_InôSåu˘uª
+.
+CAN_BS2
+ = 
+CAN_BS2_5tq
+;
+
+70 
+CAN1_InôSåu˘uª
+.
+CAN_SJW
+ = 
+CAN_SJW_1tq
+;
+
+71 
+CAN1_InôSåu˘uª
+.
+CAN_ABOM
+ = 
+ENABLE
+;
+
+72 
+CAN1_InôSåu˘uª
+.
+CAN_AWUM
+ = 
+ENABLE
+;
+
+73 
+CAN1_InôSåu˘uª
+.
+CAN_TTCM
+ = 
+ENABLE
+;
+
+74 
+CAN1_InôSåu˘uª
+.
+CAN_NART
+ = 
+DISABLE
+;
+
+75 
+CAN1_InôSåu˘uª
+.
+CAN_RFLM
+ = 
+DISABLE
+;
+
+76 
+CAN1_InôSåu˘uª
+.
+CAN_TXFP
+ = 
+DISABLE
+;
+
+77 
+CAN1_InôSåu˘uª
+.
+CAN_Mode
+ = 
+CAN_Mode_N‹mÆ
+;
+
+79 i‡(
+	`CAN_Inô
+(
+CAN1
+, &
+CAN1_InôSåu˘uª
+))
+
+90 
+	`CAN_DBGFªeze
+(
+CAN1
+, 
+DISABLE
+);
+
+92 
+CAN_FûãrInôTy≥Def
+ 
+CAN1_Fûãr
+;
+
+94 
+CAN1_Fûãr
+.
+CAN_FûãrNumbî
+ = 0;
+
+95 
+CAN1_Fûãr
+.
+CAN_FûãrFIFOAssignmít
+ = 
+CAN_FIFO0
+;
+
+96 
+CAN1_Fûãr
+.
+CAN_FûãrMode
+ = 
+CAN_FûãrMode_IdLi°
+;
+
+97 
+CAN1_Fûãr
+.
+CAN_FûãrSˇÀ
+ = 
+CAN_FûãrSˇÀ_16bô
+;
+
+98 
+CAN1_Fûãr
+.
+CAN_FûãrA˘iv©i⁄
+ = 
+ENABLE
+;
+
+99 
+CAN1_Fûãr
+.
+CAN_FûãrIdHigh
+ = 
+SMOT_AI_ID
+ << 5;
+
+100 
+CAN1_Fûãr
+.
+CAN_FûãrIdLow
+ = 
+SMOT_DI_ID
+ << 5;
+
+102 
+	`CAN_ITC⁄fig
+(
+CAN1
+,
+CAN_IT_FMP0
+,
+ENABLE
+);
+
+104 
+	`CAN_FûãrInô
+(&
+CAN1_Fûãr
+);
+
+109 
+	`TFT_TextPuts
+("Eº‹ wôh CAN-Inô \n", &
+F⁄t_11x18
+, 0xffffff, 0x000000);
+
+110 
+åue
+);
+
+122 
+	`NVIC_Pri‹ôyGroupC⁄fig
+(
+NVIC_Pri‹ôyGroup_4
+);
+
+124 
+NVIC_InôTy≥Def
+ 
+NVICˇn1rx
+;
+
+125 
+NVICˇn1rx
+.
+NVIC_IRQCh™√l
+ = 
+CAN1_RX0_IRQn
+;
+
+126 
+NVICˇn1rx
+.
+NVIC_IRQCh™√lCmd
+ = 
+ENABLE
+;
+
+127 
+NVICˇn1rx
+.
+NVIC_IRQCh™√lPªem±i⁄Pri‹ôy
+ = 5;
+
+128 
+NVICˇn1rx
+.
+NVIC_IRQCh™√lSubPri‹ôy
+ = 0;
+
+129 
+	`NVIC_Inô
+(&
+NVICˇn1rx
+);
+
+131 
+	`CAN_CÀ¨ITPídögBô
+(
+CAN1
+,
+CAN_IT_FMP0
+);
+
+132 
+	}
+}
+
+139 
+uöt8_t
+ 
+	$CAN_TønsmôMsg
+(
+uöt16_t
+ 
+ˇnId
+, 
+uöt8_t
+ *
+ˇnD©a
+, uöt8_à
+ˇnDlc
+){
+
+140 
+C™TxMsg
+ 
+TxMesßge
+;
+
+142 
+TxMesßge
+.
+DLC
+ = 
+ˇnDlc
+;
+
+143 
+TxMesßge
+.
+IDE
+ = 
+CAN_Id_Sènd¨d
+;
+
+144 
+TxMesßge
+.
+RTR
+ = 
+CAN_RTR_DATA
+;
+
+145 
+TxMesßge
+.
+StdId
+ = 
+ˇnId
+;
+
+147 
+i
+ = 0; i < 
+ˇnDlc
+;i++){
+
+148 
+TxMesßge
+.
+D©a
+[
+i
+] = 
+ˇnD©a
+[i];
+
+151  
+	`CAN_Tønsmô
+(
+CAN1
+,&
+TxMesßge
+);
+
+152 
+	}
+}
+
+154 
+uöt8_t
+ 
+	$CAN_NMTC⁄√˘
+(){
+
+155 
+C™TxMsg
+ 
+TxMesßge
+;
+
+156 
+uöt32_t
+ 
+NMT_id
+ = 0x00;
+
+158 
+TxMesßge
+.
+DLC
+ = 
+CAN_DLC_2
+;
+
+159 
+TxMesßge
+.
+IDE
+ = 
+CAN_Id_Sènd¨d
+;
+
+160 
+TxMesßge
+.
+RTR
+ = 
+CAN_RTR_DATA
+;
+
+161 
+TxMesßge
+.
+StdId
+ = 
+NMT_id
+;
+
+163 
+TxMesßge
+.
+D©a
+[0] = 0x01;
+
+164 
+TxMesßge
+.
+D©a
+[1] = 0x00;
+
+166 
+i
+ = 2; i < 8; i++){
+
+167 
+TxMesßge
+.
+D©a
+[
+i
+] = 0x00;
+
+170  
+	`CAN_Tønsmô
+(
+CAN1
+,&
+TxMesßge
+);
+
+171 
+	}
+}
+
+179 
+	$CAN1_RX0_IRQH™dÀr
+()
+
+181 
+C™RxMsg
+ 
+RxMesßge
+;
+
+182 
+	`CAN_CÀ¨Fœg
+(
+CAN1
+,
+CAN_IT_FMP0
+);
+
+183 
+	`CAN_Re˚ive
+(
+CAN1
+,
+CAN_FIFO0
+, &
+RxMesßge
+);
+
+185 
+	`mem˝y
+(
+D©a
+,
+RxMesßge
+.Data,8);
+
+186 
+Msg_ID
+ = 
+RxMesßge
+.
+StdId
+;
+
+188 
+	`SMOT_Upd©e
+();
+
+190 
+	}
+}
+
+194 
+	$CAN1_TXRQ_IRQH™dÀr
+()
+
+196 
+	`CAN_CÀ¨ITPídögBô
+(
+CAN1
+,
+CAN_IT_RQCP0
+);
+
+197 
+	}
+}
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\init.c
 
 4 
 	~"globÆ.h
@@ -125185,949 +127473,1329 @@ TFT_InvîtOrõ¡
 	$P‹tsInô
 ()
 
-18 
+17 
 	`RCC_APB2PîùhClockCmd
-((
-RCC_APB2Pîùh_GPIOA
- | 
+(
 RCC_APB2Pîùh_GPIOB
- |
-
-19 
-RCC_APB2Pîùh_GPIOD
- | 
-RCC_APB2Pîùh_GPIOE
-), 
+, 
 ENABLE
 );
 
-23 
+19 
 GPIO_InôTy≥Def
  
-GPIOA_InôSåu˘uª
+gpio_öô
 ;
 
-24 
-GPIOA_InôSåu˘uª
-.
-GPIO_Pö
- = 
-GPIO_Pö_0
-;
-
-25 
-GPIOA_InôSåu˘uª
-.
-GPIO_Mode
- = 
-GPIO_Mode_IN_FLOATING
-;
-
-26 
-GPIOA_InôSåu˘uª
+20 
+gpio_öô
 .
 GPIO_S≥ed
  = 
-GPIO_S≥ed_2MHz
+GPIO_S≥ed_50MHz
 ;
 
-27 
-	`GPIO_Inô
-(
-GPIOA
-, &
-GPIOA_InôSåu˘uª
-);
-
-29 
-GPIO_InôTy≥Def
- 
-GPIOB_InôSåu˘uª
-;
-
-30 
-GPIOB_InôSåu˘uª
-.
-GPIO_Pö
- = 
-GPIO_Pö_1
- | 
-GPIO_Pö_2
-;
-
-31 
-GPIOB_InôSåu˘uª
-.
-GPIO_Mode
- = 
-GPIO_Mode_IN_FLOATING
-;
-
-32 
-GPIOB_InôSåu˘uª
-.
-GPIO_S≥ed
- = 
-GPIO_S≥ed_2MHz
-;
-
-33 
-	`GPIO_Inô
-(
-GPIOB
-, &
-GPIOB_InôSåu˘uª
-);
-
-36 
-GPIO_InôTy≥Def
- 
-GPIODL_InôSåu˘uª
-;
-
-37 
-GPIODL_InôSåu˘uª
-.
-GPIO_Pö
- = 
-GPIO_Pö_low
-;
-
-38 
-GPIODL_InôSåu˘uª
-.
-GPIO_Mode
- = 
-GPIO_Mode_IN_FLOATING
-;
-
-39 
-GPIODL_InôSåu˘uª
-.
-GPIO_S≥ed
- = 
-GPIO_S≥ed_2MHz
-;
-
-40 
-	`GPIO_Inô
-(
-GPIOD
-, &
-GPIODL_InôSåu˘uª
-);
-
-42 
-GPIO_InôTy≥Def
- 
-GPIODH_InôSåu˘uª
-;
-
-43 
-GPIODH_InôSåu˘uª
-.
-GPIO_Pö
- = 
-GPIO_Pö_high
-;
-
-44 
-GPIODH_InôSåu˘uª
+21 
+gpio_öô
 .
 GPIO_Mode
  = 
 GPIO_Mode_Out_PP
 ;
 
-45 
-GPIODH_InôSåu˘uª
+22 
+gpio_öô
+.
+GPIO_Pö
+ = 
+GPIO_Pö_1
+;
+
+23 
+	`GPIO_Inô
+(
+GPIOB
+,&
+gpio_öô
+);
+
+25 
+	`GPIO_Wrôe
+(
+GPIOB
+,0x02);
+
+27 
+	`RCC_APB2PîùhClockCmd
+(
+RCC_APB2Pîùh_GPIOD
+, 
+ENABLE
+);
+
+30 
+gpio_öô
 .
 GPIO_S≥ed
  = 
-GPIO_S≥ed_2MHz
+GPIO_S≥ed_50MHz
 ;
 
-46 
+31 
+gpio_öô
+.
+GPIO_Mode
+ = 
+GPIO_Mode_IN_FLOATING
+;
+
+32 
+gpio_öô
+.
+GPIO_Pö
+ = 
+GPIO_Pö_AŒ
+;
+
+33 
 	`GPIO_Inô
 (
 GPIOD
-, &
-GPIODH_InôSåu˘uª
+,&
+gpio_öô
 );
 
-49 
-	`GPIO_Wrôe
-(
-GPIOD
-, 0x5555);
-
-50 
+35 
 	}
 }
 
-52 
+37 
 	$TimîInô
 ()
 
-58 
+40 
 	`RCC_APB1PîùhClockCmd
 (
-RCC_APB1ENR_TIM6EN
-, 
+RCC_APB1Pîùh_TIM2
+,
 ENABLE
 );
 
-61 
+42 
 TIM_TimeBa£InôTy≥Def
  
-TIM6_TimeBa£Inô
+TimInô
 ;
 
-62 
-TIM6_TimeBa£Inô
-.
-TIM_PªsˇÀr
- = 900 - 1;
-
-63 
-TIM6_TimeBa£Inô
-.
-TIM_Pîiod
- = 40000 - 1;
-
-64 
-	`TIM_TimeBa£Inô
-(
-TIM6
-, &
-TIM6_TimeBa£Inô
+43 
+	`TIM_TimeBa£Såu˘Inô
+(&
+TimInô
 );
 
-66 
+44 
+TimInô
+.
+TIM_Pîiod
+ = 5000 - 1;
+
+45 
+TimInô
+.
+TIM_PªsˇÀr
+ = 7200-1;
+
+46 
+	`TIM_TimeBa£Inô
+(
+TIM2
+,&
+TimInô
+);
+
+47 
 	`TIM_CÀ¨ITPídögBô
 (
-TIM6
-, 
+TIM2
+,
 TIM_IT_Upd©e
 );
 
-70 
+48 
+	`TIM_ITC⁄fig
+(
+TIM2
+,
+TIM_IT_Upd©e
+,
+ENABLE
+);
+
+49 
+	`TIM_Cmd
+(
+TIM2
+,
+DISABLE
+);
+
+51 
 	}
 }
 
-72 
+53 
 	$I¡Inô
 ()
 
-77 
-	`TIM_ITC⁄fig
+58 
+	`NVIC_Pri‹ôyGroupC⁄fig
 (
-TIM6
-, 
-TIM_IT_Upd©e
-, 
-ENABLE
+NVIC_Pri‹ôyGroup_4
 );
 
-80 
-	`NVIC_E«bÀIRQ
-(
-TIM6_IRQn
-);
-
-86 
-EXTI_InôTy≥Def
+63 
+NVIC_InôTy≥Def
  
-EXTI_SñKeyI¡s
+I¡îru±
 ;
 
-87 
-	`EXTI_Såu˘Inô
-(&
-EXTI_SñKeyI¡s
-);
-
-88 
-EXTI_SñKeyI¡s
+64 
+I¡îru±
 .
-EXTI_Löe
+NVIC_IRQCh™√l
  = 
-EXTI_Löe7
- | 
-EXTI_Löe6
- | 
-EXTI_Löe5
- |
-EXTI_Löe4
- | 
-EXTI_Löe3
- | 
-EXTI_Löe2
- | 
-EXTI_Löe1
- | 
-EXTI_Löe0
+TIM2_IRQn
 ;
 
-89 
-EXTI_SñKeyI¡s
+65 
+I¡îru±
 .
-EXTI_Triggî
- = 
-EXTI_Triggî_Risög
-;
-
-90 
-EXTI_SñKeyI¡s
-.
-EXTI_LöeCmd
+NVIC_IRQCh™√lCmd
  = 
 ENABLE
 ;
 
-91 
-	`EXTI_Inô
+66 
+I¡îru±
+.
+NVIC_IRQCh™√lPªem±i⁄Pri‹ôy
+ = 5;
+
+67 
+I¡îru±
+.
+NVIC_IRQCh™√lSubPri‹ôy
+ = 0;
+
+68 
+	`NVIC_Inô
 (&
-EXTI_SñKeyI¡s
+I¡îru±
 );
 
-93 
-	`NVIC_E«bÀIRQ
+69 
+	`TIM_CÀ¨ITPídögBô
 (
-EXTI0_IRQn
+TIM2
+,
+TIM_IT_Upd©e
 );
 
-94 
-	`NVIC_E«bÀIRQ
-(
-EXTI1_IRQn
-);
-
-95 
-	`NVIC_E«bÀIRQ
-(
-EXTI2_IRQn
-);
-
-96 
-	`NVIC_E«bÀIRQ
-(
-EXTI3_IRQn
-);
-
-97 
-	`NVIC_E«bÀIRQ
-(
-EXTI4_IRQn
-);
-
-98 
-	`NVIC_E«bÀIRQ
-(
-EXTI9_5_IRQn
-);
-
-100 
-	`RCC_APB2PîùhClockCmd
-(
-RCC_APB2ENR_AFIOEN
-, 
-ENABLE
-);
-
-104 
-	`EXTI_CÀ¨ITPídögBô
-(
-EXTI_Löe7
- | 
-EXTI_Löe6
- | 
-EXTI_Löe5
- | 
-EXTI_Löe4
- | 
-EXTI_Löe3
- | 
-EXTI_Löe2
- | 
-EXTI_Löe1
- | 
-EXTI_Löe0
-);
-
-105 
-	`GPIO_EXTILöeC⁄fig
-(
-GPIO_P‹tSour˚GPIOD
-, 
-GPIO_PöSour˚0
-);
-
-106 
-	`GPIO_EXTILöeC⁄fig
-(
-GPIO_P‹tSour˚GPIOD
-, 
-GPIO_PöSour˚1
-);
-
-107 
-	`GPIO_EXTILöeC⁄fig
-(
-GPIO_P‹tSour˚GPIOD
-, 
-GPIO_PöSour˚2
-);
-
-108 
-	`GPIO_EXTILöeC⁄fig
-(
-GPIO_P‹tSour˚GPIOD
-, 
-GPIO_PöSour˚3
-);
-
-109 
-	`GPIO_EXTILöeC⁄fig
-(
-GPIO_P‹tSour˚GPIOD
-, 
-GPIO_PöSour˚4
-);
-
-110 
-	`GPIO_EXTILöeC⁄fig
-(
-GPIO_P‹tSour˚GPIOD
-, 
-GPIO_PöSour˚5
-);
-
-111 
-	`GPIO_EXTILöeC⁄fig
-(
-GPIO_P‹tSour˚GPIOD
-, 
-GPIO_PöSour˚6
-);
-
-112 
-	`GPIO_EXTILöeC⁄fig
-(
-GPIO_P‹tSour˚GPIOD
-, 
-GPIO_PöSour˚7
-);
-
-113 
+71 
 	}
 }
 
-115 
+73 
 	$Proje˘Inô
 ()
 
-117 
+75 
 	`P‹tsInô
 ();
 
-118 
+76 
 	`TimîInô
 ();
 
-119 
+77 
 	`I¡Inô
 ();
 
-120 
-	`TFT_Sèπup_ILI9341
+78 
+	`CAN_Inô4Modñs
 ();
 
-121 
+79 
+	`CAN_NMTC⁄√˘
+();
+
+81 
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\isr.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\isr.c
 
 4 
 	~"globÆ.h
 "
 
-6 
-uöt32_t
- 
-	gaddrT·Cmd
- = 
-noTFTCmd
-;
-
-10 
-	$TIM6_IRQH™dÀr
+7 
+	$EXTI15_10_IRQH™dÀr
 ()
 
-13 
-	`TIM_CÀ¨ITPídögBô
+9 i‡(
+	`EXTI_GëFœgSètus
 (
-TIM6
-, 
-TIM_IT_Upd©e
+EXTI_Löe10
+Ë!
+RESET
+)
+
+11 
+	`EXTI_CÀ¨ITPídögBô
+(
+EXTI_Löe10
 );
 
-14 
-	`GPIO_Wrôe
+13 i‡(
+	`EXTI_GëFœgSètus
 (
-GPIOD
-, (
-	`GPIO_RódOuçutD©a
-(GPIOD) + 0x1ff));
+EXTI_Löe11
+Ë!
+RESET
+)
 
 15 
-	}
-}
+	`EXTI_CÀ¨ITPídögBô
+(
+EXTI_Löe11
+);
 
-17 
-	$EXTI0_IRQH™dÀr
-()
+17 i‡(
+	`EXTI_GëFœgSètus
+(
+EXTI_Löe12
+Ë!
+RESET
+)
 
 19 
 	`EXTI_CÀ¨ITPídögBô
 (
-EXTI_Löe0
+EXTI_Löe12
 );
 
-20 
-uöt16_t
- 
-curVÆP‹tD
- = 
-	`GPIO_RódOuçutD©a
+21 i‡(
+	`EXTI_GëFœgSètus
 (
-GPIOD
-);
-
-21 
-	`GPIO_Wrôe
-(
-GPIOD
-, ~
-curVÆP‹tD
-);
-
-22 
-addrT·Cmd
- = 
-cmd_TFT_MEMORYWRITECONTINUE
-;
+EXTI_Löe13
+Ë!
+RESET
+)
 
 23 
-£lCﬁour
- = 
-ªd
-;
-
-25 
-	}
-}
-
-27 
-	$EXTI1_IRQH™dÀr
-()
-
-29 
 	`EXTI_CÀ¨ITPídögBô
 (
-EXTI_Löe1
+EXTI_Löe13
 );
 
-30 
-	`TIM_Cmd
+25 i‡(
+	`EXTI_GëFœgSètus
 (
-TIM6
-, 
-ENABLE
+EXTI_Löe14
+Ë!
+RESET
+)
+
+27 
+	`EXTI_CÀ¨ITPídögBô
+(
+EXTI_Löe14
 );
+
+29 i‡(
+	`EXTI_GëFœgSètus
+(
+EXTI_Löe15
+Ë!
+RESET
+)
 
 31 
-addrT·Cmd
- = 
-cmd_TFT_MEMORYWRITECONTINUE
-;
+	`EXTI_CÀ¨ITPídögBô
+(
+EXTI_Löe15
+);
 
-32 
-£lCﬁour
- = 
-gªí
-;
-
-34 
+33 
 	}
 }
 
-35 
-	$EXTI2_IRQH™dÀr
-()
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\main.c
 
-37 
-	`EXTI_CÀ¨ITPídögBô
-(
-EXTI_Löe2
-);
-
-38 
-	`TIM_Cmd
-(
-TIM6
-, 
-DISABLE
-);
-
-39 
-addrT·Cmd
- = 
-cmd_TFT_MEMORYWRITECONTINUE
-;
-
-40 
-£lCﬁour
- = 
-blue
-;
-
-41 
-	}
-}
-
-43 
-	$EXTI3_IRQH™dÀr
-()
-
-45 
-	`EXTI_CÀ¨ITPídögBô
-(
-EXTI_Löe3
-);
-
-46 
-	`TIM_Cmd
-(
-TIM6
-, 
-ENABLE
-);
-
-47 
-£lCmd
- = 
-rdMADCTLToggÀRGB
-;
-
-48 
-	}
-}
-
-49 
-	$EXTI4_IRQH™dÀr
-()
-
-51 
-	`EXTI_CÀ¨ITPídögBô
-(
-EXTI_Löe4
-);
-
-52 
-	`TIM_Cmd
-(
-TIM6
-, 
-DISABLE
-);
-
-53 
-£lCmd
- = 
-rdDi•œySevîÆD©a
-;
-
-54 
-	}
-}
-
-55 
-	$EXTI9_5IRQH™dÀr
-()
-
-57 i‡(
-	`EXTI_GëFœgSètus
-(
-EXTI_Löe5
-Ë!
-RESET
-)
-
-59 
-£lCﬁour
- = 
-ªd
-;
-
-60 
-	`EXTI_CÀ¨ITPídögBô
-(
-EXTI_Löe5
-);
-
-62 i‡(
-	`EXTI_GëFœgSètus
-(
-EXTI_Löe6
-Ë!
-RESET
-)
-
-64 
-£lCﬁour
- = 
-gªí
-;
-
-65 
-	`EXTI_CÀ¨ITPídögBô
-(
-EXTI_Löe6
-);
-
-67 i‡(
-	`EXTI_GëFœgSètus
-(
-EXTI_Löe7
-Ë!
-RESET
-)
-
-69 
-£lCﬁour
- = 
-blue
-;
-
-70 
-	`EXTI_CÀ¨ITPídögBô
-(
-EXTI_Löe7
-);
-
-72 
-addrT·Cmd
- = 
-cmd_TFT_MEMORYWRITECONTINUE
-;
-
-73 
-	}
-}
-
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\main.c
-
-12 
+10 
 	~"globÆ.h
 "
 
-15 
-cﬁour
- 
-	g£lCﬁour
- = 
-n⁄e
-;
-
-16 
-cmd
- 
-	g£lCmd
- = 
-noCmd
-;
-
-19 
+12 
 	$maö
 ()
 
-21 
-uöt32_t
- 
-ªadDi•œyMADCTL
- = 0;
-
-22 
-uöt32_t
- 
-ªadDi•œyIdítifiˇti⁄
- = 0;
-
-23 
-uöt32_t
- 
-ªadDi•œySètus
- = 0;
-
-24 
-di•œyInvîsi⁄
- = 
-off
-;
-
-26 
+15 
 	`Proje˘Inô
 ();
 
-28 
+21 
+TRUE
+)
+
+46 if(
+	`GPIO_RódI≈utD©aBô
+(
+GPIOD
+, 
+GPIO_Pö_0
+Ë&& !
+GPIOD_0_¥ev
+)
+
+48 
+ENT_Ródy_To_Give
+ = 
 åue
-)
-
-33 i‡(
-addrT·Cmd
- !
-noTFTCmd
-)
-
-35 ((
-TFT_Cmd2P¨am
-*Ë
-TFT_CmdTabÀ
-[
-addrT·Cmd
-])(
-£lCﬁour
-, (
-numOfRows
- * 20));
-
-36 
-addrT·Cmd
- = 
-noTFTCmd
 ;
-
-42 i‡(
-£lCmd
- =
-rdMADCTLToggÀRGB
-)
-
-44 
-£lCmd
- = 
-noCmd
-;
-
-45 
-ªadDi•œyMADCTL
- = 
-	`TFT_RódDi•œyMADCTL
-();
-
-48 i‡(
-ªadDi•œyMADCTL
- & 0x08)
 
 49 
-ªadDi•œyMADCTL
- &= ~0x08;
+GPIOD_0_¥ev
+ = 
+åue
+;
 
-51 
-ªadDi•œyMADCTL
- |= 0x08;
+51 if(!
+	`GPIO_RódI≈utD©aBô
+(
+GPIOD
+, 
+GPIO_Pö_0
+Ë&& 
+GPIOD_0_¥ev
+)
 
 53 
-	`TFT_Mem‹yAc˚ssC⁄åﬁ
-(
-ªadDi•œyMADCTL
-);
+GPIOD_0_¥ev
+ = 
+Ál£
+;
 
-54 
-	`TFT_Mem‹yWrôeC⁄töue
-(0xffffff, (
-numOfRows
- * 20));
-
-56 i‡(
-£lCmd
- =
-rdDi•œySevîÆD©a
-)
+56 
+	`SMOT_Tick
+();
 
 58 
-£lCmd
- = 
-noCmd
-;
-
-59 
-ªadDi•œyIdítifiˇti⁄
- = 
-	`TFT_RódDi•œyIdítInfo
-();
-
-60 
-	`TFT_Mem‹yWrôeC⁄töue
-(0xff00ff, (
-numOfRows
- * 20));
-
-62 
-ªadDi•œySètus
- = 
-	`TFT_RódDi•œySètus
-();
-
-63 
-	`TFT_Mem‹yWrôeC⁄töue
-(0x00ffff, (
-numOfRows
- * 20));
-
-65 i‡(
-£lCmd
- =
-wrDi•œyInvîsi⁄
-)
-
-67 
-£lCmd
- = 
-noCmd
-;
-
-68 i‡(
-di•œyInvîsi⁄
-)
-
-70 
-	`TFT_Di•œyInvîsi⁄OFF
-();
-
-71 
-di•œyInvîsi⁄
- = 
-off
-;
-
-75 
-	`TFT_Di•œyInvîsi⁄ON
-();
-
-76 
-di•œyInvîsi⁄
- = 
-⁄
-;
-
-80 
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\startup_stm32f10x_cl.S
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\schrittmotor.c
+
+1 
+	~"globÆ.h
+"
+
+7 
+boﬁ
+ 
+	gªf_¶idî
+;
+
+8 
+boﬁ
+ 
+	gbîo_dñivîy
+;
+
+9 
+boﬁ
+ 
+	gbîo_∑rked
+;
+
+10 
+boﬁ
+ 
+	gnode_li°íed
+ = 0;
+
+11 
+boﬁ
+ 
+	gENT_Ródy_To_Give
+ = 
+Ál£
+;
+
+13 
+uöt8_t
+ 
+	gdo_¥ev
+ = 0x00;
+
+14 
+boﬁ
+ 
+	gmŸ‹MsgRecõved
+ = 
+Ál£
+;
+
+15 
+uöt16_t
+ 
+	g‰equícy
+;
+
+16 
+uöt16_t
+ 
+	gcuºít_posôi⁄
+ = 0;
+
+18 
+boﬁ
+ 
+	gSMOT_MŸ‹_ru¬ög
+ = 
+Ál£
+;
+
+19 
+boﬁ
+ 
+	gSMOT_MŸ‹_°›pög
+ = 
+Ál£
+;
+
+20 
+boﬁ
+ 
+	gSMOT_shÆl_°›
+ = 
+Ál£
+;
+
+26 
+boﬁ
+ 
+	$isBERODñivîy
+(Ë{  (
+D©a
+[0] & 
+SMOT_BERO_DELIVERY
+); 
+	}
+}
+
+27 
+boﬁ
+ 
+	$isBEROP¨ked
+(Ë{  (
+D©a
+[0] & 
+SMOT_BERO_PARKED
+); 
+	}
+}
+
+28 
+boﬁ
+ 
+	$isRefSlidî
+(Ë{  (
+D©a
+[0] & 
+SMOT_REF_DELIVER_SLIDER
+); 
+	}
+}
+
+29 
+boﬁ
+ 
+	$isSMOTSt›pög
+(Ë{  (
+D©a
+[0] & 
+SMOT_AI_STOPPING
+); 
+	}
+}
+
+31 
+	$SMOT_Inô
+()
+
+33 
+node_li°íed
+ =
+Ál£
+)
+
+35 
+	`CAN_NMTC⁄√˘
+();
+
+38 
+	`CAN_NMTC⁄√˘
+();
+
+39 
+	}
+}
+
+41 
+	$SMOT_Upd©e
+()
+
+43 
+Msg_ID
+)
+
+45 
+SMOT_DI_ID
+:
+
+46 
+bîo_dñivîy
+ = 
+	`isBERODñivîy
+();
+
+47 
+bîo_∑rked
+ = 
+	`isBEROP¨ked
+();
+
+48 
+ªf_¶idî
+ = 
+	`isRefSlidî
+();
+
+51 
+SMOT_AI_ID
+:
+
+52 i‡(
+SMOT_MŸ‹_°›pög
+ && 
+D©a
+[0] == 0x00)
+
+54 
+SMOT_MŸ‹_ru¬ög
+ = 
+Ál£
+;
+
+56 
+mŸ‹MsgRecõved
+ = 
+åue
+;
+
+57 
+cuºít_posôi⁄
+ = 
+	`uöt8s_To_uöt16
+(
+D©a
+[2], Data[1]);
+
+58 
+SMOT_MŸ‹_°›pög
+ = 
+	`isSMOTSt›pög
+();
+
+61 
+SMOT_AI_ID
+:
+
+62 
+node_li°íed
+ = 
+åue
+;
+
+65 
+	`SMOT_Tick
+();
+
+66 
+	}
+}
+
+68 
+	gcuºítSãp
+ = 0;
+
+69 
+	gsub°ï
+ = 0;
+
+71 
+	$SMOT_Tick
+()
+
+76 i‡(
+	`SMOT_RóchedEndPos
+())
+
+78 
+	`SMOT_St›
+();
+
+81 
+cuºítSãp
+)
+
+85 i‡(
+sub°ï
+ == 0)
+
+87 i‡(
+	`SMOT_GŸo
+(0xffff, 
+SMOT_SPEED_DEFAULT
+, 
+X_NEGATIVE
+))
+
+89 
+sub°ï
+ = 1;
+
+92 i‡(
+ªf_¶idî
+ =
+åue
+ && 
+sub°ï
+ == 1)
+
+94 
+	`SMOT_St›
+();
+
+95 i‡(
+	`SMOT_GŸo
+(
+SMOT_ENDPOS
+, 
+SMOT_SPEED_DEFAULT
+, 
+X_POSITIVE
+))
+
+97 
+sub°ï
+ = 2;
+
+100 i‡(
+sub°ï
+ =2 && !
+SMOT_MŸ‹_ru¬ög
+)
+
+102 
+cuºítSãp
+ = 1;
+
+103 
+sub°ï
+ = 0;
+
+114 
+	}
+}
+
+116 
+uöt16_t
+ 
+	$Byãs_To_I¡
+(
+uöt8_t
+ 
+msb
+, uöt8_à
+lsb
+)
+
+118  (
+msb
+ << 8Ë+ 
+lsb
+;
+
+119 
+	}
+}
+
+121 
+uöt16_t
+ 
+	gSMOT_goögToPos
+ = 0;
+
+123 
+	$SMOT_Re£tCou¡î
+()
+
+125 
+uöt8_t
+ 
+ª£tCou¡îPackë
+[1] = {0x20};
+
+126 
+	`CAN_TønsmôMsg
+(
+SMOT_AO_ID
+, 
+ª£tCou¡îPackë
+, 
+CAN_DLC_1
+);
+
+127 
+	}
+}
+
+129 
+boﬁ
+ 
+	$SMOT_GŸo
+(
+uöt16_t
+ 
+pos
+, uöt16_à
+•ìd
+, 
+dúe˘i⁄_t
+ 
+dú
+)
+
+132 i‡(!
+SMOT_MŸ‹_ru¬ög
+)
+
+134 
+SMOT_MŸ‹_ru¬ög
+ = 
+åue
+;
+
+136 
+uöt8_t
+ 
+dúe˘i⁄SëPackë
+[1] = {(
+dú
+ << 4)};
+
+137 
+	`CAN_TønsmôMsg
+(
+SMOT_DO_ID
+, 
+dúe˘i⁄SëPackë
+, 
+CAN_DLC_1
+);
+
+139 
+uöt8_t
+ 
+byãsToSíd
+[3] = {0x20, (
+•ìd
+ & 0x00FF), ((speed >> 8) & 0xFF)};
+
+140 
+SMOT_goögToPos
+ = 
+pos
+;
+
+141 
+	`CAN_TønsmôMsg
+(
+SMOT_AO_ID
+, 
+byãsToSíd
+, 
+CAN_DLC_3
+);
+
+143  
+åue
+;
+
+147  
+Ál£
+;
+
+149 
+	}
+}
+
+151 
+boﬁ
+ 
+	$SMOT_St›
+()
+
+153 i‡(
+SMOT_MŸ‹_ru¬ög
+)
+
+155 
+uöt8_t
+ 
+byãsToSíd
+[3] = {0x00, 0x00, 0x00};
+
+156 
+SMOT_goögToPos
+ = 0;
+
+157 
+	`CAN_TønsmôMsg
+(
+SMOT_AO_ID
+, 
+byãsToSíd
+, 
+CAN_DLC_3
+);
+
+158  
+åue
+;
+
+162  
+Ál£
+;
+
+164 
+	}
+}
+
+166 
+boﬁ
+ 
+	$SMOT_RóchedEndPos
+()
+
+168 i‡((
+cuºít_posôi⁄
+ >
+SMOT_goögToPos
+) && SMOT_goingToPos != 0)
+
+170  
+åue
+;
+
+172  
+Ál£
+;
+
+173 
+	}
+}
+
+175 
+uöt16_t
+ 
+	$uöt8s_To_uöt16
+(
+uöt8_t
+ 
+msb
+, uöt8_à
+lsb
+)
+
+177 
+uöt16_t
+ 
+ªt
+ = 0;
+
+178 
+ªt
+ |
+lsb
+;
+
+179 
+ªt
+ |
+msb
+ << 8;
+
+181  
+ªt
+;
+
+182 
+	}
+}
+
+185 
+	$SMOT_Move_Dñivîy_Bñt
+(
+dúe˘i⁄_t
+ 
+dú
+)
+
+187 
+uöt8_t
+ 
+byãs_to_£nd
+[1];
+
+189 
+dú
+)
+
+191 
+X_POSITIVE
+:
+
+192 
+byãs_to_£nd
+[0] = (
+SMOT_DEL_BELT_POS
+ | 
+do_¥ev
+);
+
+195 
+X_NEGATIVE
+:
+
+196 
+byãs_to_£nd
+[0] = (
+SMOT_DEL_BELT_NEG
+ | 
+do_¥ev
+);
+
+203 
+	`CAN_TønsmôMsg
+(
+SMOT_DO_ID
+, 
+byãs_to_£nd
+, 
+CAN_DLC_1
+);
+
+204 
+	}
+}
+
+206 
+	$SMOT_Move_P¨kög_Bñt
+(
+dúe˘i⁄_t
+ 
+dú
+)
+
+208 
+uöt8_t
+ 
+byãs_to_£nd
+[1];
+
+210 
+dú
+)
+
+212 
+X_POSITIVE
+:
+
+213 
+byãs_to_£nd
+[0] = 
+SMOT_DEL_BELT_POS
+;
+
+216 
+X_NEGATIVE
+:
+
+217 
+byãs_to_£nd
+[0] = 
+SMOT_DEL_BELT_NEG
+;
+
+224 
+	`CAN_TønsmôMsg
+(
+SMOT_DO_ID
+, 
+byãs_to_£nd
+, 
+CAN_DLC_1
+);
+
+225 
+	}
+}
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\simModel.c
+
+8 
+	~"globÆ.h
+"
+
+12 
+uöt8_t
+ 
+	gModñ_Re˚iveD©a
+[] = {0x00};
+
+13 
+uöt8_t
+ 
+	gModñ_TønsmôD©a
+[] = {0x00, 0x00, 0x00};
+
+21 
+boﬁ
+ 
+	$PL_CheckBlockAtW‹k°©i⁄
+(){
+
+22  (
+D©a
+[0] & 0x08Ë? 
+åue
+ : 
+Ál£
+;
+
+23 
+	}
+}
+
+25 
+boﬁ
+ 
+	$PL_CheckBlockAtDump
+(){
+
+26  (
+D©a
+[0] & 0x10Ë? 
+åue
+ : 
+Ál£
+;
+
+27 
+	}
+}
+
+29 
+boﬁ
+ 
+	$PL_CheckBlockAtRegi°î
+(){
+
+30  (
+D©a
+[0] & 0x04Ë? 
+åue
+ : 
+Ál£
+;
+
+31 
+	}
+}
+
+33 
+boﬁ
+ 
+	$PL_CheckPi°⁄AtBack
+(){
+
+34  (
+D©a
+[0] & 0x01Ë? 
+åue
+ : 
+Ál£
+;
+
+35 
+	}
+}
+
+37 
+boﬁ
+ 
+	$PL_CheckPi°⁄AtRegi°î
+(){
+
+38  (
+D©a
+[0] & 0x12Ë? 
+åue
+ : 
+Ál£
+;
+
+39 
+	}
+}
+
+41 
+boﬁ
+ 
+	$PL_CheckImpulsAtC⁄vey‹
+(){
+
+42  (
+D©a
+[0] & 0x20Ë? 
+åue
+ : 
+Ál£
+;
+
+43 
+	}
+}
+
+45 
+boﬁ
+ 
+	$PL_CheckC⁄åﬁKey
+(){
+
+46  (
+D©a
+[0] & 0x40Ë? 
+åue
+ : 
+Ál£
+;
+
+47 
+	}
+}
+
+64 
+	$SIM_Modñ_M™uÆ
+()
+
+66 
+	`TFT_Re‰ameAddrSë
+(0, 
+	`TFT_HEIGHT
+(), 0, 
+	`TFT_WIDTH
+());
+
+67 
+	`TFT_Mem‹yWrôe
+(
+ªd
+, (
+NUMOFROWS
+ * 20));
+
+68 
+	`TFT_Mem‹yWrôeC⁄töue
+(
+whôe
+, (
+NUMOFROWS
+ * 280));
+
+69 
+	`TFT_Mem‹yWrôeC⁄töue
+(
+yñlow
+, (
+NUMOFROWS
+ * 20));
+
+70 
+	`TFT_Re‰ameAddrSë
+(0, 
+	`TFT_HEIGHT
+(), 0, 
+	`TFT_WIDTH
+());
+
+71 
+	`TFT_TextPuts
+("Suc˚ssfu»Inôüliz©i⁄ & NMT-Tønsmissi⁄\n", &
+F⁄t_7x10
+, 
+yñlow
+, 
+ªd
+);
+
+72 
+	}
+}
+
+79 
+	$SIM_Inô
+()
+
+82 
+	}
+}
+
+86 
+	$SIM_Modñ_TønsmôNewD©a
+()
+
+89 
+	}
+}
+
+96 
+	$SIM_Modñ_Re˚iveMsg
+(
+C™RxMsg
+* 
+RxMesßge
+)
+
+99 
+	}
+}
+
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\startup_stm32f10x_cl.S
 
 32 .
 sy¡ax
@@ -127379,7 +130047,7 @@ def_úq_h™dÀr
 	gíd
 
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\system_stm32f10x.c
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\system_stm32f10x.c
 
 64 
 	~"°m32f10x.h
@@ -129985,7 +132653,7 @@ RCC_CFGR_SWS
 	}
 }
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\stm32f107vc_flash.ld
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\stm32f107vc_flash.ld
 
 33 
 OUTPUT_FORMAT
@@ -130423,7 +133091,7 @@ __SèckLimô
 __HópLimô
 , "region RAM overflowed with stack")
 
-	@D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\stm32f107vc_sram.ld
+	@D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\stm32f107vc_sram.ld
 
 33 
 OUTPUT_FORMAT
@@ -130869,70 +133537,82 @@ __HópLimô
 1
 .
 0
-65
-6051
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\misc.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_adc.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_bkp.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_can.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_cec.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_crc.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_dac.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_dbgmcu.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_dma.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_exti.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_flash.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_fsmc.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_gpio.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_i2c.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_iwdg.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_pwr.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_rcc.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_rtc.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_sdio.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_spi.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_tim.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_usart.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\inc\stm32f10x_wwdg.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\misc.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_adc.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_bkp.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_can.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_cec.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_crc.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_dac.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_dbgmcu.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_dma.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_exti.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_flash.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_fsmc.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_gpio.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_i2c.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_iwdg.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_pwr.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_rcc.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_rtc.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_sdio.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_spi.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_tim.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_usart.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\SPL\src\stm32f10x_wwdg.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\cmsis\core_cm3.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\cmsis\core_cmFunc.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\cmsis\core_cmInstr.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\ILI9341.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\cmsisAddon.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\global.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\project.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\stm32f10x.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\stm32f10x_conf.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\inc\system_stm32f10x.h
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\readme.txt
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\ILI9341.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\init.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\isr.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\main.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\startup_stm32f10x_cl.S
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\src\system_stm32f10x.c
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\stm32f107vc_flash.ld
-D:\D-Daten\MC-ARM\05-CortexM3embitz\10-TFT\03-DemoTFTDriverCMSISFctPtr\stm32f107vc_sram.ld
+77
+8057
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\misc.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_adc.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_bkp.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_can.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_cec.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_crc.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_dac.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_dbgmcu.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_dma.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_exti.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_flash.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_fsmc.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_gpio.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_i2c.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_iwdg.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_pwr.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_rcc.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_rtc.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_sdio.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_spi.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_tim.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_usart.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\inc\stm32f10x_wwdg.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\misc.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_adc.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_bkp.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_can.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_cec.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_crc.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_dac.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_dbgmcu.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_dma.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_exti.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_flash.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_fsmc.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_gpio.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_i2c.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_iwdg.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_pwr.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_rcc.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_rtc.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_sdio.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_spi.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_tim.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_usart.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\SPL\src\stm32f10x_wwdg.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\cmsis\core_cm3.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\cmsis\core_cmFunc.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\cmsis\core_cmInstr.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\FS_Kommissionierung.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\Font.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\ILI9341_BusCycles.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\ILI9341_CmdDriver.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\can.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\cmsisAddon.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\global.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\project.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\schrittmotor.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\simModel.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\stm32f10x.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\stm32f10x_conf.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\inc\system_stm32f10x.h
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\readme.txt
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\FS_Kommissionierung.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\Font.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\ILI9341_BusCycles.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\ILI9341_CmdDriver.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\can.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\init.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\isr.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\main.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\schrittmotor.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\simModel.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\startup_stm32f10x_cl.S
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\src\system_stm32f10x.c
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\stm32f107vc_flash.ld
+D:\UserData\Z003SBVC\Documents\Module\Sequenzphase 3\Farbsortierung\Farbsortierung\stm32f107vc_sram.ld

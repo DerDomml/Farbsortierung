@@ -14,6 +14,8 @@ int main(void)
 
     ProjectInit();
 
+    bool GPIOD_0_prev = false;
+
     //int i = 0;
 
     //SMOT_Goto(SMOT_ENDPOS, SMOT_SPEED_DEFAULT, 1);
