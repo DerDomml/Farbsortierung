@@ -10,7 +10,7 @@
 #define SMOT_AI_ID 0x395                //Analog Input Byte, 0 Status Byte, 1 K1_LB, 2K1_HB
 #define SMOT_DO_ID 0x215                //Digital Output Byte
 #define SMOT_AO_ID 0x415                //Analog Output Byte 0 Control Byte, 1 K1_LB, 2 K1_HB
-#define SMOT_STATUS_ID 0x715
+#define SMOT_STATUS_ID 0x395
 
 
 //Digital Inputs
@@ -43,13 +43,17 @@
 #define SMOT_AO_K1_HB 0x0000FF          //Output K2 High Byte
 
 //Step Constants
-#define SMOT_ENDPOS 0x20CB              //Steps where slider reaches end position
+#define SMOT_TOWER_POS 0x2161              //Steps where slider reaches end position
+#define SMOT_MAXPOS 0xFFFF
+#define SMOT_END_TO_REF_LEN 0x0180
+#define SMOT_REF_FROM_BELT_TO_BELT_LEN 0x0145
+#define SMOT_REF_FROM_TOWER_TO_BELT_LEN 0x01E6
 #define SMOT_SPEED_DEFAULT 0x012C       //Process Data for default speed
 
 typedef enum direction
 {
-    X_NEGATIVE = 0,
-    X_POSITIVE
+    X_TO_BELT = 0,
+    X_TO_TOWER
 }
 direction_t;
 
@@ -61,9 +65,13 @@ void SMOT_Update();
 void SMOT_Tick();
 void SMOT_Motor_Start();
 uint16_t uint8s_To_uint16(uint8_t msb,uint8_t lsb);
-bool SMOT_ReachedEndPos();
-bool SMOT_Stop();
-bool SMOT_Goto(uint16_t pos, uint16_t speed, direction_t dir);
+void SMOT_Stop();
+bool SMOT_Goto(uint16_t pos, uint16_t speed, direction_t dir, bool overrideLock);
+bool SMOT_GoUntilRefButton(uint16_t pos, uint16_t speed, direction_t dir, bool overrideLock);
+void SMOT_Schrittkette();
+void SMOT_InitSchritkette();
+bool SMOT_Running();
+
 
 uint16_t Bytes_To_Int(uint8_t toSwap1, uint8_t toSwap2);
 
