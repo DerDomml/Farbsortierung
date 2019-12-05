@@ -35,10 +35,7 @@
 **/
 
 uint16_t FS_ENTLEER_CAN_Received;
-bool FS_ENTLEER_GREIFARM_Tick;
-bool FS_ENTLEER_ANTURM_Tick;
-bool FS_ENTLEER_ABTURM_Tick;
-bool FS_ENTLEER_BAND_OBEN_Tick;
+bool FS_ENTLEER_ExtraTickRequest;
 
 /**
  *  Funktionen zum Abfragen der Sensoren

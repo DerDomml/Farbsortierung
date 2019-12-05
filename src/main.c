@@ -73,8 +73,7 @@ int main(void)
             button8Prev = false;
         }
 
-        if(FS_ENTLEER_CAN_NewTelegramReceived || FS_ENTLEER_GREIFARM_Tick || FS_ENTLEER_ANTURM_Tick || FS_ENTLEER_ABTURM_Tick || FS_ENTLEER_BAND_OBEN_Tick
-           || GPIOTick){
+        if(FS_ENTLEER_CAN_NewTelegramReceived || FS_ENTLEER_ExtraTickRequest || GPIOTick){
 
             GPIOTick = false;
             FS_ENTLEER_Tick();
@@ -83,13 +82,6 @@ int main(void)
         GPIO_WriteBit(GPIOE, GPIO_Pin_9, FS_ENTLEER_ANTURM_ANNAHMEBEREIT);
         GPIO_WriteBit(GPIOE, GPIO_Pin_10, FS_ENTLEER_ANTURM_BLOCK_ERHALTEN);
         GPIO_WriteBit(GPIOE, GPIO_Pin_11, FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT);
-//        uint8_t Greifarmhoch[2] = {0x02, 0x00};
-//        uint8_t AnTurmHoch[2] = {0x80, 0x00};
-//        uint8_t notaus[2] = {0x00, 0x00};
-//
-//        CAN_TransmitMsg(0x213, Greifarmhoch, 2);
-//        CAN_TransmitMsg(0x213, notaus, 2);
-//        CAN_TransmitMsg(0x213, AnTurmHoch, 2);
-//        CAN_TransmitMsg(0x213, notaus, 2);
+
     }
 }
