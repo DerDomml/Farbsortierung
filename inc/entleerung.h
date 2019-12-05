@@ -73,7 +73,9 @@ bool FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT;
 /**
  *  Variablen zur Kommunikation mit anderen Gruppen
 **/
-bool FS_SERVO_BlockReady;
+bool FS_SERVO_blockReady;
+bool FS_SORT_ZYLINDER_start;
+bool FS_SORT_ZYLINDER_stop;
 
 bool FS_ENTLEER_ANTURM_ANNAHMEBEREIT;
 bool FS_ENTLEER_ANTURM_BLOCK_ERHALTEN;

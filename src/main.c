@@ -16,10 +16,12 @@ int main(void)
 
     FS_ENTLEER_CAN_NewTelegramReceived = false;
     FS_ENTLEER_GREIFARM_Tick = false;
-    bool GPIOTick = false;
+    bool button8Prev = false;
+    bool button12Prev = false;
     bool button13Prev = false;
     bool button14Prev = false;
     bool button15Prev = false;
+    bool GPIOTick = false;
 
     while(TRUE)
     {
@@ -27,7 +29,7 @@ int main(void)
          * Simulation der Kommunikation mit den anderen Gruppen SuKr & WaKo
         **/
         if(GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_15) && !button15Prev) {
-            FS_SERVO_BlockReady = true;
+            FS_SERVO_blockReady = true;
             button15Prev = true;
             GPIOTick = true;
         }
@@ -51,6 +53,24 @@ int main(void)
         }
         if(button13Prev && !GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_13)){
             button13Prev = false;
+        }
+
+        if(GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_12) && !button12Prev) {
+            FS_SORT_ZYLINDER_start = true;
+            button12Prev = true;
+            GPIOTick = true;
+        }
+        if(button12Prev && !GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_12)){
+            button12Prev = false;
+        }
+
+        if(GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_8) && !button8Prev) {
+            FS_SORT_ZYLINDER_stop = true;
+            button8Prev = true;
+            GPIOTick = true;
+        }
+        if(button8Prev && !GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_8)){
+            button8Prev = false;
         }
 
         if(FS_ENTLEER_CAN_NewTelegramReceived || FS_ENTLEER_GREIFARM_Tick || FS_ENTLEER_ANTURM_Tick || FS_ENTLEER_ABTURM_Tick || FS_ENTLEER_BAND_OBEN_Tick

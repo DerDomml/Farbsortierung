@@ -27,7 +27,7 @@ void PortsInit(void)
     GPIOInit.GPIO_Pin = GPIO_Pin_9 | GPIO_Pin_10 | GPIO_Pin_11;
     GPIO_Init(GPIOE, &GPIOInit);
 
-    GPIOInit.GPIO_Pin = GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15;
+    GPIOInit.GPIO_Pin = GPIO_Pin_8 | GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15;
     GPIOInit.GPIO_Mode = GPIO_Mode_IN_FLOATING;
     GPIO_Init(GPIOE, &GPIOInit);
 }

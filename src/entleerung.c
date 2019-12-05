@@ -63,6 +63,13 @@ void FS_ENTLEER_Tick() {
     /// Neues CAN Telegramm empfangen?
     FS_ENTLEER_CAN_NewTelegramReceived = false;
 
+    if(FS_SORT_ZYLINDER_start) {
+        FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ZYLINDER_ROTIEREN;
+    }
+
+    if(FS_SORT_ZYLINDER_stop) {
+        FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ZYLINDER_ROTIEREN;
+    }
 
     switch(AnturmSchritt){
         case 0:
@@ -75,8 +82,8 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_ANTURM_ANNAHMEBEREIT = true;
             } break;
         case 1:
-            if(FS_SERVO_BlockReady){ /// Empfange von SukR: Block bereit
-                FS_SERVO_BlockReady = false;
+            if(FS_SERVO_blockReady){ /// Empfange von SukR: Block bereit
+                FS_SERVO_blockReady = false;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_BAND;
                 AnturmSchritt++;
             } break;
