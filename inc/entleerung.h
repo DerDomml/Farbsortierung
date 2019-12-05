@@ -58,4 +58,17 @@ bool FS_ENTLEER_IsAbTurmBelegt();
  *  Hauptfunktion; Abfragen aller Sensoren und Ansteuern der Aktoren - "Tick"
 **/
 
+/**
+ *  temporaere Variablen zur Simulation der Kommunikation mit anderen Gruppen
+**/
+
+bool FS_ENTLEER_SIMULATION_SUKR_BLOCK_BEREIT;
+bool FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK;
+bool FS_ENTLEER_SIMULATION_WAKO_WERKSTUECK_ERHALTEN;
+
+bool FS_ENTLEER_SIMULATION_ANTURM_ANNAHMEBEREIT;
+bool FS_ENTLEER_SIMULATION_WAKO_BLOCK_ERHALTEN;
+bool FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT;
+
+
 void FS_ENTLEER_Tick();

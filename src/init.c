@@ -16,12 +16,20 @@ void PortsInit(void)
     //CAN Ports init
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
 
-    GPIO_InitTypeDef output;
-    output.GPIO_Speed = GPIO_Speed_50MHz;
-    output.GPIO_Mode = GPIO_Mode_Out_PP;
-    output.GPIO_Pin = GPIO_Pin_1;
-    GPIO_Init(GPIOC,&output);
+    GPIO_InitTypeDef GPIOInit;
+    GPIOInit.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIOInit.GPIO_Mode = GPIO_Mode_Out_PP;
+    GPIOInit.GPIO_Pin = GPIO_Pin_1;
+    GPIO_Init(GPIOC,&GPIOInit);
 
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOE, ENABLE);
+
+    GPIOInit.GPIO_Pin = GPIO_Pin_9 | GPIO_Pin_10 | GPIO_Pin_11;
+    GPIO_Init(GPIOE, &GPIOInit);
+
+    GPIOInit.GPIO_Pin = GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15;
+    GPIOInit.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+    GPIO_Init(GPIOE, &GPIOInit);
 }
 
 void TimerInit(void)

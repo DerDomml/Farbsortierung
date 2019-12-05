@@ -70,9 +70,10 @@ void FS_ENTLEER_Tick() {
                 AnturmSchritt++;
 
                 ///TODO: Sende an SuKr AnTurm annahmebereit
+                FS_ENTLEER_SIMULATION_ANTURM_ANNAHMEBEREIT = true;
             } break;
         case 1:
-            if(true){ /// Empfange von SukR: Block bereit
+            if(FS_ENTLEER_SIMULATION_SUKR_BLOCK_BEREIT){ /// Empfange von SukR: Block bereit
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_BAND;
                 AnturmSchritt++;
 
@@ -129,14 +130,15 @@ void FS_ENTLEER_Tick() {
                 AbturmSchritt++;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_RUNTERFAHREN;
                 ///TODO Sende Abgabebereitschaft an Wakko
+                FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT = true;
             } break;
         case 4:
-            if(true){///TODO Empfange Annahmebereitschaft von Wakko
+            if(FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK){///TODO Empfange Annahmebereitschaft von Wakko
                 ///FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_BAND;
                 AbturmSchritt++;
             } break;
         case 5:
-            if(!FS_ENTLEER_IsAbTurmBelegt()){///TODO Empfang von Wakko bestaetigt
+            if(!FS_ENTLEER_IsAbTurmBelegt() && FS_ENTLEER_SIMULATION_SUKR_BLOCK_ERHALTEN){///TODO Empfang von Wakko bestaetigt
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_BAND;
                 AbturmSchritt = 0;
             } break;
