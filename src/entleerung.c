@@ -143,9 +143,10 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_RUNTERFAHREN;
                 ///TODO Sende Abgabebereitschaft an Wakko
                 FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT = true;
+                FS_ENTLEER_ABTURM_Tick = true;
             } break;
         case 4:
-            if(FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK){///TODO Empfange Annahmebereitschaft von Wakko
+            if(FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK){ ///TODO Empfange Annahmebereitschaft von Wakko
                 FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK = false;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_BAND;
                 AbturmSchritt++;
