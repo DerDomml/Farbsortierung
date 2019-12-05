@@ -72,27 +72,27 @@ void FS_ENTLEER_Tick() {
                 AnturmSchritt++;
 
                 ///TODO: Sende an SuKr AnTurm annahmebereit
-                FS_ENTLEER_SIMULATION_ANTURM_ANNAHMEBEREIT = true;
+                FS_ENTLEER_ANTURM_ANNAHMEBEREIT = true;
             } break;
         case 1:
-            if(FS_ENTLEER_SIMULATION_SUKR_BLOCK_BEREIT){ /// Empfange von SukR: Block bereit
-                FS_ENTLEER_SIMULATION_SUKR_BLOCK_BEREIT = false;
+            if(FS_SERVO_BlockReady){ /// Empfange von SukR: Block bereit
+                FS_SERVO_BlockReady = false;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_BAND;
                 AnturmSchritt++;
             } break;
         case 2:
             if(FS_ENTLEER_IsAnTurmBelegt()){
-                FS_ENTLEER_SIMULATION_ANTURM_ANNAHMEBEREIT = false;
+                FS_ENTLEER_ANTURM_ANNAHMEBEREIT = false;
                 AnturmSchritt++;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_BAND;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_HOCHFAHREN;
 
-                FS_ENTLEER_SIMULATION_SUKR_BLOCK_ERHALTEN = true;
+                FS_ENTLEER_ANTURM_BLOCK_ERHALTEN = true;
             } break;
         case 3:
             if(FS_ENTLEER_IsAnTurmOben()){
 
-                FS_ENTLEER_SIMULATION_SUKR_BLOCK_ERHALTEN = false;
+                FS_ENTLEER_ANTURM_BLOCK_ERHALTEN = false;
 
                 AnturmSchritt++;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_HOCHFAHREN;

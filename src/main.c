@@ -27,7 +27,7 @@ int main(void)
          * Simulation der Kommunikation mit den anderen Gruppen SuKr & WaKo
         **/
         if(GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_15) && !button15Prev) {
-            FS_ENTLEER_SIMULATION_SUKR_BLOCK_BEREIT = true;
+            FS_SERVO_BlockReady = true;
             button15Prev = true;
             GPIOTick = true;
         }
@@ -60,8 +60,8 @@ int main(void)
             FS_ENTLEER_Tick();
         }
 
-        GPIO_WriteBit(GPIOE, GPIO_Pin_9, FS_ENTLEER_SIMULATION_ANTURM_ANNAHMEBEREIT);
-        GPIO_WriteBit(GPIOE, GPIO_Pin_10, FS_ENTLEER_SIMULATION_SUKR_BLOCK_ERHALTEN);
+        GPIO_WriteBit(GPIOE, GPIO_Pin_9, FS_ENTLEER_ANTURM_ANNAHMEBEREIT);
+        GPIO_WriteBit(GPIOE, GPIO_Pin_10, FS_ENTLEER_ANTURM_BLOCK_ERHALTEN);
         GPIO_WriteBit(GPIOE, GPIO_Pin_11, FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT);
 //        uint8_t Greifarmhoch[2] = {0x02, 0x00};
 //        uint8_t AnTurmHoch[2] = {0x80, 0x00};
