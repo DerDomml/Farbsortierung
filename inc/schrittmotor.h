@@ -46,7 +46,7 @@
 #define SMOT_TOWER_POS 0x2161              //Steps where slider reaches end position
 #define SMOT_MAXPOS 0xFFFF
 #define SMOT_END_TO_REF_LEN 0x0180
-#define SMOT_REF_FROM_BELT_TO_BELT_LEN 0x0145
+#define SMOT_REF_FROM_BELT_TO_BELT_LEN 0x0140
 #define SMOT_REF_FROM_TOWER_TO_BELT_LEN 0x01E6
 #define SMOT_SPEED_DEFAULT 0x012C       //Process Data for default speed
 
