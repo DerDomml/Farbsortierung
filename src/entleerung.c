@@ -1,5 +1,9 @@
 #include "global.h"
 
+bool FS_ENTLEER_GREIFARM_Tick;
+bool FS_ENTLEER_ANTURM_Tick;
+bool FS_ENTLEER_ABTURM_Tick;
+bool FS_ENTLEER_BAND_OBEN_Tick;
 /**
  *  Funktionen zum Abfragen der Sensoren
 **/
@@ -47,11 +51,11 @@ void FS_ENTLEER_Tick() {
     static bool FS_ENTLEER_ABTURM_AnnahmeBereit = false;
     static bool FS_ENTLEER_ABTURM_BlockErhalten = false;
 
-    /// Anforderung eines sofortigen weiteren Ticks an die main-Funktion (wird bei aktiver Greifarmschrittkette benoetigt)
-    static bool FS_ENTLEER_GREIFARM_Tick = false;
-    static bool FS_ENTLEER_ANTURM_Tick = false;
-    static bool FS_ENTLEER_ABTURM_Tick = false;
-    static bool FS_ENTLEER_BAND_OBEN_Tick = false;
+    /// Anforderung eines sofortigen weiteren Ticks an die main-Funktion
+    FS_ENTLEER_GREIFARM_Tick = false;
+    FS_ENTLEER_ANTURM_Tick = false;
+    FS_ENTLEER_ABTURM_Tick = false;
+    FS_ENTLEER_BAND_OBEN_Tick = false;
 
     /// Empfangene Daten aus CANBUS
     FS_ENTLEER_CAN_Received = Data;
@@ -59,6 +63,7 @@ void FS_ENTLEER_Tick() {
     /// Neues CAN Telegramm empfangen?
     FS_ENTLEER_CAN_NewTelegramReceived = false;
 
+    ///Reaktionen auf Befehle der FS_SORT-Gruppe (Zylinder rotieren/Zylinder stoppen)
     if(FS_SORT_ZYLINDER_start) {
         FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ZYLINDER_ROTIEREN;
     }
@@ -67,47 +72,54 @@ void FS_ENTLEER_Tick() {
         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ZYLINDER_ROTIEREN;
     }
 
+    ///AnTurm Schrittkette
     switch(FS_ENTLEER_AnturmSchritt){
+        /// Default Schritt: Fahre in Startposition, wenn noch nicht unten
         case 0:
             FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_RUNTERFAHREN;
+            /// Runterfahrt stoppen, wenn unten angekommen - Sende Bereitschaft an FS_SERVO
             if(FS_ENTLEER_IsAnTurmUnten()){
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_RUNTERFAHREN;
                 FS_ENTLEER_AnturmSchritt++;
-
-                /// Sende an SERVO AnTurm annahmebereit
                 FS_ENTLEER_ANTURM_ANNAHMEBEREIT = true;
             } break;
+        /// Warten auf Bereitschaft von FS_SERVO
         case 1:
-            if(FS_SERVO_blockReady){ /// Empfange von SukR: Block bereit
+            /// Empfange von SukR: Block bereit - Bandlauf starten
+            if(FS_SERVO_blockReady){
                 FS_SERVO_blockReady = false;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_BAND;
                 FS_ENTLEER_AnturmSchritt++;
             } break;
+        ///Warten auf Empfang des Blocks
         case 2:
+            ///Bei Empfang des Blocks: Empfang bestaetigen an FS_SERVO; Turm hochfahren, Bandlauf stoppen
             if(FS_ENTLEER_IsAnTurmBelegt()){
                 FS_ENTLEER_ANTURM_ANNAHMEBEREIT = false;
                 FS_ENTLEER_AnturmSchritt++;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_BAND;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_HOCHFAHREN;
-
                 FS_ENTLEER_ANTURM_BLOCK_ERHALTEN = true;
             } break;
+        ///Warten bis Turm oben ist
         case 3:
+            /// Wenn Turm oben ist, nicht mehr hochfahren, Abgabebereitschaft signalisieren an BAND_OBEN
             if(FS_ENTLEER_IsAnTurmOben()){
-
                 FS_ENTLEER_ANTURM_BLOCK_ERHALTEN = false;
-
                 FS_ENTLEER_AnturmSchritt++;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_HOCHFAHREN;
                 FS_ENTLEER_ANTURM_AbgabeBereit = true;
-                ///TODO BandOben Tick ausloesen
             } break;
+        ///Warten auf Annahmebereitschaft von BAND_OBEN
         case 4:
+            ///Bandlauf Starten
             if(FS_ENTLEER_BAND_OBEN_AnnahmeBereit){
                 FS_ENTLEER_AnturmSchritt++;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_BAND;
             } break;
+        ///Warten auf Empfangsbestaetigung von BAND_OBEN
         case 5:
+            ///Bandlauf stoppen, zurueck auf Schritt 0
             if(FS_ENTLEER_BAND_OBEN_BlockErhalten){
                 FS_ENTLEER_AnturmSchritt = 0;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_BAND;
@@ -117,21 +129,27 @@ void FS_ENTLEER_Tick() {
 
     }
 
+    ///AbTurm Schrittkette
     switch(FS_ENTLEER_AbturmSchritt){
+        ///Default Schritt: Fahre in Startposition, wenn noch nicht oben
         case 0:
             FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_HOCHFAHREN;
+            ///Wenn Oben, nicht mehr hochfahren, Annahmebereitschaft an BAND_OBEN signalisieren
             if(FS_ENTLEER_IsAbTurmOben()){
                 FS_ENTLEER_AbturmSchritt++;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_HOCHFAHREN;
                 FS_ENTLEER_ABTURM_AnnahmeBereit = true;
-                ///TODO BandOben Tick aktivieren
             } break;
+        ///Warten auf Abgabebereitschaft von BAND_OBEN
         case 1:
+            ///Bandlauf aktivieren
             if(FS_ENTLEER_BAND_OBEN_AbgabeBereit){
                 FS_ENTLEER_AbturmSchritt++;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_BAND;
             } break;
+        ///Warten auf Empfang des Blocks
         case 2:
+            ///Empfang an BAND_OBEN bestaetigen, Bandlauf stoppen und Runterfahren
             if(FS_ENTLEER_IsAbTurmBelegt()){
                 FS_ENTLEER_AbturmSchritt++;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_BAND;
@@ -139,23 +157,28 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_ABTURM_BlockErhalten = true;
                 FS_ENTLEER_ABTURM_AnnahmeBereit = false;
             } break;
+        ///Warten bis Aufzug unten ist
         case 3:
+            ///Fahrt stoppen, Abgabebereitschaft an FS_SCHRITT signalisieren
             if(FS_ENTLEER_IsAbTurmUnten()){
                 FS_ENTLEER_AbturmSchritt++;
                 FS_ENTLEER_ABTURM_BlockErhalten = false;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_RUNTERFAHREN;
-                ///TODO Sende Abgabebereitschaft an Wakko
                 FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT = true;
                 FS_ENTLEER_ABTURM_Tick = true;
             } break;
+        ///Warten auf Annahmebereitschaft von FS_SCHRITT
         case 4:
-            if(FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK){ ///TODO Empfange Annahmebereitschaft von Wakko
+            ///Bandlauf starten
+            if(FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK){
                 FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK = false;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_BAND;
                 FS_ENTLEER_AbturmSchritt++;
             } break;
+        ///Warten auf Empfangsbestaetigung von FS_SCHRITT
         case 5:
-            if(!FS_ENTLEER_IsAbTurmBelegt() && FS_ENTLEER_SIMULATION_WAKO_WERKSTUECK_ERHALTEN){///TODO Empfang von Wakko bestaetigt
+            ///Bandlauf stoppen, zurueck auf Schritt 0
+            if(!FS_ENTLEER_IsAbTurmBelegt() && FS_ENTLEER_SIMULATION_WAKO_WERKSTUECK_ERHALTEN){
                 FS_ENTLEER_SIMULATION_WAKO_WERKSTUECK_ERHALTEN = false;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_BAND;
                 FS_ENTLEER_AbturmSchritt = 0;
@@ -164,12 +187,15 @@ void FS_ENTLEER_Tick() {
             } break;
     }
 
+    ///Band Oben Schrittkette
     switch(FS_ENTLEER_BandObenSchritt){
+        ///Warten auf Abgabebereitschaft von Anturm
         case 0:
             if(FS_ENTLEER_ANTURM_AbgabeBereit){
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_BAND_OBEN_Tick = true;
             } break;
+        ///Wenn BandOben leer ist, signalisiere Annahmebereitschaft an Anturm, Bandlauf Starten
         case 1:
             if(!FS_ENTLEER_IsEntleerPos() && FS_ENTLEER_GreifarmSchritt == 0){
                 FS_ENTLEER_BAND_OBEN_AnnahmeBereit = true;
@@ -177,7 +203,9 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_ANTURM_Tick = true;
             } break;
+        ///Warten auf Empfang des Blocks
         case 2:
+            ///Bandlauf stoppen, Greifarmschrittkette aktivieren, Empfang des Blocks an Anturm bestaetigen
             if(FS_ENTLEER_IsEntleerPos()){
                 FS_ENTLEER_BAND_OBEN_AnnahmeBereit = false;
                 FS_ENTLEER_BAND_OBEN_ANNAHME = false;
@@ -187,35 +215,42 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_GreifarmSchritt = 1;
                 FS_ENTLEER_BAND_OBEN_Tick = true;
             } break;
+        ///Warten auf Durchlauf der Greifarmschrittkette (Block sollte auf BOEnde Position sein)
         case 3:
             if(!FS_ENTLEER_GreifarmAktiv){
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_BAND_OBEN_BlockErhalten = false;
                 FS_ENTLEER_BAND_OBEN_Tick = true;
             } break;
+        ///Warten auf Annahmebereitschaft von Abturm
         case 4:
+            ///Abgabebereitschaft an Abturm signalisieren, Bandlauf starten
             if(FS_ENTLEER_ABTURM_AnnahmeBereit){
                 FS_ENTLEER_BAND_OBEN_AbgabeBereit = true;
                 FS_ENTLEER_BAND_OBEN_ABGABE = true;
                 FS_ENTLEER_ABTURM_Tick = true;
                 FS_ENTLEER_BandObenSchritt++;
             }
+        ///Warten auf Empfangsbestaetigung von Abturm oder Abgabebereitschaft von Anturm
         case 5:
+            ///Bandlauf stoppen, zurueck auf Schritt 0
             if(FS_ENTLEER_ABTURM_BlockErhalten){
                 FS_ENTLEER_BAND_OBEN_ABGABE = false;
                 FS_ENTLEER_BAND_OBEN_AbgabeBereit = false;
                 FS_ENTLEER_BandObenSchritt = 0;
             }
+            /// Bandlauf stoppen und auf Schritt 1
             if(FS_ENTLEER_ANTURM_AbgabeBereit && !FS_ENTLEER_IsBOEndePos()){
                 FS_ENTLEER_BandObenSchritt = 1;
                 FS_ENTLEER_BAND_OBEN_ABGABE = false;
-                FS_ENTLEER_BAND_OBEN_AbgabeBereit = true;
+                FS_ENTLEER_BAND_OBEN_AbgabeBereit = false;
                 FS_ENTLEER_ANTURM_Tick = true;
             }
 
     }
 
-   if(FS_ENTLEER_GreifarmSchritt != 0){
+    ///Greifarmschrittkette
+    if(FS_ENTLEER_GreifarmSchritt != 0){
         switch(FS_ENTLEER_GreifarmSchritt){
             ///Greifarm wird runtergefahren
             case 1: FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_RUNTERFAHREN;
@@ -258,16 +293,19 @@ void FS_ENTLEER_Tick() {
             default: break;
 
         }
-   }
+    }
 
+    ///Hilfsvariablen fuer BAND_OBEN Bandlauf
     if(FS_ENTLEER_BAND_OBEN_ABGABE || FS_ENTLEER_BAND_OBEN_ANNAHME){
         FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_BAND_OBEN;
     } else {
         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_BAND_OBEN;
     }
 
+    ///Hilfsvariable fuer Extra Ticks
     FS_ENTLEER_ExtraTickRequest = FS_ENTLEER_ABTURM_Tick || FS_ENTLEER_ANTURM_Tick || FS_ENTLEER_BAND_OBEN_Tick || FS_ENTLEER_GREIFARM_Tick;
 
+    ///Umwandlung der uint16 zu einem 2-Byte Array und Versand des CAN-Telegramms
     FS_ENTLEER_CAN_ToSend_Array[1] = FS_ENTLEER_CAN_ToSend;
     FS_ENTLEER_CAN_ToSend_Array[0] = FS_ENTLEER_CAN_ToSend >> 8;
     CAN_TransmitMsg(FS_ENTLEER_CAN_SEND_ID, FS_ENTLEER_CAN_ToSend_Array, CAN_DLC_2);

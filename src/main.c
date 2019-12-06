@@ -15,7 +15,6 @@ int main(void)
     CAN_NMTConnect();
 
     FS_ENTLEER_CAN_NewTelegramReceived = false;
-    FS_ENTLEER_GREIFARM_Tick = false;
     bool button8Prev = false;
     bool button12Prev = false;
     bool button13Prev = false;
@@ -73,15 +72,20 @@ int main(void)
             button8Prev = false;
         }
 
+
+        GPIO_WriteBit(GPIOE, GPIO_Pin_9, FS_ENTLEER_ANTURM_ANNAHMEBEREIT);
+        GPIO_WriteBit(GPIOE, GPIO_Pin_10, FS_ENTLEER_ANTURM_BLOCK_ERHALTEN);
+        GPIO_WriteBit(GPIOE, GPIO_Pin_11, FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT);
+
+        /**
+         * Hauptroutine: Bei entsprechenden Triggern 1 Durchlauf
+        **/
+
         if(FS_ENTLEER_CAN_NewTelegramReceived || FS_ENTLEER_ExtraTickRequest || GPIOTick){
 
             GPIOTick = false;
             FS_ENTLEER_Tick();
         }
-
-        GPIO_WriteBit(GPIOE, GPIO_Pin_9, FS_ENTLEER_ANTURM_ANNAHMEBEREIT);
-        GPIO_WriteBit(GPIOE, GPIO_Pin_10, FS_ENTLEER_ANTURM_BLOCK_ERHALTEN);
-        GPIO_WriteBit(GPIOE, GPIO_Pin_11, FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT);
 
     }
 }

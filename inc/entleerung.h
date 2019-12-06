@@ -52,18 +52,12 @@ bool FS_ENTLEER_IsAbTurmUnten();
 bool FS_ENTLEER_IsAbTurmOben();
 bool FS_ENTLEER_IsAbTurmBelegt();
 
-/**
- *  Hauptfunktion; Abfragen aller Sensoren und Ansteuern der Aktoren - "Tick"
-**/
 
 /**
  *  temporaere Variablen zur Simulation der Kommunikation mit anderen Gruppen
 **/
-
-
 bool FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK;
 bool FS_ENTLEER_SIMULATION_WAKO_WERKSTUECK_ERHALTEN;
-
 
 bool FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT;
 
@@ -77,5 +71,8 @@ bool FS_SORT_ZYLINDER_stop;
 bool FS_ENTLEER_ANTURM_ANNAHMEBEREIT;
 bool FS_ENTLEER_ANTURM_BLOCK_ERHALTEN;
 
+/**
+ *  Hauptfunktion; Abfragen aller Sensoren und Ansteuern der Aktoren - "Tick"
+**/
 
 void FS_ENTLEER_Tick();
