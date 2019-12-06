@@ -63,7 +63,7 @@ void SMOT_Update()
 //Function for doing control parts.
 void SMOT_Tick()
 {
-    //SMOT_InitSchritkette();
+    SMOT_InitSchritkette();
     SMOT_Schrittkette();
 }
 
@@ -78,7 +78,7 @@ void SMOT_InitSchritkette()
     }
     case 1:
     {
-        SMOT_GoUntilRefButton(SMOT_REF_FROM_TOWER_TO_BELT_LEN, SMOT_SPEED_DEFAULT, X_TO_TOWER, false);
+        SMOT_GoUntilRefButton(SMOT_END_TO_REF_LEN, SMOT_SPEED_DEFAULT, X_TO_TOWER, false);
 
         if (!SMOT_running)
         {
@@ -124,7 +124,7 @@ void SMOT_InitSchritkette()
 
         SMOT_Goto(SMOT_REF_FROM_TOWER_TO_BELT_LEN, SMOT_SPEED_DEFAULT, X_TO_BELT, false);
 
-        if (ref_slider && !SMOT_running)
+        if (!SMOT_running)
         {
             smotInitStep = 0;
 
@@ -159,10 +159,13 @@ void SMOT_Schrittkette()
         uint8_t directionSetPacket[1] = {SMOT_overrideLock ? (SMOT_UNLOCK_SLIDER | (SMOT_direction << 4)) : (SMOT_direction << 4)};
         CAN_TransmitMsg(SMOT_DO_ID, directionSetPacket, CAN_DLC_1);
 
-        uint8_t bytesToSend[3] = {0x20, (SMOT_speed & 0x00FF), ((SMOT_speed >> 8) & 0xFF)};
-        CAN_TransmitMsg(SMOT_AO_ID, bytesToSend, CAN_DLC_3);
+        //Hier wird das zweite Telegramm wegen einer vollen Mailbox verworfen
 
-        smotStep = 2;
+        uint8_t bytesToSend[3] = {0x20, (SMOT_speed & 0x00FF), ((SMOT_speed >> 8) & 0xFF)};
+
+        if(CAN_TransmitMsg(SMOT_AO_ID, bytesToSend, CAN_DLC_3) <= 2)
+            smotStep = 2;
+
         break;
     }
 
@@ -219,10 +222,8 @@ void SMOT_Schrittkette()
 void SMOT_Init()
 {
     CAN_NMTConnect();
-
-   // smotInitStep = 1;
-
-   // SMOT_Tick();
+    smotInitStep = 1;
+    SMOT_InitSchritkette();
 }
 
 bool SMOT_Goto(uint16_t pos, uint16_t speed, direction_t dir, bool overrideLock)
@@ -269,44 +270,70 @@ uint16_t uint8s_To_uint16(uint8_t msb, uint8_t lsb)
 }
 
 //Belt Functions
-void SMOT_Move_Delivery_Belt(direction_t dir)
+void SMOT_Start_Delivery_Belt(direction_t dir)
 {
-    uint8_t bytes_to_send[1];
+    uint8_t _bytes_to_send[1];
 
     switch (dir)
     {
     case X_TO_TOWER:
-        bytes_to_send[0] = (SMOT_DEL_BELT_POS | do_prev);
+        _bytes_to_send[0] = (SMOT_DEL_BELT_POS | do_prev);
         break;
 
     case X_TO_BELT:
-        bytes_to_send[0] = (SMOT_DEL_BELT_NEG | do_prev);
+        _bytes_to_send[0] = (SMOT_DEL_BELT_NEG | do_prev);
         break;
 
     default:
         break;
     }
 
-    CAN_TransmitMsg(SMOT_DO_ID, bytes_to_send, CAN_DLC_1);
+    do_prev |= _bytes_to_send[0];
+    CAN_TransmitMsg(SMOT_DO_ID, _bytes_to_send, CAN_DLC_1);
 }
 
-void SMOT_Move_Parking_Belt(direction_t dir)
+void SMOT_Stop_Delivery_Belt()
 {
-    uint8_t bytes_to_send[1];
+    uint8_t _bytes_to_send[1];
+
+    _bytes_to_send[0] = (do_prev & !(SMOT_DEL_BELT_POS | SMOT_DEL_BELT_NEG));
+
+    do_prev |= _bytes_to_send[0];
+
+    CAN_TransmitMsg(SMOT_DO_ID, _bytes_to_send, CAN_DLC_1);
+}
+
+void SMOT_Start_Parking_Belt(direction_t dir)
+{
+    uint8_t _bytes_to_send[1];
 
     switch (dir)
     {
     case X_TO_TOWER:
-        bytes_to_send[0] = SMOT_DEL_BELT_POS;
+        _bytes_to_send[0] = SMOT_DEL_BELT_POS;
         break;
 
     case X_TO_BELT:
-        bytes_to_send[0] = SMOT_DEL_BELT_NEG;
+        _bytes_to_send[0] = SMOT_DEL_BELT_NEG;
         break;
 
     default:
         break;
     }
 
-    CAN_TransmitMsg(SMOT_DO_ID, bytes_to_send, CAN_DLC_1);
+    do_prev |= _bytes_to_send[0];
+
+    CAN_TransmitMsg(SMOT_DO_ID, _bytes_to_send, CAN_DLC_1);
 }
+
+void SMOT_Stop_Parking_Belt()
+{
+    uint8_t _bytes_to_send[1];
+
+    _bytes_to_send[0] = (do_prev & !(SMOT_PAR_BELT_POS | SMOT_PAR_BELT_NEG));
+
+    do_prev |= _bytes_to_send[0];
+
+    CAN_TransmitMsg(SMOT_DO_ID, _bytes_to_send, CAN_DLC_1);
+}
+

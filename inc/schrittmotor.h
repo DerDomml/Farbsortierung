@@ -71,6 +71,10 @@ bool SMOT_GoUntilRefButton(uint16_t pos, uint16_t speed, direction_t dir, bool o
 void SMOT_Schrittkette();
 void SMOT_InitSchritkette();
 bool SMOT_Running();
+void SMOT_Start_Delivery_Belt(direction_t dir);
+void SMOT_Start_Parking_Belt(direction_t dir);
+void SMOT_Stop_Delivery_Belt();
+void SMOT_Stop_Parking_Belt();
 
 
 uint16_t Bytes_To_Int(uint8_t toSwap1, uint8_t toSwap2);
