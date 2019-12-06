@@ -6,7 +6,7 @@
 ***************************************/
 bool ref_slider = false;
 bool bero_delivery = false;
-bool bero_parked  = false;
+bool bero_parked = false;
 bool node_listened = 0;
 bool ENT_Ready_To_Give = false;
 
@@ -63,8 +63,8 @@ void SMOT_Update()
 //Function for doing control parts.
 void SMOT_Tick()
 {
-    //SMOT_InitSchritkette();
     SMOT_Schrittkette();
+    SMOT_InitSchritkette();
 }
 
 int smotInitStep = 0;
@@ -79,50 +79,71 @@ void SMOT_InitSchritkette()
     case 1:
     {
         SMOT_GoUntilRefButton(SMOT_REF_FROM_TOWER_TO_BELT_LEN, SMOT_SPEED_DEFAULT, X_TO_TOWER, false);
-
-        if (!SMOT_running)
-        {
-            smotInitStep = 2;
-        }
+        smotInitStep = 2;
         break;
     }
     case 2:
     {
-        if (ref_slider && !SMOT_running)
+        if (ref_slider)
         {
             smotInitStep = 3;
         }
-        else
+        else if (!SMOT_running)
         {
             //Wait for smot to finish moving
 
-            smotInitStep = 4;
+            smotInitStep = 6;
         }
+
         break;
     }
     case 3:
     {
-
+        if (!SMOT_running)
+        {
+            smotInitStep = 4;
+        }
+        break;
+    }
+    case 4:
+    {
         SMOT_Goto(SMOT_REF_FROM_BELT_TO_BELT_LEN, SMOT_SPEED_DEFAULT, X_TO_BELT, false);
+        smotInitStep = 5;
+        break;
+    }
+    case 5:
+    {
+
         if (!SMOT_running)
         {
             smotInitStep = 0;
         }
         break;
     }
-    case 4:
+    case 6:
     {
         SMOT_GoUntilRefButton(SMOT_MAXPOS, SMOT_SPEED_DEFAULT, X_TO_BELT, true);
+        smotInitStep = 7;
+    }
+    case 7:
+    {
         if (!SMOT_running)
         {
-            smotInitStep = 5;
+            smotInitStep = 8;
         }
         break;
     }
-    case 5:
+    case 8:
     {
 
         SMOT_Goto(SMOT_REF_FROM_TOWER_TO_BELT_LEN, SMOT_SPEED_DEFAULT, X_TO_BELT, false);
+
+        smotInitStep = 9;
+
+        break;
+    }
+    case 9:
+    {
 
         if (ref_slider && !SMOT_running)
         {
@@ -131,8 +152,6 @@ void SMOT_InitSchritkette()
             //Reset with step 0
             SMOT_InitSchritkette();
         }
-
-        break;
     }
     }
 }
@@ -150,34 +169,30 @@ void SMOT_Schrittkette()
         SMOT_shallStopOnRefButton = false;
         SMOT_overrideLock = false;
         SMOT_running = false;
+        SMOT_current_position = 0;
         break;
     }
     case 1:
     {
-        SMOT_running = true;
         //Send control packets
         uint8_t directionSetPacket[1] = {SMOT_overrideLock ? (SMOT_UNLOCK_SLIDER | (SMOT_direction << 4)) : (SMOT_direction << 4)};
-        CAN_TransmitMsg(SMOT_DO_ID, directionSetPacket, CAN_DLC_1);
+        if (CAN_TransmitMsg(SMOT_DO_ID, directionSetPacket, CAN_DLC_1) <= 2)
+        {
 
-        uint8_t bytesToSend[3] = {0x20, (SMOT_speed & 0x00FF), ((SMOT_speed >> 8) & 0xFF)};
-        CAN_TransmitMsg(SMOT_AO_ID, bytesToSend, CAN_DLC_3);
+            smotStep = 2;
+        }
 
-        smotStep = 2;
         break;
     }
 
     case 2:
     {
-        if (SMOT_stopping)
+        uint8_t bytesToSend[3] = {0x20, (SMOT_speed & 0x00FF), ((SMOT_speed >> 8) & 0xFF)};
+        if (CAN_TransmitMsg(SMOT_AO_ID, bytesToSend, CAN_DLC_3) <= 2)
         {
 
+            smotStep = 3;
         }
-        else
-        {
-           // smotStep = 0;
-        }
-
-        smotStep = 3;
         break;
     }
     case 3:
@@ -198,6 +213,7 @@ void SMOT_Schrittkette()
     {
         if (SMOT_stopping)
         {
+            //SMOT_stopping = false;
             smotStep = 6;
         }
         break;
@@ -220,9 +236,9 @@ void SMOT_Init()
 {
     CAN_NMTConnect();
 
-   // smotInitStep = 1;
+    smotInitStep = 1;
 
-   // SMOT_Tick();
+    //SMOT_Tick();
 }
 
 bool SMOT_Goto(uint16_t pos, uint16_t speed, direction_t dir, bool overrideLock)
@@ -237,8 +253,9 @@ bool SMOT_Goto(uint16_t pos, uint16_t speed, direction_t dir, bool overrideLock)
 
     //START SCHRITTKETTE
     smotStep = 1;
+    SMOT_running = true;
 
-    SMOT_Tick();
+    //SMOT_Tick();
 
     return true;
 }
@@ -259,7 +276,8 @@ void SMOT_Stop()
     CAN_TransmitMsg(SMOT_AO_ID, bytesToSend, CAN_DLC_3);
 }
 
-bool SMOT_Running(){
+bool SMOT_Running()
+{
     return SMOT_running;
 }
 
