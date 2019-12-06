@@ -14,6 +14,9 @@ int main(void)
 
     ProjectInit();
 
+    bool GPIOD_0_prev = false;
+
+    //int i = 0;
     SMOT_Init();
 
         //SMOT_GoUntilRefButton(SMOT_MAXPOS, SMOT_SPEED_DEFAULT, X_TO_BELT, false);
