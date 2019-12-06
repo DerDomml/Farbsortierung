@@ -57,7 +57,17 @@ typedef enum direction
 }
 direction_t;
 
+typedef enum belt_direction
+{
+    X_TO_SYSTEM,
+    X_TO_PARKING
+}
+belt_direction_t;
+
 extern bool ENT_Ready_To_Give;
+extern bool SMOT_Ready_To_Give;
+extern bool SMOT_Ready_To_Take;
+extern bool SMOT_Taking_Complete;
 
 //SMOT Methods Declaration
 void SMOT_Init();
@@ -71,10 +81,11 @@ bool SMOT_GoUntilRefButton(uint16_t pos, uint16_t speed, direction_t dir, bool o
 void SMOT_Schrittkette();
 void SMOT_InitSchritkette();
 bool SMOT_Running();
-void SMOT_Start_Delivery_Belt(direction_t dir);
-void SMOT_Start_Parking_Belt(direction_t dir);
+void SMOT_Start_Delivery_Belt(belt_direction_t dir);
+void SMOT_Start_Parking_Belt(belt_direction_t dir);
 void SMOT_Stop_Delivery_Belt();
 void SMOT_Stop_Parking_Belt();
+void SMOT_Transport_Block();
 
 
 uint16_t Bytes_To_Int(uint8_t toSwap1, uint8_t toSwap2);
