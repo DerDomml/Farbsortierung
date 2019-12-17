@@ -1,5 +1,42 @@
 #include "global.h"
 
+enum AnTurmState {
+    ANTURM_AUSGANGSZUSTAND = 0,
+    ANTURM_ANNAHMEBEREIT = 1,
+    ANTURM_BLOCK_ERHALTEN = 2,
+    ANTURM_HOCH = 3,
+    ANTURM_ABGABEBEREIT = 4,
+    ANTURM_FERTIG = 5
+};
+
+enum ABTurmState {
+    ABTURM_AUSGANGSZUSTAND = 0,
+    ABTURM_ANNAHMEBEREIT = 1,
+    ABTURM_RUNTERFAHREN = 2,
+    ABTURM_ABGABEBEREIT = 3,
+    ABTURM_ABGABE_AN_SCHRITT = 4,
+    ABTURM_FERTIG = 5
+};
+
+enum BandObenState {
+    BANDOBEN_AUSGANGSZUSTAND = 0,
+    BANDOBEN_WARTE_AUF_ANTURM = 1,
+    BANDOBEN_ANNAHMEBEREIT = 2,
+    BANDOBEN_BLOCK_ERHALTEN = 3,
+    BANDOBEN_WARTE_AUF_GREIFARM = 4,
+    BANDOBEN_ABGABEBEREIT = 5,
+    BANDOBEN_FERTIG = 6
+};
+
+enum GreifarmState {
+    GREIFARM_AUSGANGSZUSTAND = 0,
+    GREIFARM_RUNTERFAHREN_1 = 1,
+    GREIFARM_ZUGRIFF = 2,
+    GREIFARM_RUNTERFAHREN_2 = 3,
+    GREIFARM_LOSLASSEN = 4,
+    GREIFARM_FERTIG = 5
+};
+
 bool FS_ENTLEER_GREIFARM_Tick;
 bool FS_ENTLEER_ANTURM_Tick;
 bool FS_ENTLEER_ABTURM_Tick;
@@ -47,10 +84,10 @@ void FS_ENTLEER_Tick() {
     static bool FS_ENTLEER_BAND_OBEN_ABGABE = false;
 
     ///Aktueller Schritt in den Schrittketten
-    static uint8_t FS_ENTLEER_AnturmSchritt = 0;
-    static uint8_t FS_ENTLEER_BandObenSchritt = 0;
-    static uint8_t FS_ENTLEER_AbturmSchritt = 0;
-    static uint8_t FS_ENTLEER_GreifarmSchritt = 0;
+    static uint8_t FS_ENTLEER_AnturmSchritt = ANTURM_AUSGANGSZUSTAND;
+    static uint8_t FS_ENTLEER_BandObenSchritt = ABTURM_AUSGANGSZUSTAND;
+    static uint8_t FS_ENTLEER_AbturmSchritt = BANDOBEN_AUSGANGSZUSTAND;
+    static uint8_t FS_ENTLEER_GreifarmSchritt = GREIFARM_AUSGANGSZUSTAND;
 
     /// Informationsaustausch zwischen den Schrittketten
     static bool FS_ENTLEER_ANTURM_AbgabeBereit = false;
@@ -84,7 +121,7 @@ void FS_ENTLEER_Tick() {
     ///AnTurm Schrittkette
     switch(FS_ENTLEER_AnturmSchritt){
         /// Default Schritt: Fahre in Startposition, wenn noch nicht unten
-        case 0:
+        case ANTURM_AUSGANGSZUSTAND:
             FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_RUNTERFAHREN;
             /// Runterfahrt stoppen, wenn unten angekommen - Sende Bereitschaft an FS_SERVO
             if(FS_ENTLEER_IsAnTurmUnten()){
@@ -93,14 +130,14 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_ANTURM_ANNAHMEBEREIT = true;
             } break;
         /// Warten auf Bereitschaft von FS_SERVO
-        case 1:
+        case ANTURM_ANNAHMEBEREIT:
             /// Empfange von SukR: Block bereit - Bandlauf starten
             if(FS_SERVO_blockReady){
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_BAND;
                 FS_ENTLEER_AnturmSchritt++;
             } break;
         ///Warten auf Empfang des Blocks
-        case 2:
+        case ANTURM_BLOCK_ERHALTEN:
             ///Bei Empfang des Blocks: Empfang bestaetigen an FS_SERVO; Turm hochfahren, Bandlauf stoppen
 //            TIM_Cmd(TIM6, ENABLE);
 //            if(FS_ENTLEER_WERKSTUECKVERLUST) {
@@ -119,7 +156,7 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_ANTURM_BLOCK_ERHALTEN = true;
             } break;
         ///Warten bis Turm oben ist
-        case 3:
+        case ANTURM_HOCH:
             /// Wenn Turm oben ist, nicht mehr hochfahren, Abgabebereitschaft signalisieren an BAND_OBEN
             FS_ENTLEER_ANTURM_BLOCK_ERHALTEN = false;
             if(FS_ENTLEER_IsAnTurmOben()){
@@ -127,24 +164,25 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_HOCHFAHREN;
                 FS_ENTLEER_ANTURM_AbgabeBereit = true;
             }  else if(!FS_ENTLEER_IsAnTurmBelegt()){
-                FS_ENTLEER_AnturmSchritt = 0;
+                FS_ENTLEER_AnturmSchritt = ANTURM_AUSGANGSZUSTAND;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_HOCHFAHREN;
                 FS_ENTLEER_ANTURM_Tick = true;
             }   break;
         ///Warten auf Annahmebereitschaft von BAND_OBEN
-        case 4:
+        case ANTURM_ABGABEBEREIT:
             ///Bandlauf Starten
             if(FS_ENTLEER_BAND_OBEN_AnnahmeBereit){
                 FS_ENTLEER_AnturmSchritt++;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ANTURM_BAND;
             } break;
         ///Warten auf Empfangsbestaetigung von BAND_OBEN
-        case 5:
-            ///Bandlauf stoppen, zurueck auf Schritt 0
+        case ANTURM_FERTIG:
+            ///Bandlauf stoppen, zurueck auf Ausgangszustand
 //            TIM_Cmd(TIM6, ENABLE);
 //            if(FS_ENTLEER_WERKSTUECKVERLUST) {
 //                FS_ENTLEER_AnturmSchritt = 0;
 //                FS_ENTLEER_ANTURM_Tick = true;
+//                FS_ENTLEER_ANTURM_AbgabeBereit = false;
 //                FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ANTURM_BAND;
 //            }
             if(FS_ENTLEER_BAND_OBEN_BlockErhalten){
@@ -161,7 +199,7 @@ void FS_ENTLEER_Tick() {
     ///AbTurm Schrittkette
     switch(FS_ENTLEER_AbturmSchritt){
         ///Default Schritt: Fahre in Startposition, wenn noch nicht oben
-        case 0:
+        case ABTURM_AUSGANGSZUSTAND:
             FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_HOCHFAHREN;
             ///Wenn Oben, nicht mehr hochfahren, Annahmebereitschaft an BAND_OBEN signalisieren
             if(FS_ENTLEER_IsAbTurmOben()){
@@ -170,14 +208,14 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_ABTURM_AnnahmeBereit = true;
             } break;
         ///Warten auf Abgabebereitschaft von BAND_OBEN
-        case 1:
+        case ABTURM_ANNAHMEBEREIT:
             ///Bandlauf aktivieren
             if(FS_ENTLEER_BAND_OBEN_AbgabeBereit){
                 FS_ENTLEER_AbturmSchritt++;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_BAND;
             } break;
         ///Warten auf Empfang des Blocks
-        case 2:
+        case ABTURM_RUNTERFAHREN:
             ///Empfang an BAND_OBEN bestaetigen, Bandlauf stoppen und Runterfahren
 //            TIM_Cmd(TIM6, ENABLE);
 //            if(FS_ENTLEER_WERKSTUECKVERLUST) {
@@ -195,33 +233,33 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_ABTURM_AnnahmeBereit = false;
             } break;
         ///Warten bis Aufzug unten ist
-        case 3:
+        case ABTURM_ABGABEBEREIT:
             ///Fahrt stoppen, Abgabebereitschaft an FS_SCHRITT signalisieren
             if(FS_ENTLEER_IsAbTurmUnten()){
                 FS_ENTLEER_AbturmSchritt++;
                 FS_ENTLEER_ABTURM_BlockErhalten = false;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_RUNTERFAHREN;
-                FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT = true;
+                FS_ENTLEER_ABTURM_ABGABEBEREIT = true;
                 FS_ENTLEER_ABTURM_Tick = true;
             }  else if(!FS_ENTLEER_IsAbTurmBelegt()){
-                FS_ENTLEER_AbturmSchritt = 0;
+                FS_ENTLEER_AbturmSchritt = ABTURM_AUSGANGSZUSTAND;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_RUNTERFAHREN;
                 FS_ENTLEER_ABTURM_BlockErhalten = false;
                 FS_ENTLEER_ABTURM_Tick = true;
             } break;
         ///Warten auf Annahmebereitschaft von FS_SCHRITT
-        case 4:
+        case ABTURM_ABGABE_AN_SCHRITT:
             ///Bandlauf starten
-            if(FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK){
-                FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK = false;
+            if(FS_SCHRITT_ANNAHMEBEREIT){
+                FS_SCHRITT_ANNAHMEBEREIT = false;
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_ABTURM_BAND;
                 FS_ENTLEER_AbturmSchritt++;
             }  else if(!FS_ENTLEER_IsAbTurmBelegt()){
-                FS_ENTLEER_AbturmSchritt = 0;
+                FS_ENTLEER_AbturmSchritt = ABTURM_AUSGANGSZUSTAND;
                 FS_ENTLEER_ABTURM_Tick = true;
             } break;
         ///Warten auf Empfangsbestaetigung von FS_SCHRITT
-        case 5:
+        case ABTURM_FERTIG:
             ///Bandlauf stoppen, zurueck auf Schritt 0
 //            TIM_Cmd(TIM6, ENABLE);
 //            if(FS_ENTLEER_WERKSTUECKVERLUST) {
@@ -229,20 +267,20 @@ void FS_ENTLEER_Tick() {
 //                FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_BAND;
 //                FS_ENTLEER_ABTURM_Tick = true;
 //            }
-            if(!FS_ENTLEER_IsAbTurmBelegt() && FS_ENTLEER_SIMULATION_WAKO_WERKSTUECK_ERHALTEN){
+            if(!FS_ENTLEER_IsAbTurmBelegt() && FS_SCHRITT_BLOCK_ERHALTEN){
 //                TIM_Cmd(TIM6, DISABLE);
 //                TIM_SetCounter(TIM6, 0);
-                FS_ENTLEER_SIMULATION_WAKO_WERKSTUECK_ERHALTEN = false;
+                FS_SCHRITT_BLOCK_ERHALTEN = false;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_ABTURM_BAND;
-                FS_ENTLEER_AbturmSchritt = 0;
+                FS_ENTLEER_AbturmSchritt = ABTURM_AUSGANGSZUSTAND;
                 FS_ENTLEER_ABTURM_Tick = true;
-                FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT = false;
+                FS_ENTLEER_ABTURM_ABGABEBEREIT = false;
             } break;
     }
 
     ///Band Oben Schrittkette
     switch(FS_ENTLEER_BandObenSchritt){
-        case 0:
+        case BANDOBEN_AUSGANGSZUSTAND:
             if(FS_ENTLEER_IsGreifarmOben()){
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_GREIFARM_HOCHFAHREN;
@@ -250,21 +288,21 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_HOCHFAHREN;
             }
         ///Warten auf Abgabebereitschaft von Anturm
-        case 1:
+        case BANDOBEN_WARTE_AUF_ANTURM:
             if(FS_ENTLEER_ANTURM_AbgabeBereit){
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_BAND_OBEN_Tick = true;
             } break;
         ///Wenn BandOben leer ist, signalisiere Annahmebereitschaft an Anturm, Bandlauf Starten
-        case 2:
-            if(!FS_ENTLEER_IsEntleerPos() && FS_ENTLEER_GreifarmSchritt == 0){
+        case BANDOBEN_ANNAHMEBEREIT:
+            if(!FS_ENTLEER_IsEntleerPos() && FS_ENTLEER_GreifarmSchritt == GREIFARM_AUSGANGSZUSTAND){
                 FS_ENTLEER_BAND_OBEN_AnnahmeBereit = true;
                 FS_ENTLEER_BAND_OBEN_ANNAHME = true;
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_ANTURM_Tick = true;
             } break;
         ///Warten auf Empfang des Blocks
-        case 3:
+        case BANDOBEN_BLOCK_ERHALTEN:
             ///Bandlauf stoppen, Greifarmschrittkette aktivieren, Empfang des Blocks an Anturm bestaetigen
 //            if(FS_ENTLEER_WERKSTUECKVERLUST) {
 //                FS_ENTLEER_BandObenSchritt = 0;
@@ -277,18 +315,18 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_GreifarmAktiv = true;
                 FS_ENTLEER_BAND_OBEN_BlockErhalten = true;
-                FS_ENTLEER_GreifarmSchritt = 1;
+                FS_ENTLEER_GreifarmSchritt = GREIFARM_ZUGRIFF;
                 FS_ENTLEER_BAND_OBEN_Tick = true;
             } break;
         ///Warten auf Durchlauf der Greifarmschrittkette (Block sollte auf BOEnde Position sein)
-        case 4:
+        case BANDOBEN_WARTE_AUF_GREIFARM:
             if(!FS_ENTLEER_GreifarmAktiv){
                 FS_ENTLEER_BAND_OBEN_BlockErhalten = false;
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_BAND_OBEN_Tick = true;
             } break;
         ///Warten auf Annahmebereitschaft von Abturm
-        case 5:
+        case BANDOBEN_ABGABEBEREIT:
             ///Abgabebereitschaft an Abturm signalisieren, Bandlauf starten
             if(FS_ENTLEER_ABTURM_AnnahmeBereit){
                 FS_ENTLEER_BAND_OBEN_AbgabeBereit = true;
@@ -297,7 +335,7 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_BandObenSchritt++;
             }
         ///Warten auf Empfangsbestaetigung von Abturm oder Abgabebereitschaft von Anturm
-        case 6:
+        case BANDOBEN_FERTIG:
 //            if(FS_ENTLEER_WERKSTUECKVERLUST) {
 //                FS_ENTLEER_WERKSTUECKVERLUST = false;
 //                FS_ENTLEER_BandObenSchritt = 0;
@@ -308,11 +346,11 @@ void FS_ENTLEER_Tick() {
             if(FS_ENTLEER_ABTURM_BlockErhalten){
                 FS_ENTLEER_BAND_OBEN_ABGABE = false;
                 FS_ENTLEER_BAND_OBEN_AbgabeBereit = false;
-                FS_ENTLEER_BandObenSchritt = 0;
+                FS_ENTLEER_BandObenSchritt = BANDOBEN_AUSGANGSZUSTAND;
             }
             /// Bandlauf stoppen und auf Schritt 1
             if(FS_ENTLEER_ANTURM_AbgabeBereit && !FS_ENTLEER_IsBOEndePos()){
-                FS_ENTLEER_BandObenSchritt = 1;
+                FS_ENTLEER_BandObenSchritt = BANDOBEN_WARTE_AUF_ANTURM;
                 FS_ENTLEER_BAND_OBEN_ABGABE = false;
                 FS_ENTLEER_BAND_OBEN_AbgabeBereit = false;
                 FS_ENTLEER_ANTURM_Tick = true;
@@ -321,17 +359,17 @@ void FS_ENTLEER_Tick() {
     }
 
     ///Greifarmschrittkette
-    if(FS_ENTLEER_GreifarmSchritt != 0){
+    if(FS_ENTLEER_GreifarmSchritt != GREIFARM_AUSGANGSZUSTAND){
         switch(FS_ENTLEER_GreifarmSchritt){
             ///Greifarm wird runtergefahren
-            case 1: FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_RUNTERFAHREN;
+            case GREIFARM_RUNTERFAHREN_1: FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                     if(FS_ENTLEER_IsGreifarmUnten()){
                         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                         FS_ENTLEER_GreifarmSchritt++;
                         FS_ENTLEER_GREIFARM_Tick = true;
                     }   break;
             ///Greifarm ist unten, greift zu und faehrt sofort hoch
-            case 2: FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_ZU;
+            case GREIFARM_ZUGRIFF: FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_ZU;
                     FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_HOCHFAHREN;
                     if(FS_ENTLEER_IsGreifarmOben()){
                         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_GREIFARM_HOCHFAHREN;
@@ -339,14 +377,14 @@ void FS_ENTLEER_Tick() {
                         FS_ENTLEER_GREIFARM_Tick = true;
                     }   break;
             ///Greifarm ist oben und faehrt sofort runter
-            case 3: FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_RUNTERFAHREN;
+            case GREIFARM_RUNTERFAHREN_2: FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                     if(FS_ENTLEER_IsGreifarmUnten()){
                         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_GREIFARM_RUNTERFAHREN;
                         FS_ENTLEER_GreifarmSchritt++;
                         FS_ENTLEER_GREIFARM_Tick = true;
                     }   break;
             ///Greifarm ist unten, laesst los und faehrt hoch
-             case 4: FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_GREIFARM_ZU;
+             case GREIFARM_LOSLASSEN: FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_GREIFARM_ZU;
                      FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_HOCHFAHREN;
                      if(FS_ENTLEER_IsGreifarmOben()){
                         FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_GREIFARM_HOCHFAHREN;
@@ -354,7 +392,7 @@ void FS_ENTLEER_Tick() {
                         FS_ENTLEER_GREIFARM_Tick = true;
                      }   break;
             ///Band faehrt den Klotz bis zum naechsten Sensor
-            case 5: FS_ENTLEER_BAND_OBEN_ANNAHME = true;
+            case GREIFARM_FERTIG: FS_ENTLEER_BAND_OBEN_ANNAHME = true;
 //                TIM_Cmd(TIM6, ENABLE);
 //                if(FS_ENTLEER_WERKSTUECKVERLUST) {
 //                    FS_ENTLEER_BandObenSchritt = 0;
@@ -367,14 +405,13 @@ void FS_ENTLEER_Tick() {
 //                    TIM_Cmd(TIM6, DISABLE);
 //                    TIM_SetCounter(TIM6, 0);
                     FS_ENTLEER_BAND_OBEN_ANNAHME = false;
-                    FS_ENTLEER_GreifarmSchritt = 0;
+                    FS_ENTLEER_GreifarmSchritt = GREIFARM_AUSGANGSZUSTAND;
                     FS_ENTLEER_GreifarmAktiv = false;
                     FS_ENTLEER_GREIFARM_Tick = true;
                  }   break;
                 default: break;
         }
     }
-
 //    FS_ENTLEER_WERKSTUECKVERLUST = false;
 
     ///Hilfsvariablen fuer BAND_OBEN Bandlauf
@@ -398,38 +435,3 @@ void FS_ENTLEER_Tick() {
         CAN_TransmitMsg(FS_ENTLEER_DO_11Bit_ID, FS_ENTLEER_CAN_ToSend_Array, CAN_DLC_2);
     }
 }
-
-enum AnTurmState {
-    ANTURM_AUSGANGSZUSTAND = 0,
-    ANTURM_ANNAHMEBEREIT = 1,
-    ANTURM_BLOCK_ERHALTEN = 2,
-    ANTURM_HOCH = 3,
-    ANTURM_ABGABEBEREIT = 4,
-    ANTURM_FERTIG = 5
-};
-
-enum ABTurmState {
-    ABTURM_AUSGANGSZUSTAND = 0,
-    ABTURM_ANNAHMEBEREIT = 1,
-    ABTURM_RUNTERFAHREN = 2,
-    ABTURM_ABGABEBEREIT = 3,
-    ABTURM_ABGABE_AN_SCHRITT = 4,
-    ABTURM_FERTIG = 5
-};
-
-enum BandObenState { ///todo add bandoben 6
-    BANDOBEN_AUSGANGSZUSTAND = 0,
-    BANDOBEN_ANNAHMEBEREIT = 1,
-    BANDOBEN_BLOCK_ERHALTEN = 2,
-    BANDOBEN_WARTE_AUF_GREIFARM = 3,
-    BANDOBEN_ABGABEBEREIT = 4,
-    BANDOBEN_FERTIG = 5
-};
-
-enum GreifarmState {
-    GREIFARM_AUSGANGSZUSTAND = 1,
-    GREIFARM_ZUGRIFF = 2,
-    GREIFARM_RUNTERFAHREN = 3,
-    GREIFARM_LOSLASSEN = 4,
-    GREIFARM_FERTIG = 5
-};

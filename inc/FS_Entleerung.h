@@ -66,10 +66,10 @@ bool FS_ENTLEER_IsAbTurmBelegt();
 /**
  *  temporaere Variablen zur Simulation der Kommunikation mit anderen Gruppen
 **/
-bool FS_ENTLEER_SIMULATION_WAKO_BEREIT_FUER_BLOCK;
-bool FS_ENTLEER_SIMULATION_WAKO_WERKSTUECK_ERHALTEN;
+bool FS_SCHRITT_ANNAHMEBEREIT; ///TO REMOVE
+bool FS_SCHRITT_BLOCK_ERHALTEN; ///TO REMOVE
 
-bool FS_ENTLEER_SIMULATION_ABTURM_ABGABEBEREIT;
+bool FS_ENTLEER_ABTURM_ABGABEBEREIT;
 
 /**
  *  Variablen zur Kommunikation mit anderen Gruppen
