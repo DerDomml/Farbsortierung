@@ -22,7 +22,7 @@
 
 //Defines for motor steps
 #define FS_SERVO_STEPS_TO_REF       13
-#define FS_SERVO_STEPS_TO_EMPTYING  341
+#define FS_SERVO_STEPS_TO_EMPTYING  340 ///341
 
 //Defines for timer
 #define FS_SERVO_TIMER_ARR          30000
