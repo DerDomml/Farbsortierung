@@ -242,14 +242,21 @@ void FS_ENTLEER_Tick() {
 
     ///Band Oben Schrittkette
     switch(FS_ENTLEER_BandObenSchritt){
-        ///Warten auf Abgabebereitschaft von Anturm
         case 0:
+            if(FS_ENTLEER_IsGreifarmOben()){
+                FS_ENTLEER_BandObenSchritt++;
+                FS_ENTLEER_CAN_ToSend &= ~FS_ENTLEER_GREIFARM_HOCHFAHREN;
+            } else {
+                FS_ENTLEER_CAN_ToSend |= FS_ENTLEER_GREIFARM_HOCHFAHREN;
+            }
+        ///Warten auf Abgabebereitschaft von Anturm
+        case 1:
             if(FS_ENTLEER_ANTURM_AbgabeBereit){
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_BAND_OBEN_Tick = true;
             } break;
         ///Wenn BandOben leer ist, signalisiere Annahmebereitschaft an Anturm, Bandlauf Starten
-        case 1:
+        case 2:
             if(!FS_ENTLEER_IsEntleerPos() && FS_ENTLEER_GreifarmSchritt == 0){
                 FS_ENTLEER_BAND_OBEN_AnnahmeBereit = true;
                 FS_ENTLEER_BAND_OBEN_ANNAHME = true;
@@ -257,7 +264,7 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_ANTURM_Tick = true;
             } break;
         ///Warten auf Empfang des Blocks
-        case 2:
+        case 3:
             ///Bandlauf stoppen, Greifarmschrittkette aktivieren, Empfang des Blocks an Anturm bestaetigen
 //            if(FS_ENTLEER_WERKSTUECKVERLUST) {
 //                FS_ENTLEER_BandObenSchritt = 0;
@@ -274,14 +281,14 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_BAND_OBEN_Tick = true;
             } break;
         ///Warten auf Durchlauf der Greifarmschrittkette (Block sollte auf BOEnde Position sein)
-        case 3:
+        case 4:
             if(!FS_ENTLEER_GreifarmAktiv){
                 FS_ENTLEER_BAND_OBEN_BlockErhalten = false;
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_BAND_OBEN_Tick = true;
             } break;
         ///Warten auf Annahmebereitschaft von Abturm
-        case 4:
+        case 5:
             ///Abgabebereitschaft an Abturm signalisieren, Bandlauf starten
             if(FS_ENTLEER_ABTURM_AnnahmeBereit){
                 FS_ENTLEER_BAND_OBEN_AbgabeBereit = true;
@@ -290,7 +297,7 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_BandObenSchritt++;
             }
         ///Warten auf Empfangsbestaetigung von Abturm oder Abgabebereitschaft von Anturm
-        case 5:
+        case 6:
 //            if(FS_ENTLEER_WERKSTUECKVERLUST) {
 //                FS_ENTLEER_WERKSTUECKVERLUST = false;
 //                FS_ENTLEER_BandObenSchritt = 0;
@@ -410,14 +417,14 @@ enum ABTurmState {
     ABTURM_FERTIG = 5
 };
 
-enum BandObenState {
+enum BandObenState { ///todo add bandoben 6
     BANDOBEN_AUSGANGSZUSTAND = 0,
     BANDOBEN_ANNAHMEBEREIT = 1,
     BANDOBEN_BLOCK_ERHALTEN = 2,
     BANDOBEN_WARTE_AUF_GREIFARM = 3,
     BANDOBEN_ABGABEBEREIT = 4,
     BANDOBEN_FERTIG = 5
-}
+};
 
 enum GreifarmState {
     GREIFARM_AUSGANGSZUSTAND = 1,
@@ -425,4 +432,4 @@ enum GreifarmState {
     GREIFARM_RUNTERFAHREN = 3,
     GREIFARM_LOSLASSEN = 4,
     GREIFARM_FERTIG = 5
-}
+};
