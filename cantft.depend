@@ -5100,34 +5100,34 @@
 1572275167 source:c:\users\z003y5ry\desktop\ausbildung\embedded systems und echtzeitsysteme\00_canwtftfontstemplate\src\main.c
 	"global.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\misc.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\misc.c
 	"misc.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\misc.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\misc.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\stm32f10x.h
+1498717024 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\stm32f10x.h
 	"core_cm3.h"
 	"system_stm32f10x.h"
 	<stdint.h>
 	"stm32f10x_conf.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\cmsis\core_cm3.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\cmsis\core_cm3.h
 	<stdint.h>
 	<core_cmInstr.h>
 	<core_cmFunc.h>
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\cmsis\core_cminstr.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\cmsis\core_cminstr.h
 	<cmsis_iar.h>
 	<cmsis_ccs.h>
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\cmsis\core_cmfunc.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\cmsis\core_cmfunc.h
 	<cmsis_iar.h>
 	<cmsis_ccs.h>
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\system_stm32f10x.h
+1498717024 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\system_stm32f10x.h
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\stm32f10x_conf.h
+1498717024 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\stm32f10x_conf.h
 	"stm32f10x_adc.h"
 	"stm32f10x_bkp.h"
 	"stm32f10x_can.h"
@@ -5152,157 +5152,157 @@
 	"stm32f10x_wwdg.h"
 	"misc.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_adc.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_adc.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_bkp.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_bkp.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_can.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_can.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_cec.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_cec.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_crc.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_crc.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_dac.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_dac.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_dbgmcu.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_dbgmcu.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_dma.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_dma.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_exti.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_exti.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_flash.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_flash.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_fsmc.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_fsmc.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_gpio.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_gpio.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_i2c.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_i2c.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_iwdg.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_iwdg.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_pwr.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_pwr.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_rcc.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_rcc.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_rtc.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_rtc.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_sdio.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_sdio.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_spi.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_spi.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_tim.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_tim.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_usart.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_usart.h
 	"stm32f10x.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\inc\stm32f10x_wwdg.h
+1515489202 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\inc\stm32f10x_wwdg.h
 	"stm32f10x.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_adc.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_adc.c
 	"stm32f10x_adc.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_bkp.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_bkp.c
 	"stm32f10x_bkp.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_can.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_can.c
 	"stm32f10x_can.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_cec.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_cec.c
 	"stm32f10x_cec.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_crc.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_crc.c
 	"stm32f10x_crc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_dac.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_dac.c
 	"stm32f10x_dac.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_dbgmcu.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_dbgmcu.c
 	"stm32f10x_dbgmcu.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_dma.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_dma.c
 	"stm32f10x_dma.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_exti.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_exti.c
 	"stm32f10x_exti.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_flash.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_flash.c
 	"stm32f10x_flash.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_fsmc.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_fsmc.c
 	"stm32f10x_fsmc.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_gpio.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_gpio.c
 	"stm32f10x_gpio.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_i2c.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_i2c.c
 	"stm32f10x_i2c.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_iwdg.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_iwdg.c
 	"stm32f10x_iwdg.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_pwr.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_pwr.c
 	"stm32f10x_pwr.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_rcc.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_rcc.c
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_rtc.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_rtc.c
 	"stm32f10x_rtc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_sdio.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_sdio.c
 	"stm32f10x_sdio.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_spi.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_spi.c
 	"stm32f10x_spi.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_tim.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_tim.c
 	"stm32f10x_tim.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_usart.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_usart.c
 	"stm32f10x_usart.h"
 	"stm32f10x_rcc.h"
 
-1575456877 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\spl\src\stm32f10x_wwdg.c
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\spl\src\stm32f10x_wwdg.c
 	"stm32f10x_wwdg.h"
 	"stm32f10x_rcc.h"
 
-1575456882 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\can.c
+1523524110 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\font.c
 	"global.h"
 
-1575456882 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\global.h
+1575468368 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\global.h
 	"stm32f10x_conf.h"
 	"project.h"
 	<stdlib.h>
@@ -5317,34 +5317,29 @@
 	"cmsisAddon.h"
 	"can.h"
 	"simModel.h"
-	"entleerung.h"
+	"FS_Farbsortierung.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\project.h
+1571335078 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\project.h
 	"ILI9341_CmdDriver.h"
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\ili9341_cmddriver.h
+1530267960 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\ili9341_cmddriver.h
 	<stdbool.h>
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\ili9341_buscycles.h
+1523891560 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\ili9341_buscycles.h
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\font.h
+1523426978 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\font.h
 	<stdint.h>
 	<inttypes.h>
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\cmsisaddon.h
+1516708016 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\cmsisaddon.h
 
-1575456882 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\can.h
+1575299021 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\can.h
 
-1575456877 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\simmodel.h
+1571334984 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\simmodel.h
 
-1575548855 c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\inc\entleerung.h
+1575468368 d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\inc\fs_farbsortierung.h
 
-1575456878 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\font.c
-	"global.h"
-
-1575456878 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\fs_kommissionierung.c
-
-1575456882 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\ili9341_buscycles.c
+1530097570 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\ili9341_buscycles.c
 	"stm32f10x_rcc.h"
 	"stm32f10x_gpio.h"
 	<stdlib.h>
@@ -5355,7 +5350,7 @@
 	"ILI9341_BusCycles.h"
 	"global.h"
 
-1575456878 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\ili9341_cmddriver.c
+1530267960 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\ili9341_cmddriver.c
 	"stm32f10x_rcc.h"
 	"stm32f10x_gpio.h"
 	<stdlib.h>
@@ -5367,231 +5362,33 @@
 	"ILI9341_CmdDriver.h"
 	"global.h"
 
-1575548751 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\init.c
+1575458482 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\init.c
 	"global.h"
 
-1575456882 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\isr.c
+1575468368 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\isr.c
 	"global.h"
 
-1575549225 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\main.c
+1575468402 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\main.c
 	"global.h"
 
-1575456878 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\schrittmotor.c
-
-1575456878 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\simmodel.c
+1572275086 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\simmodel.c
 	"global.h"
 
-1575456878 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\startup_stm32f10x_cl.s
+1515489202 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\startup_stm32f10x_cl.s
 
-1575456878 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\system_stm32f10x.c
+1502260688 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\system_stm32f10x.c
 	"stm32f10x.h"
 
-1575549221 source:c:\programming\projects\echtzeitsysteme_projekt\github\farbsortierung\src\entleerung.c
+1575439684 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\can.c
 	"global.h"
 
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\misc.c
-	"misc.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\misc.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\stm32f10x.h
-	"core_cm3.h"
-	"system_stm32f10x.h"
-	<stdint.h>
-	"stm32f10x_conf.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\cmsis\core_cm3.h
-	<stdint.h>
-	<core_cmInstr.h>
-	<core_cmFunc.h>
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\cmsis\core_cminstr.h
-	<cmsis_iar.h>
-	<cmsis_ccs.h>
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\cmsis\core_cmfunc.h
-	<cmsis_iar.h>
-	<cmsis_ccs.h>
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\system_stm32f10x.h
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\stm32f10x_conf.h
-	"stm32f10x_adc.h"
-	"stm32f10x_bkp.h"
-	"stm32f10x_can.h"
-	"stm32f10x_cec.h"
-	"stm32f10x_crc.h"
-	"stm32f10x_dac.h"
-	"stm32f10x_dbgmcu.h"
-	"stm32f10x_dma.h"
-	"stm32f10x_exti.h"
-	"stm32f10x_flash.h"
-	"stm32f10x_fsmc.h"
-	"stm32f10x_gpio.h"
-	"stm32f10x_i2c.h"
-	"stm32f10x_iwdg.h"
-	"stm32f10x_pwr.h"
-	"stm32f10x_rcc.h"
-	"stm32f10x_rtc.h"
-	"stm32f10x_sdio.h"
-	"stm32f10x_spi.h"
-	"stm32f10x_tim.h"
-	"stm32f10x_usart.h"
-	"stm32f10x_wwdg.h"
-	"misc.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_adc.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_bkp.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_can.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_cec.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_crc.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_dac.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_dbgmcu.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_dma.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_exti.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_flash.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_fsmc.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_gpio.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_i2c.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_iwdg.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_pwr.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_rcc.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_rtc.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_sdio.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_spi.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_tim.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_usart.h
-	"stm32f10x.h"
-
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\inc\stm32f10x_wwdg.h
-	"stm32f10x.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_adc.c
-	"stm32f10x_adc.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_bkp.c
-	"stm32f10x_bkp.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_can.c
-	"stm32f10x_can.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_cec.c
-	"stm32f10x_cec.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_crc.c
-	"stm32f10x_crc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_dac.c
-	"stm32f10x_dac.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_dbgmcu.c
-	"stm32f10x_dbgmcu.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_dma.c
-	"stm32f10x_dma.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_exti.c
-	"stm32f10x_exti.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_flash.c
-	"stm32f10x_flash.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_fsmc.c
-	"stm32f10x_fsmc.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_gpio.c
-	"stm32f10x_gpio.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_i2c.c
-	"stm32f10x_i2c.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_iwdg.c
-	"stm32f10x_iwdg.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_pwr.c
-	"stm32f10x_pwr.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_rcc.c
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_rtc.c
-	"stm32f10x_rtc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_sdio.c
-	"stm32f10x_sdio.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_spi.c
-	"stm32f10x_spi.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_tim.c
-	"stm32f10x_tim.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_usart.c
-	"stm32f10x_usart.h"
-	"stm32f10x_rcc.h"
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\spl\src\stm32f10x_wwdg.c
-	"stm32f10x_wwdg.h"
-	"stm32f10x_rcc.h"
-
-1575466344 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\can.c
+1575468368 source:d:\aeit + fiae\ausbildung\unterricht\4. sequenzwochen\pti023 - projekt embedded programming in automation\00_canwtftfonts\src\fs_farbsortierung.c
 	"global.h"
 
-1575466344 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\global.h
+1575457557 source:c:\users\z003y5ry\desktop\embedded projekt\00_canwtftfontstemplate\src\fs_kommissionierung.c
+	"global.h"
+
+1575530390 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\global.h
 	"stm32f10x_conf.h"
 	"project.h"
 	<stdlib.h>
@@ -5606,37 +5403,247 @@
 	"cmsisAddon.h"
 	"can.h"
 	"simModel.h"
-	"entleerung.h"
+	"Farbsortierung.h"
 
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\project.h
+1498717024 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\stm32f10x_conf.h
+	"stm32f10x_adc.h"
+	"stm32f10x_bkp.h"
+	"stm32f10x_can.h"
+	"stm32f10x_cec.h"
+	"stm32f10x_crc.h"
+	"stm32f10x_dac.h"
+	"stm32f10x_dbgmcu.h"
+	"stm32f10x_dma.h"
+	"stm32f10x_exti.h"
+	"stm32f10x_flash.h"
+	"stm32f10x_fsmc.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_i2c.h"
+	"stm32f10x_iwdg.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_rtc.h"
+	"stm32f10x_sdio.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"stm32f10x_usart.h"
+	"stm32f10x_wwdg.h"
+	"misc.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_adc.h
+	"stm32f10x.h"
+
+1498717024 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1498717024 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\system_stm32f10x.h
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_bkp.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_can.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_cec.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_crc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_dac.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_dbgmcu.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_dma.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_exti.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_flash.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_fsmc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_i2c.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_iwdg.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_rtc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_sdio.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_spi.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_tim.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_usart.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\stm32f10x_wwdg.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\inc\misc.h
+	"stm32f10x.h"
+
+1571335078 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\project.h
 	"ILI9341_CmdDriver.h"
 
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\ili9341_cmddriver.h
+1530267960 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\ili9341_cmddriver.h
 	<stdbool.h>
 
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\ili9341_buscycles.h
+1523891560 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\ili9341_buscycles.h
 
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\font.h
+1523426978 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\font.h
 	<stdint.h>
 	<inttypes.h>
 
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\cmsisaddon.h
+1516708016 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\cmsisaddon.h
 
-1575466343 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\can.h
+1575532650 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\can.h
 
-1575466333 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\simmodel.h
+1571334984 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\simmodel.h
 
-1575555955 c:\users\z003ypvb\desktop\github doc proj\farbsortierung\inc\entleerung.h
+1575549087 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\farbsortierung.h
+	"FS_Farbsortierung.h"
+	"FS_Kommissionierung.h"
+	"FS_ServoMotor.h"
 
-1575619067 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\entleerung.c
+1575555925 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\fs_farbsortierung.h
+
+1575550155 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\fs_kommissionierung.h
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\misc.c
+	"misc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_adc.c
+	"stm32f10x_adc.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_bkp.c
+	"stm32f10x_bkp.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_can.c
+	"stm32f10x_can.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_cec.c
+	"stm32f10x_cec.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_crc.c
+	"stm32f10x_crc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_dac.c
+	"stm32f10x_dac.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_dbgmcu.c
+	"stm32f10x_dbgmcu.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_dma.c
+	"stm32f10x_dma.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_flash.c
+	"stm32f10x_flash.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_fsmc.c
+	"stm32f10x_fsmc.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_i2c.c
+	"stm32f10x_i2c.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_iwdg.c
+	"stm32f10x_iwdg.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_rtc.c
+	"stm32f10x_rtc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_sdio.c
+	"stm32f10x_sdio.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1575460916 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_usart.c
+	"stm32f10x_usart.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\spl\src\stm32f10x_wwdg.c
+	"stm32f10x_wwdg.h"
+	"stm32f10x_rcc.h"
+
+1575553618 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\can.c
 	"global.h"
 
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\font.c
+1523524110 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\font.c
 	"global.h"
 
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\fs_kommissionierung.c
+1575555962 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\fs_farbsortierung.c
+	"global.h"
 
-1575466344 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\ili9341_buscycles.c
+1575556828 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\fs_kommissionierung.c
+	"global.h"
+
+1530097570 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\ili9341_buscycles.c
 	"stm32f10x_rcc.h"
 	"stm32f10x_gpio.h"
 	<stdlib.h>
@@ -5647,7 +5654,7 @@
 	"ILI9341_BusCycles.h"
 	"global.h"
 
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\ili9341_cmddriver.c
+1530267960 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\ili9341_cmddriver.c
 	"stm32f10x_rcc.h"
 	"stm32f10x_gpio.h"
 	<stdlib.h>
@@ -5659,22 +5666,955 @@
 	"ILI9341_CmdDriver.h"
 	"global.h"
 
-1575549740 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\init.c
+1575531910 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\init.c
 	"global.h"
 
-1575466344 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\isr.c
+1575552607 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\isr.c
 	"global.h"
 
-1575616584 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\main.c
+1575554785 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\main.c
 	"global.h"
 
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\schrittmotor.c
-
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\simmodel.c
+1575532704 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\simmodel.c
 	"global.h"
 
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\startup_stm32f10x_cl.s
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\startup_stm32f10x_cl.s
 
-1575466333 source:c:\users\z003ypvb\desktop\github doc proj\farbsortierung\src\system_stm32f10x.c
+1502260688 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\system_stm32f10x.c
+	"stm32f10x.h"
+
+1575552535 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\farbsortierung.c
+	"global.h"
+
+1575555064 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\inc\fs_servomotor.h
+
+1575554795 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung\src\fs_servomotor.c
+	"global.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\misc.c
+	"misc.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\misc.h
+	"stm32f10x.h"
+
+1498717024 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1498717024 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\system_stm32f10x.h
+
+1498717024 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\stm32f10x_conf.h
+	"stm32f10x_adc.h"
+	"stm32f10x_bkp.h"
+	"stm32f10x_can.h"
+	"stm32f10x_cec.h"
+	"stm32f10x_crc.h"
+	"stm32f10x_dac.h"
+	"stm32f10x_dbgmcu.h"
+	"stm32f10x_dma.h"
+	"stm32f10x_exti.h"
+	"stm32f10x_flash.h"
+	"stm32f10x_fsmc.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_i2c.h"
+	"stm32f10x_iwdg.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_rtc.h"
+	"stm32f10x_sdio.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"stm32f10x_usart.h"
+	"stm32f10x_wwdg.h"
+	"misc.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_adc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_bkp.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_can.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_cec.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_crc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_dac.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_dbgmcu.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_dma.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_exti.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_flash.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_fsmc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_i2c.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_iwdg.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_rtc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_sdio.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_spi.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_tim.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_usart.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\inc\stm32f10x_wwdg.h
+	"stm32f10x.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_adc.c
+	"stm32f10x_adc.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_bkp.c
+	"stm32f10x_bkp.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_can.c
+	"stm32f10x_can.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_cec.c
+	"stm32f10x_cec.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_crc.c
+	"stm32f10x_crc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_dac.c
+	"stm32f10x_dac.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_dbgmcu.c
+	"stm32f10x_dbgmcu.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_dma.c
+	"stm32f10x_dma.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_flash.c
+	"stm32f10x_flash.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_fsmc.c
+	"stm32f10x_fsmc.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_i2c.c
+	"stm32f10x_i2c.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_iwdg.c
+	"stm32f10x_iwdg.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_rtc.c
+	"stm32f10x_rtc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_sdio.c
+	"stm32f10x_sdio.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1575460916 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_usart.c
+	"stm32f10x_usart.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\spl\src\stm32f10x_wwdg.c
+	"stm32f10x_wwdg.h"
+	"stm32f10x_rcc.h"
+
+1575632603 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\can.c
+	"global.h"
+
+1575530390 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\global.h
+	"stm32f10x_conf.h"
+	"project.h"
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	<stdio.h>
+	"ILI9341_BusCycles.h"
+	"ILI9341_CmdDriver.h"
+	"Font.h"
+	"cmsisAddon.h"
+	"can.h"
+	"simModel.h"
+	"Farbsortierung.h"
+
+1571335078 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\project.h
+	"ILI9341_CmdDriver.h"
+
+1530267960 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\ili9341_cmddriver.h
+	<stdbool.h>
+
+1523891560 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\ili9341_buscycles.h
+
+1523426978 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\font.h
+	<stdint.h>
+	<inttypes.h>
+
+1516708016 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\cmsisaddon.h
+
+1575532650 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\can.h
+
+1571334984 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\simmodel.h
+
+1575620193 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\farbsortierung.h
+	"FS_Farbsortierung.h"
+	"FS_Kommissionierung.h"
+	"FS_ServoMotor.h"
+	"FS_Entleerung.h"
+
+1575555925 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\fs_farbsortierung.h
+
+1575630270 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\fs_kommissionierung.h
+
+1576477323 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\fs_servomotor.h
+
+1575623717 c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\inc\fs_entleerung.h
+
+1575620030 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\farbsortierung.c
+	"global.h"
+
+1523524110 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\font.c
+	"global.h"
+
+1576479980 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\fs_entleerung.c
+	"global.h"
+
+1575627907 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\fs_farbsortierung.c
+	"global.h"
+
+1576476776 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\fs_kommissionierung.c
+	"global.h"
+
+1576479987 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\fs_servomotor.c
+	"global.h"
+
+1530097570 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\ili9341_buscycles.c
+	"stm32f10x_rcc.h"
+	"stm32f10x_gpio.h"
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	"ILI9341_BusCycles.h"
+	"global.h"
+
+1530267960 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\ili9341_cmddriver.c
+	"stm32f10x_rcc.h"
+	"stm32f10x_gpio.h"
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	"ILI9341_BusCycles.h"
+	"ILI9341_CmdDriver.h"
+	"global.h"
+
+1575531910 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\init.c
+	"global.h"
+
+1575631308 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\isr.c
+	"global.h"
+
+1575622488 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\main.c
+	"global.h"
+
+1575532704 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\simmodel.c
+	"global.h"
+
+1515489202 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\startup_stm32f10x_cl.s
+
+1502260688 source:c:\users\z003y5ry\desktop\embedded projekt\merge 1\farbsortierung_mit_entleerung\src\system_stm32f10x.c
+	"stm32f10x.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\misc.c
+	"misc.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\misc.h
+	"stm32f10x.h"
+
+1498717024 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1498717024 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\system_stm32f10x.h
+
+1498717024 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\stm32f10x_conf.h
+	"stm32f10x_adc.h"
+	"stm32f10x_bkp.h"
+	"stm32f10x_can.h"
+	"stm32f10x_cec.h"
+	"stm32f10x_crc.h"
+	"stm32f10x_dac.h"
+	"stm32f10x_dbgmcu.h"
+	"stm32f10x_dma.h"
+	"stm32f10x_exti.h"
+	"stm32f10x_flash.h"
+	"stm32f10x_fsmc.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_i2c.h"
+	"stm32f10x_iwdg.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_rtc.h"
+	"stm32f10x_sdio.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"stm32f10x_usart.h"
+	"stm32f10x_wwdg.h"
+	"misc.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_adc.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_bkp.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_can.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_cec.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_crc.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_dac.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_dbgmcu.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_dma.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_exti.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_flash.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_fsmc.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_i2c.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_iwdg.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_rtc.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_sdio.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_spi.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_tim.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_usart.h
+	"stm32f10x.h"
+
+1515489202 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\inc\stm32f10x_wwdg.h
+	"stm32f10x.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_adc.c
+	"stm32f10x_adc.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_bkp.c
+	"stm32f10x_bkp.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_can.c
+	"stm32f10x_can.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_cec.c
+	"stm32f10x_cec.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_crc.c
+	"stm32f10x_crc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_dac.c
+	"stm32f10x_dac.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_dbgmcu.c
+	"stm32f10x_dbgmcu.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_dma.c
+	"stm32f10x_dma.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_flash.c
+	"stm32f10x_flash.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_fsmc.c
+	"stm32f10x_fsmc.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_i2c.c
+	"stm32f10x_i2c.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_iwdg.c
+	"stm32f10x_iwdg.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_rtc.c
+	"stm32f10x_rtc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_sdio.c
+	"stm32f10x_sdio.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1575460916 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_usart.c
+	"stm32f10x_usart.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\spl\src\stm32f10x_wwdg.c
+	"stm32f10x_wwdg.h"
+	"stm32f10x_rcc.h"
+
+1576488300 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\can.c
+	"global.h"
+
+1575530390 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\global.h
+	"stm32f10x_conf.h"
+	"project.h"
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	<stdio.h>
+	"ILI9341_BusCycles.h"
+	"ILI9341_CmdDriver.h"
+	"Font.h"
+	"cmsisAddon.h"
+	"can.h"
+	"simModel.h"
+	"Farbsortierung.h"
+
+1571335078 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\project.h
+	"ILI9341_CmdDriver.h"
+
+1530267960 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\ili9341_cmddriver.h
+	<stdbool.h>
+
+1523891560 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\ili9341_buscycles.h
+
+1523426978 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\font.h
+	<stdint.h>
+	<inttypes.h>
+
+1516708016 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\cmsisaddon.h
+
+1575532650 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\can.h
+
+1571334984 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\simmodel.h
+
+1575620193 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\farbsortierung.h
+	"FS_Farbsortierung.h"
+	"FS_Kommissionierung.h"
+	"FS_ServoMotor.h"
+	"FS_Entleerung.h"
+
+1575555925 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\fs_farbsortierung.h
+
+1575630270 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\fs_kommissionierung.h
+
+1576477323 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\fs_servomotor.h
+
+1576482928 c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\inc\fs_entleerung.h
+
+1523524110 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\font.c
+	"global.h"
+
+1576488353 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\fs_entleerung.c
+	"global.h"
+
+1575627907 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\fs_farbsortierung.c
+	"global.h"
+
+1576476776 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\fs_kommissionierung.c
+	"global.h"
+
+1576479987 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\fs_servomotor.c
+	"global.h"
+
+1530097570 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\ili9341_buscycles.c
+	"stm32f10x_rcc.h"
+	"stm32f10x_gpio.h"
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	"ILI9341_BusCycles.h"
+	"global.h"
+
+1530267960 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\ili9341_cmddriver.c
+	"stm32f10x_rcc.h"
+	"stm32f10x_gpio.h"
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	"ILI9341_BusCycles.h"
+	"ILI9341_CmdDriver.h"
+	"global.h"
+
+1575531910 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\init.c
+	"global.h"
+
+1576483892 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\isr.c
+	"global.h"
+
+1575622488 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\main.c
+	"global.h"
+
+1575532704 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\simmodel.c
+	"global.h"
+
+1515489202 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\startup_stm32f10x_cl.s
+
+1502260688 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\system_stm32f10x.c
+	"stm32f10x.h"
+
+1576485840 source:c:\programming\projects\echtzeitsysteme_projekt\allesausßerschrittwerkstückverlustentleerfehlt\farbsortierung_mit_entleerung\src\farbsortierung.c
+	"global.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\misc.c
+	"misc.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\misc.h
+	"stm32f10x.h"
+
+1498717024 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1498717024 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\system_stm32f10x.h
+
+1498717024 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\stm32f10x_conf.h
+	"stm32f10x_adc.h"
+	"stm32f10x_bkp.h"
+	"stm32f10x_can.h"
+	"stm32f10x_cec.h"
+	"stm32f10x_crc.h"
+	"stm32f10x_dac.h"
+	"stm32f10x_dbgmcu.h"
+	"stm32f10x_dma.h"
+	"stm32f10x_exti.h"
+	"stm32f10x_flash.h"
+	"stm32f10x_fsmc.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_i2c.h"
+	"stm32f10x_iwdg.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_rtc.h"
+	"stm32f10x_sdio.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"stm32f10x_usart.h"
+	"stm32f10x_wwdg.h"
+	"misc.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_adc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_bkp.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_can.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_cec.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_crc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_dac.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_dbgmcu.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_dma.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_exti.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_flash.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_fsmc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_i2c.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_iwdg.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_rtc.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_sdio.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_spi.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_tim.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_usart.h
+	"stm32f10x.h"
+
+1515489202 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\inc\stm32f10x_wwdg.h
+	"stm32f10x.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_adc.c
+	"stm32f10x_adc.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_bkp.c
+	"stm32f10x_bkp.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_can.c
+	"stm32f10x_can.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_cec.c
+	"stm32f10x_cec.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_crc.c
+	"stm32f10x_crc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_dac.c
+	"stm32f10x_dac.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_dbgmcu.c
+	"stm32f10x_dbgmcu.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_dma.c
+	"stm32f10x_dma.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_flash.c
+	"stm32f10x_flash.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_fsmc.c
+	"stm32f10x_fsmc.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_i2c.c
+	"stm32f10x_i2c.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_iwdg.c
+	"stm32f10x_iwdg.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_rtc.c
+	"stm32f10x_rtc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_sdio.c
+	"stm32f10x_sdio.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1575460916 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_usart.c
+	"stm32f10x_usart.h"
+	"stm32f10x_rcc.h"
+
+1515489202 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\spl\src\stm32f10x_wwdg.c
+	"stm32f10x_wwdg.h"
+	"stm32f10x_rcc.h"
+
+1576503021 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\can.c
+	"global.h"
+
+1575530390 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\global.h
+	"stm32f10x_conf.h"
+	"project.h"
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	<stdio.h>
+	"ILI9341_BusCycles.h"
+	"ILI9341_CmdDriver.h"
+	"Font.h"
+	"cmsisAddon.h"
+	"can.h"
+	"simModel.h"
+	"Farbsortierung.h"
+
+1571335078 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\project.h
+	"ILI9341_CmdDriver.h"
+
+1530267960 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\ili9341_cmddriver.h
+	<stdbool.h>
+
+1523891560 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\ili9341_buscycles.h
+
+1523426978 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\font.h
+	<stdint.h>
+	<inttypes.h>
+
+1516708016 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\cmsisaddon.h
+
+1575532650 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\can.h
+
+1571334984 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\simmodel.h
+
+1575620193 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\farbsortierung.h
+	"FS_Farbsortierung.h"
+	"FS_Kommissionierung.h"
+	"FS_ServoMotor.h"
+	"FS_Entleerung.h"
+
+1575555925 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\fs_farbsortierung.h
+
+1575630270 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\fs_kommissionierung.h
+
+1576477323 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\fs_servomotor.h
+
+1576505314 c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\inc\fs_entleerung.h
+
+1576505343 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\farbsortierung.c
+	"global.h"
+
+1523524110 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\font.c
+	"global.h"
+
+1576508074 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\fs_entleerung.c
+	"global.h"
+
+1575627907 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\fs_farbsortierung.c
+	"global.h"
+
+1576476776 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\fs_kommissionierung.c
+	"global.h"
+
+1576502125 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\fs_servomotor.c
+	"global.h"
+
+1530097570 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\ili9341_buscycles.c
+	"stm32f10x_rcc.h"
+	"stm32f10x_gpio.h"
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	"ILI9341_BusCycles.h"
+	"global.h"
+
+1530267960 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\ili9341_cmddriver.c
+	"stm32f10x_rcc.h"
+	"stm32f10x_gpio.h"
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	"ILI9341_BusCycles.h"
+	"ILI9341_CmdDriver.h"
+	"global.h"
+
+1575531910 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\init.c
+	"global.h"
+
+1576505390 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\isr.c
+	"global.h"
+
+1576499572 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\main.c
+	"global.h"
+
+1575532704 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\simmodel.c
+	"global.h"
+
+1576498758 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\startup_stm32f10x_cl.s
+
+1502260688 source:c:\users\z003ypvb\desktop\farbsortierung_mit_entleerung\src\system_stm32f10x.c
 	"stm32f10x.h"
 

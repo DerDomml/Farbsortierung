@@ -15,16 +15,13 @@
 ********************************************************************/
 void CAN_Init4Models()
 {
-    Data = 0x0000;
     /*******************************************
 
         Port and Clock Initialization
 
     ******************************************/
     RCC_APB1PeriphClockCmd(RCC_APB1ENR_CAN1EN, ENABLE);
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD | RCC_APB2ENR_AFIOEN, ENABLE);
-    GPIO_PinRemapConfig(GPIO_Remap2_CAN1 , ENABLE);
-
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD |RCC_APB2ENR_AFIOEN, ENABLE);
 
     // Init CanRx mapped to GPIOD_0
     GPIO_InitTypeDef input;
@@ -33,7 +30,6 @@ void CAN_Init4Models()
     input.GPIO_Pin = GPIO_Pin_0;
     GPIO_Init(GPIOD,&input);
 
-
     // Init CanTx mapped to GPIOD_1
     GPIO_InitTypeDef output;
     output.GPIO_Speed = GPIO_Speed_50MHz;
@@ -41,7 +37,7 @@ void CAN_Init4Models()
     output.GPIO_Pin = GPIO_Pin_1;
     GPIO_Init(GPIOD,&output);
 
-
+    GPIO_PinRemapConfig(GPIO_Remap2_CAN1 , ENABLE);
 
     /*******************************************
 
@@ -86,8 +82,6 @@ void CAN_Init4Models()
         **************************************/
         CAN_DBGFreeze(CAN1, DISABLE);
 
-        uint16_t id = FS_ENTLEER_CAN_RECEIVE_ID;
-
         CAN_FilterInitTypeDef CAN1_Filter;
 
         CAN1_Filter.CAN_FilterNumber = 0;
@@ -95,10 +89,20 @@ void CAN_Init4Models()
         CAN1_Filter.CAN_FilterMode = CAN_FilterMode_IdList;
         CAN1_Filter.CAN_FilterScale = CAN_FilterScale_16bit;
         CAN1_Filter.CAN_FilterActivation = ENABLE;
-        CAN1_Filter.CAN_FilterIdHigh = 0;
-        CAN1_Filter.CAN_FilterIdLow = id << 5;
-
+        CAN1_Filter.CAN_FilterIdHigh = FS_KOM_DI_11Bit_ID << 5;
+        CAN1_Filter.CAN_FilterIdLow = FS_SORT_DI_11Bit_ID << 5;
+        CAN1_Filter.CAN_FilterMaskIdHigh = 0;
+        CAN1_Filter.CAN_FilterMaskIdLow = FS_ENTLEER_DI_11Bit_ID << 5;
         CAN_ITConfig(CAN1,CAN_IT_FMP0,ENABLE);
+
+        CAN_FilterInit(&CAN1_Filter);
+
+        CAN1_Filter.CAN_FilterNumber = 1;
+        CAN1_Filter.CAN_FilterFIFOAssignment = CAN_FIFO1;
+        CAN1_Filter.CAN_FilterIdHigh = 0;
+        CAN1_Filter.CAN_FilterIdLow = FS_SERVO_DI_11Bit_ID << 5;
+
+        CAN_ITConfig(CAN1,CAN_IT_FMP1,ENABLE);
 
         CAN_FilterInit(&CAN1_Filter);
 
@@ -128,6 +132,15 @@ void CAN_Init4Models()
     NVIC_Init(&NVICcan1rx);
 
     CAN_ClearITPendingBit(CAN1,CAN_IT_FMP0);
+
+    NVICcan1rx.NVIC_IRQChannel = CAN1_RX1_IRQn;
+    NVICcan1rx.NVIC_IRQChannelCmd = ENABLE;
+    NVICcan1rx.NVIC_IRQChannelPreemptionPriority = 5;
+    NVICcan1rx.NVIC_IRQChannelSubPriority = 0;
+    NVIC_Init(&NVICcan1rx);
+
+
+    CAN_ClearITPendingBit(CAN1,CAN_IT_FMP1);
 }
 /*******************************************************************
 *																   *
@@ -180,9 +193,24 @@ void CAN1_RX0_IRQHandler(void)
     CanRxMsg RxMessage;
     CAN_ClearFlag(CAN1,CAN_IT_FMP0);
     CAN_Receive(CAN1,CAN_FIFO0, &RxMessage);
-    Data = RxMessage.Data[1];
-    Data |= (RxMessage.Data[0] << 8);
-    FS_ENTLEER_CAN_NewTelegramReceived = true;
+
+    switch(RxMessage.StdId) {
+        case(FS_SORT_DI_11Bit_ID):FS_SORT_NewData(RxMessage);break;
+        case(FS_KOM_DI_11Bit_ID):FS_KOM_NewData(RxMessage);break;
+        case(FS_ENTLEER_DI_11Bit_ID):
+            FS_ENTLEER_NewData(RxMessage);
+            FS_ENTLEER_CAN_NewTelegramReceived = true;
+        break;
+    }
+
+}
+
+void CAN1_RX1_IRQHandler(void){
+    CanRxMsg RxMessage;
+    CAN_ClearFlag(CAN1,CAN_IT_FMP1);
+    CAN_Receive(CAN1,CAN_FIFO1, &RxMessage);
+
+    FS_SERVO_NewData(RxMessage);
 }
 
 void CAN1_TXRQ_IRQHandler(void)

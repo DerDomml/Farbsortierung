@@ -18,9 +18,6 @@
 #define CAN_DLC_7       7
 #define CAN_DLC_8       8
 
-#define FS_ENTLEER_CAN_SEND_ID      0x213
-#define FS_ENTLEER_CAN_RECEIVE_ID   0x193
-
 /*********************************************************************************
 
 
@@ -31,9 +28,5 @@ void CAN_Init4Models();
 uint8_t CAN_TransmitMsg(uint16_t canId, uint8_t *canData, uint8_t canDlc);
 
 uint8_t CAN_NMTConnect();
-
-uint16_t Data;
-
-bool FS_ENTLEER_CAN_NewTelegramReceived;
 
 #endif // !CAN_H__

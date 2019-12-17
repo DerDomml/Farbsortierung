@@ -108,7 +108,7 @@ void  TFT_WriteCmd(uint8_t CMD)					    // ILI9341Manual 28
 	GPIO_WriteBit(GPIOE,  DCX, Bit_SET);
 }
 void  TFT_WriteData(uint8_t DATA)					// ILI9341Manual 28
-{//Kishali Sinnhaft stonkt
+{
 	TFT_SetOutput();
 	GPIO_WriteBit(GPIOE,  WRX, Bit_RESET);
 	TFT_Write8bitToPort(DATA);

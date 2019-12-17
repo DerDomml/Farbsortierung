@@ -88,14 +88,16 @@
 		<Unit filename="cmsis\core_cmInstr.h" />
 		<Unit filename="inc\can.h" />
 		<Unit filename="inc\cmsisAddon.h" />
-		<Unit filename="inc\entleerung.h" />
+		<Unit filename="inc\Farbsortierung.h" />
 		<Unit filename="inc\Font.h" />
+		<Unit filename="inc\FS_Entleerung.h" />
+		<Unit filename="inc\FS_Farbsortierung.h" />
 		<Unit filename="inc\FS_Kommissionierung.h" />
+		<Unit filename="inc\FS_ServoMotor.h" />
 		<Unit filename="inc\global.h" />
 		<Unit filename="inc\ILI9341_BusCycles.h" />
 		<Unit filename="inc\ILI9341_CmdDriver.h" />
 		<Unit filename="inc\project.h" />
-		<Unit filename="inc\schrittmotor.h" />
 		<Unit filename="inc\simModel.h" />
 		<Unit filename="inc\stm32f10x.h" />
 		<Unit filename="inc\stm32f10x_conf.h" />
@@ -196,13 +198,22 @@
 		<Unit filename="src\can.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src\entleerung.c">
+		<Unit filename="src\Farbsortierung.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\Font.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="src\FS_Entleerung.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\FS_Farbsortierung.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="src\FS_Kommissionierung.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\FS_ServoMotor.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\ILI9341_BusCycles.c">
@@ -218,9 +229,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\main.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="src\schrittmotor.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\simModel.c">
