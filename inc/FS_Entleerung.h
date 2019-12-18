@@ -39,8 +39,6 @@
  *  Globale Variablen
 **/
 
-//bool FS_ENTLEER_WERKSTUECKVERLUST;
-
 uint16_t FS_ENTLEER_CAN_Received;
 bool FS_ENTLEER_ExtraTickRequest;
 bool FS_ENTLEER_CAN_NewTelegramReceived;
@@ -74,7 +72,7 @@ bool FS_ENTLEER_ABTURM_ABGABEBEREIT;
 /**
  *  Variablen zur Kommunikation mit anderen Gruppen
 **/
-//bool FS_SERVO_blockReady;     --> Servo
+
 bool FS_SORT_ZYLINDER_start;
 
 bool FS_ENTLEER_ANTURM_ANNAHMEBEREIT;

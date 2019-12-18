@@ -172,28 +172,6 @@ void FS_ENTLEER_Init(){
 
 }
 
-void FS_ENTLEER_TimerInit(){
-    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM6, ENABLE);
-    TIM_Cmd(TIM6, DISABLE);
-
-    TIM_TimeBaseInitTypeDef FS_ENTLEER_TimInit;
-    TIM_TimeBaseStructInit(&FS_ENTLEER_TimInit);
-    FS_ENTLEER_TimInit.TIM_Period = 60000 - 1;
-    FS_ENTLEER_TimInit.TIM_Prescaler = 6000 - 1;
-    TIM_TimeBaseInit(TIM6, &FS_ENTLEER_TimInit);
-}
-
-void FS_ENTLEER_IntInit(){
-    TIM_ITConfig(TIM6, TIM_IT_Update, ENABLE);
-    NVIC_InitTypeDef FS_ENTLEER_NVICInit;
-    FS_ENTLEER_NVICInit.NVIC_IRQChannel = TIM6_IRQn;
-    FS_ENTLEER_NVICInit.NVIC_IRQChannelPreemptionPriority = 5;
-    FS_ENTLEER_NVICInit.NVIC_IRQChannelSubPriority = 0;
-    FS_ENTLEER_NVICInit.NVIC_IRQChannelCmd = ENABLE;
-    NVIC_Init(&FS_ENTLEER_NVICInit);
-    TIM_ClearITPendingBit(TIM6, TIM_IT_Update);
-}
-
 void FS_GpioInit(){
     FS_KOM_GpioInit();
     FS_SORT_GpioInit();
@@ -204,7 +182,6 @@ void FS_TimerInit(){
     FS_KOM_TimerInit();
     FS_SORT_TimerInit();
     FS_SERVO_TimerInit();
-    FS_ENTLEER_TimerInit();
 }
 
 void FS_UartInit(){
@@ -218,7 +195,6 @@ void FS_IntInit(){
     FS_KOM_IntInit();
     FS_SORT_IntInit();
     FS_SERVO_IntInit();
-    FS_ENTLEER_IntInit();
 }
 
 void FS_ProjectInit(){
