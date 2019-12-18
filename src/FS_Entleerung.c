@@ -315,7 +315,7 @@ void FS_ENTLEER_Tick() {
                 FS_ENTLEER_BandObenSchritt++;
                 FS_ENTLEER_GreifarmAktiv = true;
                 FS_ENTLEER_BAND_OBEN_BlockErhalten = true;
-                FS_ENTLEER_GreifarmSchritt = GREIFARM_ZUGRIFF;
+                FS_ENTLEER_GreifarmSchritt = GREIFARM_RUNTERFAHREN_1;
                 FS_ENTLEER_BAND_OBEN_Tick = true;
             } break;
         ///Warten auf Durchlauf der Greifarmschrittkette (Block sollte auf BOEnde Position sein)
